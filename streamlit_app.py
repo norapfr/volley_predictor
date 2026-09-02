@@ -211,10 +211,17 @@ COUNTRY_NAMES = {
     "ZMB": "Zambia",
     "ZWE": "Zimbabwe",
 }
+def country_name(team: str) -> str:
+    return COUNTRY_NAMES.get(team, team)
 
+
+# ============================================================
+# DEFUNCT TEAMS
+# ============================================================
 
 # Equipos/uniones disueltas que no deben aparecer como opción
-# para partidos futuros, aunque tengan histórico de partidos jugados.
+# para partidos futuros, aunque tengan histórico de partidos jugados
+# (y por tanto sigan usándose para el Elo/entrenamiento del modelo).
 DEFUNCT_TEAMS = {
     "XSCG",  # Serbia y Montenegro (disuelta 2006)
     "XSU",   # URSS
@@ -222,8 +229,78 @@ DEFUNCT_TEAMS = {
     "XYU",   # Yugoslavia
     "ANT",   # Antillas Neerlandesas (disuelta 2010)
 }
-def country_name(team: str) -> str:
-    return COUNTRY_NAMES.get(team, team)
+
+
+# ============================================================
+# TEAM -> CONTINENT (para filtrar competiciones continentales)
+# ============================================================
+
+TEAM_CONTINENT = {
+    # EURO (CEV)
+    "ALB": "EURO", "AUT": "EURO", "AZE": "EURO", "BEL": "EURO", "BGR": "EURO",
+    "BIH": "EURO", "BLR": "EURO", "CHE": "EURO", "CYP": "EURO", "CZE": "EURO",
+    "DEU": "EURO", "DNK": "EURO", "ESP": "EURO", "EST": "EURO", "FIN": "EURO",
+    "FRA": "EURO", "FRO": "EURO", "GBR": "EURO", "GEO": "EURO", "GRC": "EURO",
+    "HRV": "EURO", "HUN": "EURO", "ISL": "EURO", "ISR": "EURO", "ITA": "EURO",
+    "LUX": "EURO", "LVA": "EURO", "MDA": "EURO", "MKD": "EURO", "MNE": "EURO",
+    "NLD": "EURO", "NOR": "EURO", "POL": "EURO", "PRT": "EURO", "ROU": "EURO",
+    "RUS": "EURO", "SRB": "EURO", "SVK": "EURO", "SVN": "EURO", "SWE": "EURO",
+    "TUR": "EURO", "UKR": "EURO", "XKX": "EURO",
+
+    # NORCECA
+    "ABW": "NORCECA", "AIA": "NORCECA", "ATG": "NORCECA", "BHS": "NORCECA",
+    "BLZ": "NORCECA", "BMU": "NORCECA", "BRB": "NORCECA", "CAN": "NORCECA",
+    "CRI": "NORCECA", "CUB": "NORCECA", "CUW": "NORCECA", "CYM": "NORCECA",
+    "DMA": "NORCECA", "DOM": "NORCECA", "GLP": "NORCECA", "GRD": "NORCECA",
+    "GTM": "NORCECA", "HND": "NORCECA", "HTI": "NORCECA", "JAM": "NORCECA",
+    "KNA": "NORCECA", "LCA": "NORCECA", "MEX": "NORCECA", "MSR": "NORCECA",
+    "MTQ": "NORCECA", "NIC": "NORCECA", "PAN": "NORCECA", "PRI": "NORCECA",
+    "SLV": "NORCECA", "TCA": "NORCECA", "TTO": "NORCECA", "USA": "NORCECA",
+    "VCT": "NORCECA", "VGB": "NORCECA", "VIR": "NORCECA",
+
+    # SAMER (CSV)
+    "ARG": "SAMER", "BOL": "SAMER", "BRA": "SAMER", "CHL": "SAMER",
+    "COL": "SAMER", "ECU": "SAMER", "PER": "SAMER", "PRY": "SAMER",
+    "SUR": "SAMER", "URY": "SAMER", "VEN": "SAMER",
+
+    # ASIA (AVC)
+    "AFG": "ASIA", "ARE": "ASIA", "BGD": "ASIA", "BHR": "ASIA", "CHN": "ASIA",
+    "HKG": "ASIA", "IDN": "ASIA", "IND": "ASIA", "IRN": "ASIA", "IRQ": "ASIA",
+    "JOR": "ASIA", "JPN": "ASIA", "KAZ": "ASIA", "KGZ": "ASIA", "KOR": "ASIA",
+    "KWT": "ASIA", "LBN": "ASIA", "LKA": "ASIA", "MAC": "ASIA", "MDV": "ASIA",
+    "MNG": "ASIA", "OMN": "ASIA", "PAK": "ASIA", "PHL": "ASIA", "PRK": "ASIA",
+    "PSE": "ASIA", "QAT": "ASIA", "SAU": "ASIA", "TPE": "ASIA", "TKM": "ASIA",
+    "THA": "ASIA", "UZB": "ASIA", "VNM": "ASIA",
+
+    # AFRICA (CAVB)
+    "BDI": "AFRICA", "BFA": "AFRICA", "BWA": "AFRICA", "CMR": "AFRICA",
+    "COD": "AFRICA", "DZA": "AFRICA", "EGY": "AFRICA", "ETH": "AFRICA",
+    "GHA": "AFRICA", "GMB": "AFRICA", "KEN": "AFRICA", "LBY": "AFRICA",
+    "LSO": "AFRICA", "MAR": "AFRICA", "MLI": "AFRICA", "MOZ": "AFRICA",
+    "MUS": "AFRICA", "NER": "AFRICA", "NGA": "AFRICA", "RWA": "AFRICA",
+    "SEN": "AFRICA", "SSD": "AFRICA", "TCD": "AFRICA", "TUN": "AFRICA",
+    "TZA": "AFRICA", "UGA": "AFRICA", "ZAF": "AFRICA", "ZMB": "AFRICA",
+    "ZWE": "AFRICA",
+
+    # Oceanía — sin competición continental en el CSV, se quedan sin match
+    "AUS": "OCEANIA", "FJI": "OCEANIA", "NZL": "OCEANIA", "TON": "OCEANIA",
+    "WSM": "OCEANIA",
+}
+
+CONTINENTAL_PREFIXES = {"EURO", "NORCECA", "SAMER", "ASIA", "AFRICA"}
+
+
+def is_competition_allowed(competition_id: str, team_a: str, team_b: str) -> bool:
+    """Las competiciones abiertas (VNL, Mundial, JJOO, Copa del Mundo)
+    siempre valen. Las continentales solo si ambos equipos pertenecen
+    a ese continente."""
+    prefix = competition_id.rsplit("_", 1)[0]
+    if prefix not in CONTINENTAL_PREFIXES:
+        return True
+    return (
+        TEAM_CONTINENT.get(team_a) == prefix
+        and TEAM_CONTINENT.get(team_b) == prefix
+    )
 
 
 # ============================================================
@@ -952,8 +1029,12 @@ def main() -> None:
 
     teams = bundle.known_teams()
 
-    teams = [t for t in teams if t not in DEFUNCT_TEAMS]
-    
+    teams = [
+        team
+        for team in teams
+        if team not in DEFUNCT_TEAMS
+    ]
+
     team_display = {
         team: country_name(team)
         for team in teams
@@ -1039,11 +1120,17 @@ def main() -> None:
 
     with col2:
 
+        filtered_competitions = {
+            cid: name
+            for cid, name in competition_options.items()
+            if is_competition_allowed(cid, team_a, team_b)
+        }
+
         competition_id = st.selectbox(
             "Competition",
-            list(competition_options.keys()),
+            list(filtered_competitions.keys()),
             format_func=lambda cid:
-                competition_options[cid],
+                filtered_competitions[cid],
         )
 
 
