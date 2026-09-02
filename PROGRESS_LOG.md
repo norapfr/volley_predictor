@@ -1,6 +1,6 @@
 # Volley Predictor — Registro de progreso
 
-> Documento vivo. Se actualiza cada vez que hay un resultado nuevo (crawl, fix, dataset). Última actualización: **Fase 8 construida (pendiente de validar con datos reales)**.
+> Documento vivo. Se actualiza cada vez que hay un resultado nuevo (crawl, fix, dataset). Última actualización: **ajuste anti-sesgo de marcador exacto + explicación de confianza en UI/API**.
 
 ## Estado actual
 
@@ -91,6 +91,9 @@ Notas de lectura sobre el histórico:
 
 - ~~Torneos "zonales"/sub-regionales~~ → **Excluidos** (fix #8).
 - ~~World League / Grand Prix (pre-2018)~~ → **No se añaden**. Volumen de datos confirmado como suficiente para Fase 2 y Fase 4 (Elo/Bradley-Terry/tabular ML); deep learning (Fase 8) es la única fase donde ~3300 partidos/género se queda corto, pero la propia spec ya contempla saltarla si no aporta.
+- **Sesgo práctico hacia `3-0` en el marcador mostrado** → se decidió atacar en dos capas:
+  - Modelo: `SetMarginModel` ahora entrena con `auto_class_weights="Balanced"` para que los errores en `3-1` y `3-2` pesen más y el modelo de margen no se refugie tanto en la clase mayoritaria (`3-0`).
+  - Producto/API: `most_likely_score` se mantiene por compatibilidad, pero ya no se presenta solo como una predicción única. La API devuelve `most_likely_score_probability`, `score_confidence`, `score_confidence_gap` y `close_score_alternatives`; Streamlit muestra alternativas cercanas y avisa cuando la confianza del score exacto es baja.
 
 ## Pendiente / próximos pasos
 
@@ -152,7 +155,15 @@ Hasta este punto, cada script (Fases 2/4/5/6) entrenaba los modelos desde cero s
 
 **Bug real encontrado (con test sintético, antes de tocar datos reales)**: `sklearn.metrics.log_loss` con el parámetro `labels=` asume que las columnas de la matriz de probabilidades están en **orden alfabético**, sin importar el orden de la lista `labels` que se le pase — si no coincide, compara cada probabilidad con la clase equivocada y da un log loss peor que el azar, sin avisar de forma clara. Corregido reordenando las columnas a orden alfabético antes de la llamada.
 
-**Estado**: construido y probado con datos sintéticos (log loss cerca del azar teórico de 6 clases, `ln(6) ≈ 1.79`, esperable con tan pocos datos). **Confirmado con datos reales**: log loss 1.5654 hombres / 1.4206 mujeres (azar = 1.79), accuracy de marcador EXACTO 39.7% hombres / 47.8% mujeres (azar = 16.7%, hay 6 marcadores posibles). La tabla de distribución real vs. predicha por marcador está muy ajustada en ambos géneros — sin sesgo hacia ningún resultado en particular.
+**Hallazgo posterior en uso de la interfaz**: aunque la distribución global del modelo parecía razonable, el `idxmax` hacía que el marcador mostrado como "más probable" cayera con mucha frecuencia en `3-0`. No era un bug de código que forzara `3-0`: era una mezcla de (1) clase históricamente mayoritaria (`3-0` = 50.5% hombres / 58.3% mujeres), (2) modelo de margen entrenado sin balanceo, y (3) presentación de una sola clase ganadora aunque el top score tuviera poca ventaja sobre alternativas cercanas.
+
+**Decisión aplicada**:
+- `src/models/set_score.py`: `SetMarginModel` ahora usa `auto_class_weights="Balanced"` en CatBoost. Requiere reentrenar con `scripts/train_final_models.py` para afectar a los modelos `.cbm`.
+- `src/api/predictor.py`: añadido resumen de decisión del score exacto (`most_likely_score_probability`, `score_confidence`, `score_confidence_gap`, `close_score_alternatives`) para no sobredimensionar el `idxmax`.
+- `src/api/schemas.py`: actualizada la respuesta de la API con esos campos.
+- `streamlit_app.py`: la interfaz muestra porcentaje del marcador más probable, confianza específica del score exacto, ventaja sobre el siguiente score y alternativas cercanas; si la confianza es baja, muestra aviso.
+
+**Estado**: construido y probado con datos sintéticos (log loss cerca del azar teórico de 6 clases, `ln(6) ≈ 1.79`, esperable con tan pocos datos). **Confirmado con datos reales antes del ajuste anti-sesgo**: log loss 1.5654 hombres / 1.4206 mujeres (azar = 1.79), accuracy de marcador EXACTO 39.7% hombres / 47.8% mujeres (azar = 16.7%, hay 6 marcadores posibles). **Pendiente tras el cambio**: volver a correr `scripts/run_phase6_set_scores.py` y `scripts/train_final_models.py` para medir si baja la frecuencia de `3-0` como `most_likely_score` sin empeorar demasiado log loss/accuracy.
 
 ---
 
@@ -164,6 +175,8 @@ Hasta este punto, cada script (Fases 2/4/5/6) entrenaba los modelos desde cero s
 - `scripts/run_phase5_calibration_ensemble.py` — compara CatBoost solo, XGBoost solo, ensemble, y CatBoost+Platt/Isotonic, más una tabla de calibración (reliability diagram) antes y después.
 
 **Bug real encontrado (con test sintético, antes de tocar datos reales)**: `IsotonicRegression` sin acotar devuelve 0.0/1.0 exactos cuando el tramo de calibración tiene pocos puntos (folds tempranos, ~30-90 filas) — un solo fallo en esos extremos "imposibles" dispara el log loss (log(0) ≈ infinito). Corregido acotando la salida a `[0.02, 0.98]`.
+
+**Incidencia observada al rerun**: una ejecución local de `scripts/run_phase5_calibration_ensemble.py` terminó con un `CatBoostError` vacío después de imprimir el resumen de hombres, durante el bloque extra de predicciones agrupadas para la tabla de calibración. Se repitió el mismo comando dentro de `.venv` (`.\.venv\Scripts\python.exe scripts\run_phase5_calibration_ensemble.py`) y completó correctamente hombres y mujeres, guardando `reports/phase5_calibration_ensemble_results.csv`. Conclusión actual: fallo puntual/no reproducido; no parece relacionado con el cambio de `SetMarginModel`, porque Fase 5 usa el CatBoost de ganador, no el modelo de margen de sets.
 
 **Resultado real confirmado** (5 folds walk-forward, sobre los 6626 partidos):
 

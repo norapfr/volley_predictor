@@ -32,6 +32,10 @@ class PredictionResponse(BaseModel):
     p_team_b_wins: float
     set_score_probabilities: Dict[str, float]
     most_likely_score: str
+    most_likely_score_probability: float
+    score_confidence: str
+    score_confidence_gap: float
+    close_score_alternatives: List[Dict[str, float | str]]
     expected_point_diff: float
     elo_team_a: float
     elo_team_b: float

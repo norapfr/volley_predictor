@@ -105,7 +105,14 @@ class SetMarginModel:
     def __init__(self, **params):
         from catboost import CatBoostClassifier
 
-        default_params = dict(depth=4, learning_rate=0.05, iterations=200, l2_leaf_reg=5, verbose=False)
+        default_params = dict(
+            depth=4,
+            learning_rate=0.05,
+            iterations=200,
+            l2_leaf_reg=5,
+            auto_class_weights="Balanced",
+            verbose=False,
+        )
         default_params.update(params)
         self._model = CatBoostClassifier(**default_params)
         self._feature_columns: List[str] = []

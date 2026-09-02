@@ -83,50 +83,114 @@ def _confidence_level(matches_played_a: int, matches_played_b: int) -> str:
     """
     min_matches = min(matches_played_a, matches_played_b)
     if min_matches == 0:
-        return "baja (al menos un equipo sin historial en el dataset)"
+        return "low (at least one team has no history in the dataset)"
     if min_matches < 5:
-        return "baja"
+        return "low"
     if min_matches < 15:
-        return "media"
-    return "alta"
+        return "medium"
+    return "high"
 
 
-def _explanatory_factors(features: dict, team_a: str, team_b: str) -> List[str]:
-    """Traduce las features numéricas a frases legibles, ordenadas por relevancia intuitiva."""
+def _score_confidence(score_probs: pd.Series) -> dict:
+    """
+    Resume how decisive the exact-score prediction is.
+
+    Exact scores are naturally noisy: a top score can be the argmax while
+    still being very close to the next alternatives. This keeps the API
+    from presenting idxmax as stronger evidence than it really is.
+    """
+    ordered = score_probs.sort_values(ascending=False)
+    top_score = str(ordered.index[0])
+    top_probability = float(ordered.iloc[0])
+    runner_up_probability = float(ordered.iloc[1]) if len(ordered) > 1 else 0.0
+    gap = top_probability - runner_up_probability
+
+    if top_probability >= 0.40 and gap >= 0.12:
+        level = "high"
+    elif top_probability >= 0.30 and gap >= 0.07:
+        level = "medium"
+    else:
+        level = "low"
+
+    close = ordered.iloc[1:]
+    close = close[close >= max(runner_up_probability, top_probability - 0.08)]
+    alternatives = [
+        {"score": str(score), "probability": round(float(prob), 4)}
+        for score, prob in close.head(2).items()
+    ]
+
+    return {
+        "most_likely_score": top_score,
+        "most_likely_score_probability": round(top_probability, 4),
+        "score_confidence": level,
+        "score_confidence_gap": round(gap, 4),
+        "close_score_alternatives": alternatives,
+    }
+
+
+def _explanatory_factors(
+    features: dict,
+    team_a: str,
+    team_b: str,
+    streak_a: int,
+    streak_b: int,
+) -> List[str]:
+    """
+    Traduce las features numéricas a frases legibles, ordenadas por
+    relevancia intuitiva.
+
+    IMPORTANTE — qué son y qué NO son estos factores: son estadísticas
+    descriptivas sobre el partido (Elo, racha, head-to-head...), no una
+    extracción del razonamiento interno del modelo. CatBoost no expone un
+    "por qué" causal de una predicción concreta sin herramientas dedicadas
+    (p.ej. valores SHAP) — esto no las usa, así que un factor puede
+    apuntar en una dirección y el modelo, combinando TODAS las features a
+    la vez de forma no lineal, decidir lo contrario. Son contexto útil
+    sobre el partido, no una justificación exacta de la predicción.
+
+    Recibe `streak_a`/`streak_b` por separado (no la diferencia) a
+    propósito: `current_streak_diff` puede ser positivo aunque los DOS
+    equipos vengan de perder (p.ej. A con 1 derrota, B con 5 derrotas —
+    la diferencia favorece a A, pero A sigue perdiendo, no ganando). Usar
+    la diferencia para decidir "victorias" o "derrotas" describía mal el
+    partido en ese caso — bug real, corregido usando el dato de cada
+    equipo tal cual.
+    """
     factors: List[str] = []
 
     elo_diff = features["elo_diff"]
     if abs(elo_diff) >= 30:
         favored = team_a if elo_diff > 0 else team_b
-        factors.append(f"Diferencia de Elo: {abs(elo_diff):.0f} puntos a favor de {favored}")
+        factors.append(f"Elo rating: {abs(elo_diff):.0f} points in favor of {favored}")
 
-    streak_diff = features["current_streak_diff"]
-    if streak_diff and abs(streak_diff) >= 2:
-        team, streak = (team_a, features["current_streak_diff"]) if streak_diff > 0 else (
-            team_b, -features["current_streak_diff"],
-        )
-        word = "victorias" if streak > 0 else "derrotas"
-        factors.append(f"{team} llega con racha de {abs(streak):.0f} {word} seguidas")
+    if streak_a >= 2:
+        factors.append(f"{team_a} arrives on a {streak_a}-match winning streak")
+    elif streak_a <= -2:
+        factors.append(f"{team_a} arrives on a {abs(streak_a)}-match losing streak")
+    if streak_b >= 2:
+        factors.append(f"{team_b} arrives on a {streak_b}-match winning streak")
+    elif streak_b <= -2:
+        factors.append(f"{team_b} arrives on a {abs(streak_b)}-match losing streak")
 
     h2h_n = features["h2h_matches_played"]
     h2h_rate = features["h2h_win_rate_a"]
     if h2h_n > 0 and h2h_rate is not None:
         pct = h2h_rate * 100 if h2h_rate >= 0.5 else (1 - h2h_rate) * 100
         favored = team_a if h2h_rate >= 0.5 else team_b
-        factors.append(f"Historial directo: {favored} ganó {pct:.0f}% de los {h2h_n} enfrentamientos previos")
+        factors.append(f"Head-to-head: {favored} won {pct:.0f}% of the last {h2h_n} meetings")
     elif h2h_n == 0:
-        factors.append("Sin enfrentamientos previos registrados entre estos dos equipos")
+        factors.append("No previous meetings on record between these two teams")
 
     for w in (5, 10):
         wr_diff = features.get(f"win_rate_last{w}_diff")
         if wr_diff is not None and abs(wr_diff) >= 0.3:
             favored = team_a if wr_diff > 0 else team_b
-            factors.append(f"{favored} con mejor forma reciente (últimos {w} partidos)")
+            factors.append(f"{favored} in better recent form (last {w} matches)")
             break  # no repetir el mismo mensaje para las dos ventanas
 
     importance = features["competition_importance"]
     if importance >= 4:
-        factors.append("Partido de alta relevancia (Mundial/Juegos Olímpicos/Copa del Mundo)")
+        factors.append("High-stakes match (World Championship / Olympics / World Cup)")
 
     return factors
 
@@ -163,7 +227,7 @@ def predict_match(
     margin_if_b = bundle.margin_model.predict_proba(oriented_b)
     score_probs = combine_set_score_probabilities(np.array([p_a]), margin_if_a, margin_if_b)
     score_probs = score_probs[SCORE_ORDER].iloc[0]
-    most_likely_score = score_probs.idxmax()
+    score_summary = _score_confidence(score_probs)
 
     expected_point_diff = float(bundle.point_diff_model.predict(features_df, FEATURE_COLUMNS)[0])
 
@@ -181,10 +245,18 @@ def predict_match(
         "p_team_a_wins": round(p_a, 4),
         "p_team_b_wins": round(p_b, 4),
         "set_score_probabilities": {k: round(float(v), 4) for k, v in score_probs.items()},
-        "most_likely_score": most_likely_score,
+        "most_likely_score": score_summary["most_likely_score"],
+        "most_likely_score_probability": score_summary["most_likely_score_probability"],
+        "score_confidence": score_summary["score_confidence"],
+        "score_confidence_gap": score_summary["score_confidence_gap"],
+        "close_score_alternatives": score_summary["close_score_alternatives"],
         "expected_point_diff": round(expected_point_diff, 1),
         "elo_team_a": round(bundle.elo_ratings.get(team_a, 1500.0), 1),
         "elo_team_b": round(bundle.elo_ratings.get(team_b, 1500.0), 1),
         "confidence": _confidence_level(matches_a, matches_b),
-        "explanatory_factors": _explanatory_factors(features, team_a, team_b),
+        "explanatory_factors": _explanatory_factors(
+            features, team_a, team_b,
+            streak_a=state_a.get("current_streak", 0),
+            streak_b=state_b.get("current_streak", 0),
+        ),
     }

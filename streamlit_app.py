@@ -1237,10 +1237,63 @@ def main() -> None:
         "Most likely result"
     )
 
+    score_probability = result.get(
+        "most_likely_score_probability",
+        result["set_score_probabilities"][result["most_likely_score"]],
+    )
+    score_confidence = result.get(
+        "score_confidence",
+        "low",
+    )
+    confidence_label = {
+        "high": "High",
+        "medium": "Medium",
+        "low": "Low",
+    }.get(score_confidence, str(score_confidence).title())
+
     st.info(
         f"🏐 Most likely score: "
-        f"**{result['most_likely_score']}**"
+        f"**{result['most_likely_score']}** "
+        f"({score_probability * 100:.1f}%)"
     )
+
+    a1, a2 = st.columns(2)
+
+    with a1:
+
+        st.metric(
+            "Exact score confidence",
+            confidence_label,
+        )
+
+    with a2:
+
+        st.metric(
+            "Lead over next score",
+            f"{result.get('score_confidence_gap', 0.0) * 100:.1f} pp",
+        )
+
+    close_alternatives = result.get(
+        "close_score_alternatives",
+        [],
+    )
+
+    if close_alternatives:
+
+        alternatives_text = ", ".join(
+            f"{item['score']} ({item['probability'] * 100:.1f}%)"
+            for item in close_alternatives
+        )
+
+        st.caption(
+            f"Close alternatives: {alternatives_text}"
+        )
+
+    if score_confidence == "low":
+
+        st.warning(
+            "Exact score is not very decisive; check the nearby alternatives before treating it as a strong call."
+        )
 
 
     # --------------------------------------------------------
