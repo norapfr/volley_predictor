@@ -211,6 +211,17 @@ COUNTRY_NAMES = {
     "ZMB": "Zambia",
     "ZWE": "Zimbabwe",
 }
+
+
+# Equipos/uniones disueltas que no deben aparecer como opción
+# para partidos futuros, aunque tengan histórico de partidos jugados.
+DEFUNCT_TEAMS = {
+    "XSCG",  # Serbia y Montenegro (disuelta 2006)
+    "XSU",   # URSS
+    "XCS",   # Checoslovaquia
+    "XYU",   # Yugoslavia
+    "ANT",   # Antillas Neerlandesas (disuelta 2010)
+}
 def country_name(team: str) -> str:
     return COUNTRY_NAMES.get(team, team)
 
@@ -941,6 +952,8 @@ def main() -> None:
 
     teams = bundle.known_teams()
 
+    teams = [t for t in teams if t not in DEFUNCT_TEAMS]
+    
     team_display = {
         team: country_name(team)
         for team in teams
