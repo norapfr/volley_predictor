@@ -1,0 +1,19 @@
+# Dependencias para SERVIR el dashboard (streamlit_app.py) en Streamlit
+# Community Cloud. Deliberadamente mínimo respecto a pyproject.toml: NO
+# incluye lightgbm/xgboost/fivbvis/httpx/pycountry — esas hacen falta para
+# entrenar o para el crawler de datos, no para cargar modelos ya guardados
+# y predecir. Rastreado de verdad (no de memoria) con un análisis estático
+# de imports de todo lo que streamlit_app.py toca en cadena — scikit-learn
+# sí hace falta pese a no usarse directamente aquí: src/models/point_diff.py
+# importa LinearRegression a nivel de módulo (no perezoso), así que
+# cualquier cosa que toque ese archivo arrastra sklearn.
+#
+# Para desarrollo local completo (entrenar, crawlear, etc.), usa
+# `pip install -e ".[dev,ml]"` en su lugar (ver pyproject.toml).
+
+streamlit>=1.30
+pandas>=2.2
+numpy>=1.26
+catboost>=1.2
+scikit-learn>=1.4
+pydantic>=2.6

@@ -1,0 +1,24 @@
+{
+  "gender": "women",
+  "trained_at_utc": "2026-09-01T11:06:31.934159+00:00",
+  "n_matches": 3269,
+  "date_range": [
+    "2006-10-31",
+    "2026-08-27"
+  ],
+  "feature_columns": [
+    "elo_diff",
+    "matches_played_diff",
+    "current_streak_diff",
+    "days_since_last_diff",
+    "h2h_matches_played",
+    "h2h_win_rate_a",
+    "competition_importance",
+    "tournament_progress",
+    "win_rate_last5_diff",
+    "win_rate_last10_diff",
+    "set_margin_avg_last5_diff",
+    "set_margin_avg_last10_diff"
+  ],
+  "n_teams": 134
+}

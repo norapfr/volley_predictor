@@ -1,0 +1,50 @@
+# === IMPORTANTE — LEE ESTO ANTES DE AÑADIR NADA AQUÍ ===
+# La carpeta models/ está EXCLUIDA de las reglas de abajo a propósito.
+# Streamlit Community Cloud despliega desde GitHub en un contenedor
+# efímero: si los modelos (.cbm/.json) no están commiteados, la app
+# desplegada no tiene absolutamente nada que cargar. Esto es lo OPUESTO
+# a la convención habitual de "nunca subas artefactos de modelos a git"
+# — aquí hace falta hacerlo justo para que el despliegue gratuito funcione.
+# Si alguna vez añades "models/" aquí, el dashboard desplegado se rompe.
+
+# --- Python ---
+__pycache__/
+*.py[cod]
+*.egg-info/
+.pytest_cache/
+.mypy_cache/
+.ruff_cache/
+
+# --- Entornos virtuales ---
+.venv
+.venv/
+venv/
+env/
+
+# --- Datos crudos (grandes, regenerables con el crawler; no hace falta versionarlos) ---
+data/raw/*
+data/interim/*
+!data/raw/.gitkeep
+!data/interim/.gitkeep
+# data/processed/*.csv SÍ se versiona a propósito (matches.csv y
+# matches_with_features.csv no son grandes y son el dataset reproducible
+# del proyecto — quitarlos de aquí solo si algún día pesan demasiado).
+
+# --- Resultados de evaluación (regenerables corriendo los scripts de cada fase) ---
+reports/*.csv
+
+# --- Notebooks (checkpoints de Jupyter, si se usan en el futuro) ---
+.ipynb_checkpoints/
+
+# --- MLflow (si se llega a usar; no es el tracking actual del proyecto) ---
+mlruns/
+
+# --- Secretos — NUNCA subir claves/API keys ---
+.env
+.streamlit/secrets.toml
+
+# --- Editor / sistema operativo ---
+.DS_Store
+Thumbs.db
+.idea/
+.vscode/

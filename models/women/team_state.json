@@ -1,0 +1,7854 @@
+{
+  "KOR": {
+    "team": "KOR",
+    "matches_played": 238,
+    "current_streak": -1,
+    "last_match_date": "2026-08-27",
+    "recent_results": [
+      {
+        "date": "2025-11-07",
+        "won": true,
+        "sets_for": 3,
+        "sets_against": 2
+      },
+      {
+        "date": "2025-11-08",
+        "won": true,
+        "sets_for": 3,
+        "sets_against": 2
+      },
+      {
+        "date": "2026-08-11",
+        "won": true,
+        "sets_for": 3,
+        "sets_against": 0
+      },
+      {
+        "date": "2026-08-12",
+        "won": true,
+        "sets_for": 3,
+        "sets_against": 0
+      },
+      {
+        "date": "2026-08-15",
+        "won": false,
+        "sets_for": 0,
+        "sets_against": 3
+      },
+      {
+        "date": "2026-08-16",
+        "won": true,
+        "sets_for": 3,
+        "sets_against": 0
+      },
+      {
+        "date": "2026-08-22",
+        "won": true,
+        "sets_for": 3,
+        "sets_against": 1
+      },
+      {
+        "date": "2026-08-23",
+        "won": false,
+        "sets_for": 0,
+        "sets_against": 3
+      },
+      {
+        "date": "2026-08-26",
+        "won": true,
+        "sets_for": 3,
+        "sets_against": 1
+      },
+      {
+        "date": "2026-08-27",
+        "won": false,
+        "sets_for": 0,
+        "sets_against": 3
+      }
+    ]
+  },
+  "CRI": {
+    "team": "CRI",
+    "matches_played": 70,
+    "current_streak": 1,
+    "last_match_date": "2026-08-26",
+    "recent_results": [
+      {
+        "date": "2025-07-19",
+        "won": false,
+        "sets_for": 0,
+        "sets_against": 3
+      },
+      {
+        "date": "2025-07-20",
+        "won": true,
+        "sets_for": 3,
+        "sets_against": 0
+      },
+      {
+        "date": "2026-06-05",
+        "won": false,
+        "sets_for": 0,
+        "sets_against": 3
+      },
+      {
+        "date": "2026-06-06",
+        "won": false,
+        "sets_for": 0,
+        "sets_against": 3
+      },
+      {
+        "date": "2026-06-07",
+        "won": false,
+        "sets_for": 1,
+        "sets_against": 3
+      },
+      {
+        "date": "2026-08-21",
+        "won": false,
+        "sets_for": 0,
+        "sets_against": 3
+      },
+      {
+        "date": "2026-08-22",
+        "won": false,
+        "sets_for": 0,
+        "sets_against": 3
+      },
+      {
+        "date": "2026-08-23",
+        "won": false,
+        "sets_for": 0,
+        "sets_against": 3
+      },
+      {
+        "date": "2026-08-25",
+        "won": false,
+        "sets_for": 0,
+        "sets_against": 3
+      },
+      {
+        "date": "2026-08-26",
+        "won": true,
+        "sets_for": 3,
+        "sets_against": 0
+      }
+    ]
+  },
+  "POL": {
+    "team": "POL",
+    "matches_played": 198,
+    "current_streak": 3,
+    "last_match_date": "2026-08-25",
+    "recent_results": [
+      {
+        "date": "2026-06-18",
+        "won": true,
+        "sets_for": 3,
+        "sets_against": 1
+      },
+      {
+        "date": "2026-06-20",
+        "won": true,
+        "sets_for": 3,
+        "sets_against": 1
+      },
+      {
+        "date": "2026-06-21",
+        "won": false,
+        "sets_for": 2,
+        "sets_against": 3
+      },
+      {
+        "date": "2026-07-08",
+        "won": false,
+        "sets_for": 1,
+        "sets_against": 3
+      },
+      {
+        "date": "2026-07-09",
+        "won": true,
+        "sets_for": 3,
+        "sets_against": 2
+      },
+      {
+        "date": "2026-07-10",
+        "won": false,
+        "sets_for": 1,
+        "sets_against": 3
+      },
+      {
+        "date": "2026-07-12",
+        "won": false,
+        "sets_for": 2,
+        "sets_against": 3
+      },
+      {
+        "date": "2026-08-22",
+        "won": true,
+        "sets_for": 3,
+        "sets_against": 0
+      },
+      {
+        "date": "2026-08-24",
+        "won": true,
+        "sets_for": 3,
+        "sets_against": 1
+      },
+      {
+        "date": "2026-08-25",
+        "won": true,
+        "sets_for": 3,
+        "sets_against": 0
+      }
+    ]
+  },
+  "KEN": {
+    "team": "KEN",
+    "matches_played": 94,
+    "current_streak": 3,
+    "last_match_date": "2026-08-27",
+    "recent_results": [
+      {
+        "date": "2023-08-23",
+        "won": true,
+        "sets_for": 3,
+        "sets_against": 1
+      },
+      {
+        "date": "2023-08-24",
+        "won": true,
+        "sets_for": 3,
+        "sets_against": 0
+      },
+      {
+        "date": "2024-07-29",
+        "won": false,
+        "sets_for": 0,
+        "sets_against": 3
+      },
+      {
+        "date": "2024-07-31",
+        "won": false,
+        "sets_for": 0,
+        "sets_against": 3
+      },
+      {
+        "date": "2024-08-03",
+        "won": false,
+        "sets_for": 0,
+        "sets_against": 3
+      },
+      {
+        "date": "2025-08-23",
+        "won": false,
+        "sets_for": 0,
+        "sets_against": 3
+      },
+      {
+        "date": "2025-08-25",
+        "won": false,
+        "sets_for": 1,
+        "sets_against": 3
+      },
+      {
+        "date": "2025-08-27",
+        "won": true,
+        "sets_for": 3,
+        "sets_against": 0
+      },
+      {
+        "date": "2026-08-25",
+        "won": true,
+        "sets_for": 3,
+        "sets_against": 0
+      },
+      {
+        "date": "2026-08-27",
+        "won": true,
+        "sets_for": 3,
+        "sets_against": 0
+      }
+    ]
+  },
+  "TPE": {
+    "team": "TPE",
+    "matches_played": 45,
+    "current_streak": -2,
+    "last_match_date": "2026-08-27",
+    "recent_results": [
+      {
+        "date": "2025-11-07",
+        "won": true,
+        "sets_for": 3,
+        "sets_against": 1
+      },
+      {
+        "date": "2025-11-08",
+        "won": false,
+        "sets_for": 2,
+        "sets_against": 3
+      },
+      {
+        "date": "2026-08-11",
+        "won": true,
+        "sets_for": 3,
+        "sets_against": 0
+      },
+      {
+        "date": "2026-08-12",
+        "won": false,
+        "sets_for": 1,
+        "sets_against": 3
+      },
+      {
+        "date": "2026-08-13",
+        "won": false,
+        "sets_for": 1,
+        "sets_against": 3
+      },
+      {
+        "date": "2026-08-16",
+        "won": true,
+        "sets_for": 3,
+        "sets_against": 0
+      },
+      {
+        "date": "2026-08-21",
+        "won": false,
+        "sets_for": 1,
+        "sets_against": 3
+      },
+      {
+        "date": "2026-08-23",
+        "won": true,
+        "sets_for": 3,
+        "sets_against": 0
+      },
+      {
+        "date": "2026-08-26",
+        "won": false,
+        "sets_for": 0,
+        "sets_against": 3
+      },
+      {
+        "date": "2026-08-27",
+        "won": false,
+        "sets_for": 0,
+        "sets_against": 3
+      }
+    ]
+  },
+  "JPN": {
+    "team": "JPN",
+    "matches_played": 296,
+    "current_streak": 8,
+    "last_match_date": "2026-08-27",
+    "recent_results": [
+      {
+        "date": "2026-07-22",
+        "won": false,
+        "sets_for": 1,
+        "sets_against": 3
+      },
+      {
+        "date": "2026-08-11",
+        "won": false,
+        "sets_for": 0,
+        "sets_against": 3
+      },
+      {
+        "date": "2026-08-12",
+        "won": true,
+        "sets_for": 3,
+        "sets_against": 0
+      },
+      {
+        "date": "2026-08-13",
+        "won": true,
+        "sets_for": 3,
+        "sets_against": 1
+      },
+      {
+        "date": "2026-08-15",
+        "won": true,
+        "sets_for": 3,
+        "sets_against": 0
+      },
+      {
+        "date": "2026-08-16",
+        "won": true,
+        "sets_for": 3,
+        "sets_against": 0
+      },
+      {
+        "date": "2026-08-21",
+        "won": true,
+        "sets_for": 3,
+        "sets_against": 0
+      },
+      {
+        "date": "2026-08-23",
+        "won": true,
+        "sets_for": 3,
+        "sets_against": 0
+      },
+      {
+        "date": "2026-08-25",
+        "won": true,
+        "sets_for": 3,
+        "sets_against": 0
+      },
+      {
+        "date": "2026-08-27",
+        "won": true,
+        "sets_for": 3,
+        "sets_against": 0
+      }
+    ]
+  },
+  "DOM": {
+    "team": "DOM",
+    "matches_played": 299,
+    "current_streak": -2,
+    "last_match_date": "2026-08-26",
+    "recent_results": [
+      {
+        "date": "2026-06-21",
+        "won": false,
+        "sets_for": 2,
+        "sets_against": 3
+      },
+      {
+        "date": "2026-07-08",
+        "won": false,
+        "sets_for": 2,
+        "sets_against": 3
+      },
+      {
+        "date": "2026-07-10",
+        "won": true,
+        "sets_for": 3,
+        "sets_against": 2
+      },
+      {
+        "date": "2026-07-11",
+        "won": true,
+        "sets_for": 3,
+        "sets_against": 1
+      },
+      {
+        "date": "2026-07-12",
+        "won": false,
+        "sets_for": 1,
+        "sets_against": 3
+      },
+      {
+        "date": "2026-08-21",
+        "won": true,
+        "sets_for": 3,
+        "sets_against": 0
+      },
+      {
+        "date": "2026-08-22",
+        "won": true,
+        "sets_for": 3,
+        "sets_against": 0
+      },
+      {
+        "date": "2026-08-23",
+        "won": true,
+        "sets_for": 3,
+        "sets_against": 1
+      },
+      {
+        "date": "2026-08-25",
+        "won": false,
+        "sets_for": 0,
+        "sets_against": 3
+      },
+      {
+        "date": "2026-08-26",
+        "won": false,
+        "sets_for": 0,
+        "sets_against": 3
+      }
+    ]
+  },
+  "DEU": {
+    "team": "DEU",
+    "matches_played": 199,
+    "current_streak": -1,
+    "last_match_date": "2026-08-26",
+    "recent_results": [
+      {
+        "date": "2026-06-20",
+        "won": false,
+        "sets_for": 2,
+        "sets_against": 3
+      },
+      {
+        "date": "2026-06-21",
+        "won": true,
+        "sets_for": 3,
+        "sets_against": 2
+      },
+      {
+        "date": "2026-07-08",
+        "won": true,
+        "sets_for": 3,
+        "sets_against": 1
+      },
+      {
+        "date": "2026-07-10",
+        "won": false,
+        "sets_for": 0,
+        "sets_against": 3
+      },
+      {
+        "date": "2026-07-11",
+        "won": false,
+        "sets_for": 0,
+        "sets_against": 3
+      },
+      {
+        "date": "2026-07-12",
+        "won": true,
+        "sets_for": 3,
+        "sets_against": 0
+      },
+      {
+        "date": "2026-08-22",
+        "won": false,
+        "sets_for": 0,
+        "sets_against": 3
+      },
+      {
+        "date": "2026-08-23",
+        "won": true,
+        "sets_for": 3,
+        "sets_against": 1
+      },
+      {
+        "date": "2026-08-25",
+        "won": true,
+        "sets_for": 3,
+        "sets_against": 0
+      },
+      {
+        "date": "2026-08-26",
+        "won": false,
+        "sets_for": 1,
+        "sets_against": 3
+      }
+    ]
+  },
+  "MEX": {
+    "team": "MEX",
+    "matches_played": 110,
+    "current_streak": -1,
+    "last_match_date": "2026-08-26",
+    "recent_results": [
+      {
+        "date": "2025-08-27",
+        "won": true,
+        "sets_for": 3,
+        "sets_against": 2
+      },
+      {
+        "date": "2026-06-05",
+        "won": true,
+        "sets_for": 3,
+        "sets_against": 0
+      },
+      {
+        "date": "2026-06-06",
+        "won": true,
+        "sets_for": 3,
+        "sets_against": 0
+      },
+      {
+        "date": "2026-06-07",
+        "won": true,
+        "sets_for": 3,
+        "sets_against": 2
+      },
+      {
+        "date": "2026-08-21",
+        "won": false,
+        "sets_for": 0,
+        "sets_against": 3
+      },
+      {
+        "date": "2026-08-22",
+        "won": false,
+        "sets_for": 0,
+        "sets_against": 3
+      },
+      {
+        "date": "2026-08-23",
+        "won": true,
+        "sets_for": 3,
+        "sets_against": 0
+      },
+      {
+        "date": "2026-08-24",
+        "won": false,
+        "sets_for": 0,
+        "sets_against": 3
+      },
+      {
+        "date": "2026-08-25",
+        "won": true,
+        "sets_for": 3,
+        "sets_against": 0
+      },
+      {
+        "date": "2026-08-26",
+        "won": false,
+        "sets_for": 2,
+        "sets_against": 3
+      }
+    ]
+  },
+  "RUS": {
+    "team": "RUS",
+    "matches_played": 141,
+    "current_streak": -1,
+    "last_match_date": "2021-09-01",
+    "recent_results": [
+      {
+        "date": "2021-06-18",
+        "won": false,
+        "sets_for": 0,
+        "sets_against": 3
+      },
+      {
+        "date": "2021-06-19",
+        "won": false,
+        "sets_for": 1,
+        "sets_against": 3
+      },
+      {
+        "date": "2021-06-20",
+        "won": false,
+        "sets_for": 2,
+        "sets_against": 3
+      },
+      {
+        "date": "2021-08-20",
+        "won": true,
+        "sets_for": 3,
+        "sets_against": 1
+      },
+      {
+        "date": "2021-08-22",
+        "won": true,
+        "sets_for": 3,
+        "sets_against": 0
+      },
+      {
+        "date": "2021-08-23",
+        "won": false,
+        "sets_for": 2,
+        "sets_against": 3
+      },
+      {
+        "date": "2021-08-25",
+        "won": false,
+        "sets_for": 2,
+        "sets_against": 3
+      },
+      {
+        "date": "2021-08-26",
+        "won": true,
+        "sets_for": 3,
+        "sets_against": 0
+      },
+      {
+        "date": "2021-08-30",
+        "won": true,
+        "sets_for": 3,
+        "sets_against": 1
+      },
+      {
+        "date": "2021-09-01",
+        "won": false,
+        "sets_for": 0,
+        "sets_against": 3
+      }
+    ]
+  },
+  "CHN": {
+    "team": "CHN",
+    "matches_played": 278,
+    "current_streak": 3,
+    "last_match_date": "2026-08-26",
+    "recent_results": [
+      {
+        "date": "2026-07-25",
+        "won": false,
+        "sets_for": 0,
+        "sets_against": 3
+      },
+      {
+        "date": "2026-07-26",
+        "won": false,
+        "sets_for": 1,
+        "sets_against": 3
+      },
+      {
+        "date": "2026-08-11",
+        "won": true,
+        "sets_for": 3,
+        "sets_against": 0
+      },
+      {
+        "date": "2026-08-12",
+        "won": true,
+        "sets_for": 3,
+        "sets_against": 1
+      },
+      {
+        "date": "2026-08-13",
+        "won": true,
+        "sets_for": 3,
+        "sets_against": 0
+      },
+      {
+        "date": "2026-08-15",
+        "won": true,
+        "sets_for": 3,
+        "sets_against": 0
+      },
+      {
+        "date": "2026-08-16",
+        "won": false,
+        "sets_for": 0,
+        "sets_against": 3
+      },
+      {
+        "date": "2026-08-22",
+        "won": true,
+        "sets_for": 3,
+        "sets_against": 0
+      },
+      {
+        "date": "2026-08-24",
+        "won": true,
+        "sets_for": 3,
+        "sets_against": 0
+      },
+      {
+        "date": "2026-08-26",
+        "won": true,
+        "sets_for": 3,
+        "sets_against": 0
+      }
+    ]
+  },
+  "AZE": {
+    "team": "AZE",
+    "matches_played": 53,
+    "current_streak": -1,
+    "last_match_date": "2026-08-26",
+    "recent_results": [
+      {
+        "date": "2022-09-10",
+        "won": true,
+        "sets_for": 3,
+        "sets_against": 1
+      },
+      {
+        "date": "2023-08-18",
+        "won": true,
+        "sets_for": 3,
+        "sets_against": 0
+      },
+      {
+        "date": "2023-08-19",
+        "won": false,
+        "sets_for": 1,
+        "sets_against": 3
+      },
+      {
+        "date": "2023-08-20",
+        "won": false,
+        "sets_for": 0,
+        "sets_against": 3
+      },
+      {
+        "date": "2023-08-22",
+        "won": true,
+        "sets_for": 3,
+        "sets_against": 2
+      },
+      {
+        "date": "2023-08-23",
+        "won": false,
+        "sets_for": 1,
+        "sets_against": 3
+      },
+      {
+        "date": "2026-08-21",
+        "won": true,
+        "sets_for": 3,
+        "sets_against": 1
+      },
+      {
+        "date": "2026-08-23",
+        "won": true,
+        "sets_for": 3,
+        "sets_against": 0
+      },
+      {
+        "date": "2026-08-24",
+        "won": true,
+        "sets_for": 3,
+        "sets_against": 2
+      },
+      {
+        "date": "2026-08-26",
+        "won": false,
+        "sets_for": 0,
+        "sets_against": 3
+      }
+    ]
+  },
+  "BRA": {
+    "team": "BRA",
+    "matches_played": 287,
+    "current_streak": -1,
+    "last_match_date": "2026-07-26",
+    "recent_results": [
+      {
+        "date": "2026-06-18",
+        "won": true,
+        "sets_for": 3,
+        "sets_against": 2
+      },
+      {
+        "date": "2026-06-20",
+        "won": true,
+        "sets_for": 3,
+        "sets_against": 1
+      },
+      {
+        "date": "2026-06-21",
+        "won": false,
+        "sets_for": 2,
+        "sets_against": 3
+      },
+      {
+        "date": "2026-07-08",
+        "won": true,
+        "sets_for": 3,
+        "sets_against": 1
+      },
+      {
+        "date": "2026-07-10",
+        "won": true,
+        "sets_for": 3,
+        "sets_against": 1
+      },
+      {
+        "date": "2026-07-11",
+        "won": false,
+        "sets_for": 0,
+        "sets_against": 3
+      },
+      {
+        "date": "2026-07-12",
+        "won": false,
+        "sets_for": 0,
+        "sets_against": 3
+      },
+      {
+        "date": "2026-07-22",
+        "won": true,
+        "sets_for": 3,
+        "sets_against": 1
+      },
+      {
+        "date": "2026-07-25",
+        "won": true,
+        "sets_for": 3,
+        "sets_against": 2
+      },
+      {
+        "date": "2026-07-26",
+        "won": false,
+        "sets_for": 1,
+        "sets_against": 3
+      }
+    ]
+  },
+  "PRI": {
+    "team": "PRI",
+    "matches_played": 141,
+    "current_streak": 2,
+    "last_match_date": "2026-08-26",
+    "recent_results": [
+      {
+        "date": "2025-08-26",
+        "won": false,
+        "sets_for": 0,
+        "sets_against": 3
+      },
+      {
+        "date": "2026-06-05",
+        "won": true,
+        "sets_for": 3,
+        "sets_against": 0
+      },
+      {
+        "date": "2026-06-06",
+        "won": true,
+        "sets_for": 3,
+        "sets_against": 1
+      },
+      {
+        "date": "2026-06-07",
+        "won": false,
+        "sets_for": 2,
+        "sets_against": 3
+      },
+      {
+        "date": "2026-08-21",
+        "won": false,
+        "sets_for": 2,
+        "sets_against": 3
+      },
+      {
+        "date": "2026-08-22",
+        "won": true,
+        "sets_for": 3,
+        "sets_against": 0
+      },
+      {
+        "date": "2026-08-23",
+        "won": false,
+        "sets_for": 1,
+        "sets_against": 3
+      },
+      {
+        "date": "2026-08-24",
+        "won": false,
+        "sets_for": 0,
+        "sets_against": 3
+      },
+      {
+        "date": "2026-08-25",
+        "won": true,
+        "sets_for": 3,
+        "sets_against": 0
+      },
+      {
+        "date": "2026-08-26",
+        "won": true,
+        "sets_for": 3,
+        "sets_against": 2
+      }
+    ]
+  },
+  "NLD": {
+    "team": "NLD",
+    "matches_played": 223,
+    "current_streak": 3,
+    "last_match_date": "2026-08-25",
+    "recent_results": [
+      {
+        "date": "2026-06-20",
+        "won": false,
+        "sets_for": 1,
+        "sets_against": 3
+      },
+      {
+        "date": "2026-06-21",
+        "won": true,
+        "sets_for": 3,
+        "sets_against": 0
+      },
+      {
+        "date": "2026-07-08",
+        "won": true,
+        "sets_for": 3,
+        "sets_against": 0
+      },
+      {
+        "date": "2026-07-09",
+        "won": true,
+        "sets_for": 3,
+        "sets_against": 0
+      },
+      {
+        "date": "2026-07-10",
+        "won": true,
+        "sets_for": 3,
+        "sets_against": 0
+      },
+      {
+        "date": "2026-07-12",
+        "won": false,
+        "sets_for": 0,
+        "sets_against": 3
+      },
+      {
+        "date": "2026-07-22",
+        "won": false,
+        "sets_for": 0,
+        "sets_against": 3
+      },
+      {
+        "date": "2026-08-22",
+        "won": true,
+        "sets_for": 3,
+        "sets_against": 2
+      },
+      {
+        "date": "2026-08-24",
+        "won": true,
+        "sets_for": 3,
+        "sets_against": 0
+      },
+      {
+        "date": "2026-08-25",
+        "won": true,
+        "sets_for": 3,
+        "sets_against": 0
+      }
+    ]
+  },
+  "CMR": {
+    "team": "CMR",
+    "matches_played": 58,
+    "current_streak": 3,
+    "last_match_date": "2026-08-27",
+    "recent_results": [
+      {
+        "date": "2023-08-20",
+        "won": true,
+        "sets_for": 3,
+        "sets_against": 0
+      },
+      {
+        "date": "2023-08-22",
+        "won": true,
+        "sets_for": 3,
+        "sets_against": 0
+      },
+      {
+        "date": "2023-08-23",
+        "won": false,
+        "sets_for": 1,
+        "sets_against": 3
+      },
+      {
+        "date": "2023-08-24",
+        "won": true,
+        "sets_for": 3,
+        "sets_against": 1
+      },
+      {
+        "date": "2025-08-23",
+        "won": false,
+        "sets_for": 0,
+        "sets_against": 3
+      },
+      {
+        "date": "2025-08-25",
+        "won": false,
+        "sets_for": 0,
+        "sets_against": 3
+      },
+      {
+        "date": "2025-08-27",
+        "won": false,
+        "sets_for": 0,
+        "sets_against": 3
+      },
+      {
+        "date": "2026-08-25",
+        "won": true,
+        "sets_for": 3,
+        "sets_against": 0
+      },
+      {
+        "date": "2026-08-26",
+        "won": true,
+        "sets_for": 3,
+        "sets_against": 0
+      },
+      {
+        "date": "2026-08-27",
+        "won": true,
+        "sets_for": 3,
+        "sets_against": 0
+      }
+    ]
+  },
+  "USA": {
+    "team": "USA",
+    "matches_played": 339,
+    "current_streak": -1,
+    "last_match_date": "2026-08-26",
+    "recent_results": [
+      {
+        "date": "2026-07-09",
+        "won": false,
+        "sets_for": 2,
+        "sets_against": 3
+      },
+      {
+        "date": "2026-07-10",
+        "won": true,
+        "sets_for": 3,
+        "sets_against": 2
+      },
+      {
+        "date": "2026-07-12",
+        "won": true,
+        "sets_for": 3,
+        "sets_against": 0
+      },
+      {
+        "date": "2026-07-23",
+        "won": false,
+        "sets_for": 2,
+        "sets_against": 3
+      },
+      {
+        "date": "2026-08-21",
+        "won": true,
+        "sets_for": 3,
+        "sets_against": 0
+      },
+      {
+        "date": "2026-08-22",
+        "won": true,
+        "sets_for": 3,
+        "sets_against": 0
+      },
+      {
+        "date": "2026-08-23",
+        "won": false,
+        "sets_for": 2,
+        "sets_against": 3
+      },
+      {
+        "date": "2026-08-24",
+        "won": true,
+        "sets_for": 3,
+        "sets_against": 0
+      },
+      {
+        "date": "2026-08-25",
+        "won": true,
+        "sets_for": 3,
+        "sets_against": 0
+      },
+      {
+        "date": "2026-08-26",
+        "won": false,
+        "sets_for": 2,
+        "sets_against": 3
+      }
+    ]
+  },
+  "KAZ": {
+    "team": "KAZ",
+    "matches_played": 70,
+    "current_streak": -1,
+    "last_match_date": "2026-08-25",
+    "recent_results": [
+      {
+        "date": "2025-11-01",
+        "won": true,
+        "sets_for": 3,
+        "sets_against": 0
+      },
+      {
+        "date": "2025-11-02",
+        "won": false,
+        "sets_for": 0,
+        "sets_against": 3
+      },
+      {
+        "date": "2025-11-03",
+        "won": false,
+        "sets_for": 0,
+        "sets_against": 3
+      },
+      {
+        "date": "2025-11-05",
+        "won": true,
+        "sets_for": 3,
+        "sets_against": 0
+      },
+      {
+        "date": "2025-11-06",
+        "won": true,
+        "sets_for": 3,
+        "sets_against": 0
+      },
+      {
+        "date": "2025-11-07",
+        "won": true,
+        "sets_for": 3,
+        "sets_against": 0
+      },
+      {
+        "date": "2025-11-08",
+        "won": true,
+        "sets_for": 3,
+        "sets_against": 0
+      },
+      {
+        "date": "2026-08-22",
+        "won": false,
+        "sets_for": 0,
+        "sets_against": 3
+      },
+      {
+        "date": "2026-08-23",
+        "won": true,
+        "sets_for": 3,
+        "sets_against": 0
+      },
+      {
+        "date": "2026-08-25",
+        "won": false,
+        "sets_for": 1,
+        "sets_against": 3
+      }
+    ]
+  },
+  "PER": {
+    "team": "PER",
+    "matches_played": 73,
+    "current_streak": -4,
+    "last_match_date": "2023-08-23",
+    "recent_results": [
+      {
+        "date": "2018-07-14",
+        "won": false,
+        "sets_for": 1,
+        "sets_against": 3
+      },
+      {
+        "date": "2019-08-28",
+        "won": true,
+        "sets_for": 3,
+        "sets_against": 0
+      },
+      {
+        "date": "2019-08-29",
+        "won": true,
+        "sets_for": 3,
+        "sets_against": 0
+      },
+      {
+        "date": "2019-08-30",
+        "won": false,
+        "sets_for": 2,
+        "sets_against": 3
+      },
+      {
+        "date": "2019-08-31",
+        "won": false,
+        "sets_for": 0,
+        "sets_against": 3
+      },
+      {
+        "date": "2019-09-01",
+        "won": true,
+        "sets_for": 3,
+        "sets_against": 2
+      },
+      {
+        "date": "2023-08-19",
+        "won": false,
+        "sets_for": 1,
+        "sets_against": 3
+      },
+      {
+        "date": "2023-08-21",
+        "won": false,
+        "sets_for": 1,
+        "sets_against": 3
+      },
+      {
+        "date": "2023-08-22",
+        "won": false,
+        "sets_for": 0,
+        "sets_against": 3
+      },
+      {
+        "date": "2023-08-23",
+        "won": false,
+        "sets_for": 2,
+        "sets_against": 3
+      }
+    ]
+  },
+  "EGY": {
+    "team": "EGY",
+    "matches_played": 22,
+    "current_streak": 3,
+    "last_match_date": "2026-08-27",
+    "recent_results": [
+      {
+        "date": "2023-08-20",
+        "won": true,
+        "sets_for": 3,
+        "sets_against": 0
+      },
+      {
+        "date": "2023-08-22",
+        "won": true,
+        "sets_for": 3,
+        "sets_against": 0
+      },
+      {
+        "date": "2023-08-23",
+        "won": true,
+        "sets_for": 3,
+        "sets_against": 0
+      },
+      {
+        "date": "2023-08-24",
+        "won": false,
+        "sets_for": 0,
+        "sets_against": 3
+      },
+      {
+        "date": "2025-08-22",
+        "won": false,
+        "sets_for": 1,
+        "sets_against": 3
+      },
+      {
+        "date": "2025-08-24",
+        "won": false,
+        "sets_for": 0,
+        "sets_against": 3
+      },
+      {
+        "date": "2025-08-26",
+        "won": false,
+        "sets_for": 1,
+        "sets_against": 3
+      },
+      {
+        "date": "2026-08-25",
+        "won": true,
+        "sets_for": 3,
+        "sets_against": 0
+      },
+      {
+        "date": "2026-08-26",
+        "won": true,
+        "sets_for": 3,
+        "sets_against": 0
+      },
+      {
+        "date": "2026-08-27",
+        "won": true,
+        "sets_for": 3,
+        "sets_against": 0
+      }
+    ]
+  },
+  "TUR": {
+    "team": "TUR",
+    "matches_played": 225,
+    "current_streak": 9,
+    "last_match_date": "2026-08-26",
+    "recent_results": [
+      {
+        "date": "2026-07-10",
+        "won": false,
+        "sets_for": 2,
+        "sets_against": 3
+      },
+      {
+        "date": "2026-07-11",
+        "won": true,
+        "sets_for": 3,
+        "sets_against": 1
+      },
+      {
+        "date": "2026-07-12",
+        "won": true,
+        "sets_for": 3,
+        "sets_against": 1
+      },
+      {
+        "date": "2026-07-23",
+        "won": true,
+        "sets_for": 3,
+        "sets_against": 1
+      },
+      {
+        "date": "2026-07-25",
+        "won": true,
+        "sets_for": 3,
+        "sets_against": 0
+      },
+      {
+        "date": "2026-07-26",
+        "won": true,
+        "sets_for": 3,
+        "sets_against": 1
+      },
+      {
+        "date": "2026-08-21",
+        "won": true,
+        "sets_for": 3,
+        "sets_against": 0
+      },
+      {
+        "date": "2026-08-23",
+        "won": true,
+        "sets_for": 3,
+        "sets_against": 1
+      },
+      {
+        "date": "2026-08-24",
+        "won": true,
+        "sets_for": 3,
+        "sets_against": 0
+      },
+      {
+        "date": "2026-08-26",
+        "won": true,
+        "sets_for": 3,
+        "sets_against": 1
+      }
+    ]
+  },
+  "CUB": {
+    "team": "CUB",
+    "matches_played": 143,
+    "current_streak": 1,
+    "last_match_date": "2026-08-26",
+    "recent_results": [
+      {
+        "date": "2025-08-26",
+        "won": true,
+        "sets_for": 3,
+        "sets_against": 1
+      },
+      {
+        "date": "2026-06-05",
+        "won": false,
+        "sets_for": 0,
+        "sets_against": 3
+      },
+      {
+        "date": "2026-06-06",
+        "won": false,
+        "sets_for": 1,
+        "sets_against": 3
+      },
+      {
+        "date": "2026-06-07",
+        "won": true,
+        "sets_for": 3,
+        "sets_against": 1
+      },
+      {
+        "date": "2026-08-21",
+        "won": true,
+        "sets_for": 3,
+        "sets_against": 2
+      },
+      {
+        "date": "2026-08-22",
+        "won": false,
+        "sets_for": 0,
+        "sets_against": 3
+      },
+      {
+        "date": "2026-08-23",
+        "won": true,
+        "sets_for": 3,
+        "sets_against": 0
+      },
+      {
+        "date": "2026-08-24",
+        "won": true,
+        "sets_for": 3,
+        "sets_against": 0
+      },
+      {
+        "date": "2026-08-25",
+        "won": false,
+        "sets_for": 0,
+        "sets_against": 3
+      },
+      {
+        "date": "2026-08-26",
+        "won": true,
+        "sets_for": 3,
+        "sets_against": 0
+      }
+    ]
+  },
+  "ITA": {
+    "team": "ITA",
+    "matches_played": 276,
+    "current_streak": 6,
+    "last_match_date": "2026-08-26",
+    "recent_results": [
+      {
+        "date": "2026-07-11",
+        "won": true,
+        "sets_for": 3,
+        "sets_against": 2
+      },
+      {
+        "date": "2026-07-12",
+        "won": true,
+        "sets_for": 3,
+        "sets_against": 2
+      },
+      {
+        "date": "2026-07-22",
+        "won": true,
+        "sets_for": 3,
+        "sets_against": 0
+      },
+      {
+        "date": "2026-07-25",
+        "won": false,
+        "sets_for": 2,
+        "sets_against": 3
+      },
+      {
+        "date": "2026-07-26",
+        "won": true,
+        "sets_for": 3,
+        "sets_against": 1
+      },
+      {
+        "date": "2026-08-21",
+        "won": true,
+        "sets_for": 3,
+        "sets_against": 0
+      },
+      {
+        "date": "2026-08-22",
+        "won": true,
+        "sets_for": 3,
+        "sets_against": 0
+      },
+      {
+        "date": "2026-08-23",
+        "won": true,
+        "sets_for": 3,
+        "sets_against": 0
+      },
+      {
+        "date": "2026-08-25",
+        "won": true,
+        "sets_for": 3,
+        "sets_against": 0
+      },
+      {
+        "date": "2026-08-26",
+        "won": true,
+        "sets_for": 3,
+        "sets_against": 1
+      }
+    ]
+  },
+  "XSCG": {
+    "team": "XSCG",
+    "matches_played": 11,
+    "current_streak": 1,
+    "last_match_date": "2006-11-16",
+    "recent_results": [
+      {
+        "date": "2006-11-01",
+        "won": true,
+        "sets_for": 3,
+        "sets_against": 1
+      },
+      {
+        "date": "2006-11-03",
+        "won": true,
+        "sets_for": 3,
+        "sets_against": 2
+      },
+      {
+        "date": "2006-11-04",
+        "won": true,
+        "sets_for": 3,
+        "sets_against": 0
+      },
+      {
+        "date": "2006-11-05",
+        "won": true,
+        "sets_for": 3,
+        "sets_against": 0
+      },
+      {
+        "date": "2006-11-08",
+        "won": true,
+        "sets_for": 3,
+        "sets_against": 0
+      },
+      {
+        "date": "2006-11-09",
+        "won": true,
+        "sets_for": 3,
+        "sets_against": 0
+      },
+      {
+        "date": "2006-11-11",
+        "won": false,
+        "sets_for": 2,
+        "sets_against": 3
+      },
+      {
+        "date": "2006-11-12",
+        "won": true,
+        "sets_for": 3,
+        "sets_against": 2
+      },
+      {
+        "date": "2006-11-15",
+        "won": false,
+        "sets_for": 1,
+        "sets_against": 3
+      },
+      {
+        "date": "2006-11-16",
+        "won": true,
+        "sets_for": 3,
+        "sets_against": 0
+      }
+    ]
+  },
+  "SRB": {
+    "team": "SRB",
+    "matches_played": 273,
+    "current_streak": 6,
+    "last_match_date": "2026-08-26",
+    "recent_results": [
+      {
+        "date": "2026-06-19",
+        "won": true,
+        "sets_for": 3,
+        "sets_against": 0
+      },
+      {
+        "date": "2026-06-21",
+        "won": false,
+        "sets_for": 1,
+        "sets_against": 3
+      },
+      {
+        "date": "2026-07-08",
+        "won": true,
+        "sets_for": 3,
+        "sets_against": 0
+      },
+      {
+        "date": "2026-07-09",
+        "won": false,
+        "sets_for": 2,
+        "sets_against": 3
+      },
+      {
+        "date": "2026-07-11",
+        "won": true,
+        "sets_for": 3,
+        "sets_against": 0
+      },
+      {
+        "date": "2026-07-12",
+        "won": true,
+        "sets_for": 3,
+        "sets_against": 0
+      },
+      {
+        "date": "2026-08-21",
+        "won": true,
+        "sets_for": 3,
+        "sets_against": 0
+      },
+      {
+        "date": "2026-08-23",
+        "won": true,
+        "sets_for": 3,
+        "sets_against": 1
+      },
+      {
+        "date": "2026-08-24",
+        "won": true,
+        "sets_for": 3,
+        "sets_against": 0
+      },
+      {
+        "date": "2026-08-26",
+        "won": true,
+        "sets_for": 3,
+        "sets_against": 0
+      }
+    ]
+  },
+  "THA": {
+    "team": "THA",
+    "matches_played": 203,
+    "current_streak": 4,
+    "last_match_date": "2026-08-27",
+    "recent_results": [
+      {
+        "date": "2026-06-20",
+        "won": true,
+        "sets_for": 3,
+        "sets_against": 1
+      },
+      {
+        "date": "2026-06-21",
+        "won": false,
+        "sets_for": 0,
+        "sets_against": 3
+      },
+      {
+        "date": "2026-07-08",
+        "won": false,
+        "sets_for": 0,
+        "sets_against": 3
+      },
+      {
+        "date": "2026-07-09",
+        "won": false,
+        "sets_for": 1,
+        "sets_against": 3
+      },
+      {
+        "date": "2026-07-11",
+        "won": true,
+        "sets_for": 3,
+        "sets_against": 0
+      },
+      {
+        "date": "2026-07-12",
+        "won": false,
+        "sets_for": 1,
+        "sets_against": 3
+      },
+      {
+        "date": "2026-08-21",
+        "won": true,
+        "sets_for": 3,
+        "sets_against": 0
+      },
+      {
+        "date": "2026-08-24",
+        "won": true,
+        "sets_for": 3,
+        "sets_against": 0
+      },
+      {
+        "date": "2026-08-25",
+        "won": true,
+        "sets_for": 3,
+        "sets_against": 1
+      },
+      {
+        "date": "2026-08-27",
+        "won": true,
+        "sets_for": 3,
+        "sets_against": 0
+      }
+    ]
+  },
+  "GBR": {
+    "team": "GBR",
+    "matches_played": 8,
+    "current_streak": -3,
+    "last_match_date": "2012-08-05",
+    "recent_results": [
+      {
+        "date": "2008-01-02",
+        "won": false,
+        "sets_for": 2,
+        "sets_against": 3
+      },
+      {
+        "date": "2009-01-03",
+        "won": true,
+        "sets_for": 3,
+        "sets_against": 1
+      },
+      {
+        "date": "2009-01-04",
+        "won": false,
+        "sets_for": 0,
+        "sets_against": 3
+      },
+      {
+        "date": "2012-07-28",
+        "won": false,
+        "sets_for": 0,
+        "sets_against": 3
+      },
+      {
+        "date": "2012-07-30",
+        "won": true,
+        "sets_for": 3,
+        "sets_against": 2
+      },
+      {
+        "date": "2012-08-01",
+        "won": false,
+        "sets_for": 0,
+        "sets_against": 3
+      },
+      {
+        "date": "2012-08-03",
+        "won": false,
+        "sets_for": 0,
+        "sets_against": 3
+      },
+      {
+        "date": "2012-08-05",
+        "won": false,
+        "sets_for": 0,
+        "sets_against": 3
+      }
+    ]
+  },
+  "PRT": {
+    "team": "PRT",
+    "matches_played": 23,
+    "current_streak": 1,
+    "last_match_date": "2026-08-26",
+    "recent_results": [
+      {
+        "date": "2022-09-07",
+        "won": true,
+        "sets_for": 3,
+        "sets_against": 0
+      },
+      {
+        "date": "2022-09-10",
+        "won": false,
+        "sets_for": 0,
+        "sets_against": 3
+      },
+      {
+        "date": "2024-08-17",
+        "won": true,
+        "sets_for": 3,
+        "sets_against": 0
+      },
+      {
+        "date": "2024-08-25",
+        "won": false,
+        "sets_for": 0,
+        "sets_against": 3
+      },
+      {
+        "date": "2025-08-06",
+        "won": false,
+        "sets_for": 2,
+        "sets_against": 3
+      },
+      {
+        "date": "2025-08-10",
+        "won": true,
+        "sets_for": 3,
+        "sets_against": 0
+      },
+      {
+        "date": "2026-08-21",
+        "won": false,
+        "sets_for": 1,
+        "sets_against": 3
+      },
+      {
+        "date": "2026-08-23",
+        "won": false,
+        "sets_for": 0,
+        "sets_against": 3
+      },
+      {
+        "date": "2026-08-24",
+        "won": false,
+        "sets_for": 0,
+        "sets_against": 3
+      },
+      {
+        "date": "2026-08-26",
+        "won": true,
+        "sets_for": 3,
+        "sets_against": 1
+      }
+    ]
+  },
+  "DZA": {
+    "team": "DZA",
+    "matches_played": 54,
+    "current_streak": 2,
+    "last_match_date": "2026-08-27",
+    "recent_results": [
+      {
+        "date": "2023-08-17",
+        "won": true,
+        "sets_for": 3,
+        "sets_against": 0
+      },
+      {
+        "date": "2023-08-18",
+        "won": true,
+        "sets_for": 3,
+        "sets_against": 0
+      },
+      {
+        "date": "2023-08-19",
+        "won": false,
+        "sets_for": 0,
+        "sets_against": 3
+      },
+      {
+        "date": "2023-08-20",
+        "won": true,
+        "sets_for": 3,
+        "sets_against": 2
+      },
+      {
+        "date": "2023-08-22",
+        "won": false,
+        "sets_for": 2,
+        "sets_against": 3
+      },
+      {
+        "date": "2023-08-23",
+        "won": true,
+        "sets_for": 3,
+        "sets_against": 0
+      },
+      {
+        "date": "2023-08-24",
+        "won": true,
+        "sets_for": 3,
+        "sets_against": 1
+      },
+      {
+        "date": "2026-08-25",
+        "won": false,
+        "sets_for": 0,
+        "sets_against": 3
+      },
+      {
+        "date": "2026-08-26",
+        "won": true,
+        "sets_for": 3,
+        "sets_against": 0
+      },
+      {
+        "date": "2026-08-27",
+        "won": true,
+        "sets_for": 3,
+        "sets_against": 0
+      }
+    ]
+  },
+  "VEN": {
+    "team": "VEN",
+    "matches_played": 23,
+    "current_streak": 3,
+    "last_match_date": "2019-09-01",
+    "recent_results": [
+      {
+        "date": "2009-07-25",
+        "won": false,
+        "sets_for": 0,
+        "sets_against": 3
+      },
+      {
+        "date": "2009-07-26",
+        "won": true,
+        "sets_for": 3,
+        "sets_against": 1
+      },
+      {
+        "date": "2012-05-11",
+        "won": true,
+        "sets_for": 3,
+        "sets_against": 0
+      },
+      {
+        "date": "2012-05-12",
+        "won": false,
+        "sets_for": 0,
+        "sets_against": 3
+      },
+      {
+        "date": "2012-05-13",
+        "won": true,
+        "sets_for": 3,
+        "sets_against": 2
+      },
+      {
+        "date": "2019-08-28",
+        "won": false,
+        "sets_for": 0,
+        "sets_against": 3
+      },
+      {
+        "date": "2019-08-29",
+        "won": false,
+        "sets_for": 0,
+        "sets_against": 3
+      },
+      {
+        "date": "2019-08-30",
+        "won": true,
+        "sets_for": 3,
+        "sets_against": 2
+      },
+      {
+        "date": "2019-08-31",
+        "won": true,
+        "sets_for": 3,
+        "sets_against": 0
+      },
+      {
+        "date": "2019-09-01",
+        "won": true,
+        "sets_for": 3,
+        "sets_against": 0
+      }
+    ]
+  },
+  "GTM": {
+    "team": "GTM",
+    "matches_played": 19,
+    "current_streak": 1,
+    "last_match_date": "2017-10-15",
+    "recent_results": [
+      {
+        "date": "2014-05-16",
+        "won": true,
+        "sets_for": 3,
+        "sets_against": 1
+      },
+      {
+        "date": "2014-05-17",
+        "won": false,
+        "sets_for": 2,
+        "sets_against": 3
+      },
+      {
+        "date": "2014-05-18",
+        "won": true,
+        "sets_for": 3,
+        "sets_against": 2
+      },
+      {
+        "date": "2016-11-30",
+        "won": true,
+        "sets_for": 3,
+        "sets_against": 2
+      },
+      {
+        "date": "2016-12-01",
+        "won": true,
+        "sets_for": 3,
+        "sets_against": 0
+      },
+      {
+        "date": "2016-12-02",
+        "won": true,
+        "sets_for": 3,
+        "sets_against": 0
+      },
+      {
+        "date": "2016-12-03",
+        "won": false,
+        "sets_for": 0,
+        "sets_against": 3
+      },
+      {
+        "date": "2017-10-13",
+        "won": false,
+        "sets_for": 0,
+        "sets_against": 3
+      },
+      {
+        "date": "2017-10-14",
+        "won": false,
+        "sets_for": 0,
+        "sets_against": 3
+      },
+      {
+        "date": "2017-10-15",
+        "won": true,
+        "sets_for": 3,
+        "sets_against": 0
+      }
+    ]
+  },
+  "HND": {
+    "team": "HND",
+    "matches_played": 19,
+    "current_streak": -14,
+    "last_match_date": "2016-12-04",
+    "recent_results": [
+      {
+        "date": "2012-05-05",
+        "won": false,
+        "sets_for": 0,
+        "sets_against": 3
+      },
+      {
+        "date": "2012-05-18",
+        "won": false,
+        "sets_for": 0,
+        "sets_against": 3
+      },
+      {
+        "date": "2014-05-15",
+        "won": false,
+        "sets_for": 1,
+        "sets_against": 3
+      },
+      {
+        "date": "2014-05-16",
+        "won": false,
+        "sets_for": 1,
+        "sets_against": 3
+      },
+      {
+        "date": "2014-05-17",
+        "won": false,
+        "sets_for": 0,
+        "sets_against": 3
+      },
+      {
+        "date": "2014-05-18",
+        "won": false,
+        "sets_for": 2,
+        "sets_against": 3
+      },
+      {
+        "date": "2016-11-30",
+        "won": false,
+        "sets_for": 2,
+        "sets_against": 3
+      },
+      {
+        "date": "2016-12-02",
+        "won": false,
+        "sets_for": 0,
+        "sets_against": 3
+      },
+      {
+        "date": "2016-12-03",
+        "won": false,
+        "sets_for": 2,
+        "sets_against": 3
+      },
+      {
+        "date": "2016-12-04",
+        "won": false,
+        "sets_for": 1,
+        "sets_against": 3
+      }
+    ]
+  },
+  "BLZ": {
+    "team": "BLZ",
+    "matches_played": 9,
+    "current_streak": 1,
+    "last_match_date": "2013-05-12",
+    "recent_results": [
+      {
+        "date": "2008-12-09",
+        "won": false,
+        "sets_for": 0,
+        "sets_against": 3
+      },
+      {
+        "date": "2008-12-10",
+        "won": false,
+        "sets_for": 0,
+        "sets_against": 3
+      },
+      {
+        "date": "2008-12-11",
+        "won": false,
+        "sets_for": 0,
+        "sets_against": 3
+      },
+      {
+        "date": "2008-12-12",
+        "won": false,
+        "sets_for": 0,
+        "sets_against": 3
+      },
+      {
+        "date": "2008-12-13",
+        "won": false,
+        "sets_for": 1,
+        "sets_against": 3
+      },
+      {
+        "date": "2013-05-11",
+        "won": true,
+        "sets_for": 3,
+        "sets_against": 1
+      },
+      {
+        "date": "2013-05-11",
+        "won": false,
+        "sets_for": 1,
+        "sets_against": 3
+      },
+      {
+        "date": "2013-05-12",
+        "won": false,
+        "sets_for": 0,
+        "sets_against": 3
+      },
+      {
+        "date": "2013-05-12",
+        "won": true,
+        "sets_for": 3,
+        "sets_against": 0
+      }
+    ]
+  },
+  "SLV": {
+    "team": "SLV",
+    "matches_played": 11,
+    "current_streak": -1,
+    "last_match_date": "2016-12-04",
+    "recent_results": [
+      {
+        "date": "2008-12-10",
+        "won": true,
+        "sets_for": 3,
+        "sets_against": 0
+      },
+      {
+        "date": "2008-12-11",
+        "won": false,
+        "sets_for": 0,
+        "sets_against": 3
+      },
+      {
+        "date": "2008-12-12",
+        "won": false,
+        "sets_for": 0,
+        "sets_against": 3
+      },
+      {
+        "date": "2008-12-13",
+        "won": false,
+        "sets_for": 0,
+        "sets_against": 3
+      },
+      {
+        "date": "2014-05-15",
+        "won": false,
+        "sets_for": 0,
+        "sets_against": 3
+      },
+      {
+        "date": "2014-05-16",
+        "won": false,
+        "sets_for": 0,
+        "sets_against": 3
+      },
+      {
+        "date": "2016-11-30",
+        "won": false,
+        "sets_for": 0,
+        "sets_against": 3
+      },
+      {
+        "date": "2016-12-01",
+        "won": false,
+        "sets_for": 0,
+        "sets_against": 3
+      },
+      {
+        "date": "2016-12-03",
+        "won": true,
+        "sets_for": 3,
+        "sets_against": 2
+      },
+      {
+        "date": "2016-12-04",
+        "won": false,
+        "sets_for": 0,
+        "sets_against": 3
+      }
+    ]
+  },
+  "PAN": {
+    "team": "PAN",
+    "matches_played": 22,
+    "current_streak": 1,
+    "last_match_date": "2016-12-04",
+    "recent_results": [
+      {
+        "date": "2014-05-17",
+        "won": true,
+        "sets_for": 3,
+        "sets_against": 2
+      },
+      {
+        "date": "2014-05-18",
+        "won": false,
+        "sets_for": 0,
+        "sets_against": 3
+      },
+      {
+        "date": "2014-07-16",
+        "won": false,
+        "sets_for": 0,
+        "sets_against": 3
+      },
+      {
+        "date": "2014-07-17",
+        "won": false,
+        "sets_for": 0,
+        "sets_against": 3
+      },
+      {
+        "date": "2014-07-18",
+        "won": false,
+        "sets_for": 1,
+        "sets_against": 3
+      },
+      {
+        "date": "2014-07-19",
+        "won": false,
+        "sets_for": 1,
+        "sets_against": 3
+      },
+      {
+        "date": "2016-11-30",
+        "won": true,
+        "sets_for": 3,
+        "sets_against": 0
+      },
+      {
+        "date": "2016-12-01",
+        "won": false,
+        "sets_for": 1,
+        "sets_against": 3
+      },
+      {
+        "date": "2016-12-02",
+        "won": false,
+        "sets_for": 0,
+        "sets_against": 3
+      },
+      {
+        "date": "2016-12-04",
+        "won": true,
+        "sets_for": 3,
+        "sets_against": 1
+      }
+    ]
+  },
+  "NIC": {
+    "team": "NIC",
+    "matches_played": 24,
+    "current_streak": -2,
+    "last_match_date": "2018-05-18",
+    "recent_results": [
+      {
+        "date": "2014-07-20",
+        "won": false,
+        "sets_for": 1,
+        "sets_against": 3
+      },
+      {
+        "date": "2016-12-01",
+        "won": true,
+        "sets_for": 3,
+        "sets_against": 1
+      },
+      {
+        "date": "2016-12-02",
+        "won": true,
+        "sets_for": 3,
+        "sets_against": 0
+      },
+      {
+        "date": "2016-12-03",
+        "won": true,
+        "sets_for": 3,
+        "sets_against": 0
+      },
+      {
+        "date": "2016-12-04",
+        "won": true,
+        "sets_for": 3,
+        "sets_against": 0
+      },
+      {
+        "date": "2017-09-28",
+        "won": false,
+        "sets_for": 0,
+        "sets_against": 3
+      },
+      {
+        "date": "2017-09-29",
+        "won": false,
+        "sets_for": 0,
+        "sets_against": 3
+      },
+      {
+        "date": "2017-09-30",
+        "won": true,
+        "sets_for": 3,
+        "sets_against": 0
+      },
+      {
+        "date": "2018-05-17",
+        "won": false,
+        "sets_for": 0,
+        "sets_against": 3
+      },
+      {
+        "date": "2018-05-18",
+        "won": false,
+        "sets_for": 0,
+        "sets_against": 3
+      }
+    ]
+  },
+  "MNE": {
+    "team": "MNE",
+    "matches_played": 23,
+    "current_streak": -4,
+    "last_match_date": "2026-08-26",
+    "recent_results": [
+      {
+        "date": "2022-09-07",
+        "won": true,
+        "sets_for": 3,
+        "sets_against": 0
+      },
+      {
+        "date": "2022-09-10",
+        "won": false,
+        "sets_for": 1,
+        "sets_against": 3
+      },
+      {
+        "date": "2024-08-17",
+        "won": false,
+        "sets_for": 2,
+        "sets_against": 3
+      },
+      {
+        "date": "2024-08-25",
+        "won": true,
+        "sets_for": 3,
+        "sets_against": 0
+      },
+      {
+        "date": "2025-08-06",
+        "won": true,
+        "sets_for": 3,
+        "sets_against": 0
+      },
+      {
+        "date": "2025-08-10",
+        "won": true,
+        "sets_for": 3,
+        "sets_against": 1
+      },
+      {
+        "date": "2026-08-21",
+        "won": false,
+        "sets_for": 0,
+        "sets_against": 3
+      },
+      {
+        "date": "2026-08-22",
+        "won": false,
+        "sets_for": 0,
+        "sets_against": 3
+      },
+      {
+        "date": "2026-08-24",
+        "won": false,
+        "sets_for": 0,
+        "sets_against": 3
+      },
+      {
+        "date": "2026-08-26",
+        "won": false,
+        "sets_for": 0,
+        "sets_against": 3
+      }
+    ]
+  },
+  "ISR": {
+    "team": "ISR",
+    "matches_played": 22,
+    "current_streak": 1,
+    "last_match_date": "2025-08-09",
+    "recent_results": [
+      {
+        "date": "2022-08-20",
+        "won": false,
+        "sets_for": 0,
+        "sets_against": 3
+      },
+      {
+        "date": "2022-08-24",
+        "won": false,
+        "sets_for": 1,
+        "sets_against": 3
+      },
+      {
+        "date": "2022-08-27",
+        "won": true,
+        "sets_for": 3,
+        "sets_against": 0
+      },
+      {
+        "date": "2022-09-04",
+        "won": true,
+        "sets_for": 3,
+        "sets_against": 0
+      },
+      {
+        "date": "2022-09-07",
+        "won": false,
+        "sets_for": 2,
+        "sets_against": 3
+      },
+      {
+        "date": "2022-09-11",
+        "won": false,
+        "sets_for": 2,
+        "sets_against": 3
+      },
+      {
+        "date": "2024-08-17",
+        "won": true,
+        "sets_for": 3,
+        "sets_against": 1
+      },
+      {
+        "date": "2024-08-27",
+        "won": false,
+        "sets_for": 0,
+        "sets_against": 3
+      },
+      {
+        "date": "2025-08-06",
+        "won": false,
+        "sets_for": 0,
+        "sets_against": 3
+      },
+      {
+        "date": "2025-08-09",
+        "won": true,
+        "sets_for": 3,
+        "sets_against": 0
+      }
+    ]
+  },
+  "AUT": {
+    "team": "AUT",
+    "matches_played": 24,
+    "current_streak": -5,
+    "last_match_date": "2026-08-26",
+    "recent_results": [
+      {
+        "date": "2022-09-10",
+        "won": false,
+        "sets_for": 1,
+        "sets_against": 3
+      },
+      {
+        "date": "2024-08-17",
+        "won": true,
+        "sets_for": 3,
+        "sets_against": 0
+      },
+      {
+        "date": "2024-08-25",
+        "won": false,
+        "sets_for": 0,
+        "sets_against": 3
+      },
+      {
+        "date": "2025-08-06",
+        "won": false,
+        "sets_for": 1,
+        "sets_against": 3
+      },
+      {
+        "date": "2025-08-09",
+        "won": true,
+        "sets_for": 3,
+        "sets_against": 0
+      },
+      {
+        "date": "2026-08-21",
+        "won": false,
+        "sets_for": 0,
+        "sets_against": 3
+      },
+      {
+        "date": "2026-08-22",
+        "won": false,
+        "sets_for": 0,
+        "sets_against": 3
+      },
+      {
+        "date": "2026-08-24",
+        "won": false,
+        "sets_for": 0,
+        "sets_against": 3
+      },
+      {
+        "date": "2026-08-25",
+        "won": false,
+        "sets_for": 1,
+        "sets_against": 3
+      },
+      {
+        "date": "2026-08-26",
+        "won": false,
+        "sets_for": 2,
+        "sets_against": 3
+      }
+    ]
+  },
+  "HUN": {
+    "team": "HUN",
+    "matches_played": 36,
+    "current_streak": -3,
+    "last_match_date": "2026-08-25",
+    "recent_results": [
+      {
+        "date": "2023-08-20",
+        "won": false,
+        "sets_for": 1,
+        "sets_against": 3
+      },
+      {
+        "date": "2023-08-22",
+        "won": false,
+        "sets_for": 0,
+        "sets_against": 3
+      },
+      {
+        "date": "2023-08-23",
+        "won": false,
+        "sets_for": 1,
+        "sets_against": 3
+      },
+      {
+        "date": "2024-08-17",
+        "won": true,
+        "sets_for": 3,
+        "sets_against": 2
+      },
+      {
+        "date": "2024-08-24",
+        "won": true,
+        "sets_for": 3,
+        "sets_against": 0
+      },
+      {
+        "date": "2025-08-06",
+        "won": false,
+        "sets_for": 0,
+        "sets_against": 3
+      },
+      {
+        "date": "2025-08-10",
+        "won": true,
+        "sets_for": 3,
+        "sets_against": 0
+      },
+      {
+        "date": "2026-08-22",
+        "won": false,
+        "sets_for": 0,
+        "sets_against": 3
+      },
+      {
+        "date": "2026-08-24",
+        "won": false,
+        "sets_for": 0,
+        "sets_against": 3
+      },
+      {
+        "date": "2026-08-25",
+        "won": false,
+        "sets_for": 0,
+        "sets_against": 3
+      }
+    ]
+  },
+  "SVN": {
+    "team": "SVN",
+    "matches_played": 39,
+    "current_streak": 1,
+    "last_match_date": "2026-08-26",
+    "recent_results": [
+      {
+        "date": "2025-08-02",
+        "won": true,
+        "sets_for": 3,
+        "sets_against": 0
+      },
+      {
+        "date": "2025-08-06",
+        "won": true,
+        "sets_for": 3,
+        "sets_against": 0
+      },
+      {
+        "date": "2025-08-22",
+        "won": false,
+        "sets_for": 1,
+        "sets_against": 3
+      },
+      {
+        "date": "2025-08-24",
+        "won": false,
+        "sets_for": 2,
+        "sets_against": 3
+      },
+      {
+        "date": "2025-08-26",
+        "won": true,
+        "sets_for": 3,
+        "sets_against": 0
+      },
+      {
+        "date": "2025-09-01",
+        "won": false,
+        "sets_for": 0,
+        "sets_against": 3
+      },
+      {
+        "date": "2026-08-22",
+        "won": true,
+        "sets_for": 3,
+        "sets_against": 0
+      },
+      {
+        "date": "2026-08-23",
+        "won": false,
+        "sets_for": 1,
+        "sets_against": 3
+      },
+      {
+        "date": "2026-08-25",
+        "won": false,
+        "sets_for": 0,
+        "sets_against": 3
+      },
+      {
+        "date": "2026-08-26",
+        "won": true,
+        "sets_for": 3,
+        "sets_against": 2
+      }
+    ]
+  },
+  "BIH": {
+    "team": "BIH",
+    "matches_played": 29,
+    "current_streak": -1,
+    "last_match_date": "2025-08-06",
+    "recent_results": [
+      {
+        "date": "2022-09-10",
+        "won": true,
+        "sets_for": 3,
+        "sets_against": 0
+      },
+      {
+        "date": "2023-08-16",
+        "won": true,
+        "sets_for": 3,
+        "sets_against": 2
+      },
+      {
+        "date": "2023-08-17",
+        "won": false,
+        "sets_for": 1,
+        "sets_against": 3
+      },
+      {
+        "date": "2023-08-18",
+        "won": true,
+        "sets_for": 3,
+        "sets_against": 2
+      },
+      {
+        "date": "2023-08-21",
+        "won": false,
+        "sets_for": 2,
+        "sets_against": 3
+      },
+      {
+        "date": "2023-08-22",
+        "won": false,
+        "sets_for": 0,
+        "sets_against": 3
+      },
+      {
+        "date": "2024-08-25",
+        "won": false,
+        "sets_for": 0,
+        "sets_against": 3
+      },
+      {
+        "date": "2024-08-28",
+        "won": false,
+        "sets_for": 0,
+        "sets_against": 3
+      },
+      {
+        "date": "2025-08-02",
+        "won": true,
+        "sets_for": 3,
+        "sets_against": 2
+      },
+      {
+        "date": "2025-08-06",
+        "won": false,
+        "sets_for": 0,
+        "sets_against": 3
+      }
+    ]
+  },
+  "DNK": {
+    "team": "DNK",
+    "matches_played": 19,
+    "current_streak": -5,
+    "last_match_date": "2025-08-10",
+    "recent_results": [
+      {
+        "date": "2022-08-20",
+        "won": false,
+        "sets_for": 0,
+        "sets_against": 3
+      },
+      {
+        "date": "2022-08-24",
+        "won": false,
+        "sets_for": 2,
+        "sets_against": 3
+      },
+      {
+        "date": "2022-08-27",
+        "won": false,
+        "sets_for": 0,
+        "sets_against": 3
+      },
+      {
+        "date": "2022-09-04",
+        "won": false,
+        "sets_for": 0,
+        "sets_against": 3
+      },
+      {
+        "date": "2022-09-07",
+        "won": true,
+        "sets_for": 3,
+        "sets_against": 0
+      },
+      {
+        "date": "2022-09-11",
+        "won": false,
+        "sets_for": 0,
+        "sets_against": 3
+      },
+      {
+        "date": "2024-08-17",
+        "won": false,
+        "sets_for": 2,
+        "sets_against": 3
+      },
+      {
+        "date": "2024-08-28",
+        "won": false,
+        "sets_for": 0,
+        "sets_against": 3
+      },
+      {
+        "date": "2025-08-03",
+        "won": false,
+        "sets_for": 0,
+        "sets_against": 3
+      },
+      {
+        "date": "2025-08-10",
+        "won": false,
+        "sets_for": 0,
+        "sets_against": 3
+      }
+    ]
+  },
+  "MDA": {
+    "team": "MDA",
+    "matches_played": 7,
+    "current_streak": -4,
+    "last_match_date": "2009-05-17",
+    "recent_results": [
+      {
+        "date": "2009-01-09",
+        "won": true,
+        "sets_for": 3,
+        "sets_against": 0
+      },
+      {
+        "date": "2009-01-10",
+        "won": true,
+        "sets_for": 3,
+        "sets_against": 2
+      },
+      {
+        "date": "2009-01-11",
+        "won": true,
+        "sets_for": 3,
+        "sets_against": 0
+      },
+      {
+        "date": "2009-05-13",
+        "won": false,
+        "sets_for": 0,
+        "sets_against": 3
+      },
+      {
+        "date": "2009-05-14",
+        "won": false,
+        "sets_for": 0,
+        "sets_against": 3
+      },
+      {
+        "date": "2009-05-15",
+        "won": false,
+        "sets_for": 0,
+        "sets_against": 3
+      },
+      {
+        "date": "2009-05-17",
+        "won": false,
+        "sets_for": 1,
+        "sets_against": 3
+      }
+    ]
+  },
+  "GEO": {
+    "team": "GEO",
+    "matches_played": 19,
+    "current_streak": -17,
+    "last_match_date": "2025-08-10",
+    "recent_results": [
+      {
+        "date": "2022-08-20",
+        "won": false,
+        "sets_for": 0,
+        "sets_against": 3
+      },
+      {
+        "date": "2022-08-24",
+        "won": false,
+        "sets_for": 0,
+        "sets_against": 3
+      },
+      {
+        "date": "2022-08-27",
+        "won": false,
+        "sets_for": 0,
+        "sets_against": 3
+      },
+      {
+        "date": "2022-09-03",
+        "won": false,
+        "sets_for": 0,
+        "sets_against": 3
+      },
+      {
+        "date": "2022-09-07",
+        "won": false,
+        "sets_for": 0,
+        "sets_against": 3
+      },
+      {
+        "date": "2022-09-10",
+        "won": false,
+        "sets_for": 0,
+        "sets_against": 3
+      },
+      {
+        "date": "2024-08-17",
+        "won": false,
+        "sets_for": 0,
+        "sets_against": 3
+      },
+      {
+        "date": "2024-08-28",
+        "won": false,
+        "sets_for": 0,
+        "sets_against": 3
+      },
+      {
+        "date": "2025-08-02",
+        "won": false,
+        "sets_for": 0,
+        "sets_against": 3
+      },
+      {
+        "date": "2025-08-10",
+        "won": false,
+        "sets_for": 0,
+        "sets_against": 3
+      }
+    ]
+  },
+  "EST": {
+    "team": "EST",
+    "matches_played": 16,
+    "current_streak": -13,
+    "last_match_date": "2025-08-09",
+    "recent_results": [
+      {
+        "date": "2021-05-14",
+        "won": false,
+        "sets_for": 1,
+        "sets_against": 3
+      },
+      {
+        "date": "2023-08-16",
+        "won": false,
+        "sets_for": 0,
+        "sets_against": 3
+      },
+      {
+        "date": "2023-08-19",
+        "won": false,
+        "sets_for": 2,
+        "sets_against": 3
+      },
+      {
+        "date": "2023-08-20",
+        "won": false,
+        "sets_for": 0,
+        "sets_against": 3
+      },
+      {
+        "date": "2023-08-22",
+        "won": false,
+        "sets_for": 1,
+        "sets_against": 3
+      },
+      {
+        "date": "2023-08-23",
+        "won": false,
+        "sets_for": 1,
+        "sets_against": 3
+      },
+      {
+        "date": "2024-08-17",
+        "won": false,
+        "sets_for": 1,
+        "sets_against": 3
+      },
+      {
+        "date": "2024-08-29",
+        "won": false,
+        "sets_for": 0,
+        "sets_against": 3
+      },
+      {
+        "date": "2025-08-02",
+        "won": false,
+        "sets_for": 0,
+        "sets_against": 3
+      },
+      {
+        "date": "2025-08-09",
+        "won": false,
+        "sets_for": 0,
+        "sets_against": 3
+      }
+    ]
+  },
+  "ATG": {
+    "team": "ATG",
+    "matches_played": 8,
+    "current_streak": -6,
+    "last_match_date": "2013-05-12",
+    "recent_results": [
+      {
+        "date": "2009-03-27",
+        "won": true,
+        "sets_for": 3,
+        "sets_against": 0
+      },
+      {
+        "date": "2009-03-28",
+        "won": true,
+        "sets_for": 3,
+        "sets_against": 0
+      },
+      {
+        "date": "2009-03-29",
+        "won": false,
+        "sets_for": 1,
+        "sets_against": 3
+      },
+      {
+        "date": "2012-06-09",
+        "won": false,
+        "sets_for": 1,
+        "sets_against": 3
+      },
+      {
+        "date": "2013-05-11",
+        "won": false,
+        "sets_for": 1,
+        "sets_against": 3
+      },
+      {
+        "date": "2013-05-11",
+        "won": false,
+        "sets_for": 0,
+        "sets_against": 3
+      },
+      {
+        "date": "2013-05-12",
+        "won": false,
+        "sets_for": 0,
+        "sets_against": 3
+      },
+      {
+        "date": "2013-05-12",
+        "won": false,
+        "sets_for": 0,
+        "sets_against": 3
+      }
+    ]
+  },
+  "VCT": {
+    "team": "VCT",
+    "matches_played": 3,
+    "current_streak": 1,
+    "last_match_date": "2009-03-29",
+    "recent_results": [
+      {
+        "date": "2009-03-27",
+        "won": false,
+        "sets_for": 0,
+        "sets_against": 3
+      },
+      {
+        "date": "2009-03-28",
+        "won": false,
+        "sets_for": 0,
+        "sets_against": 3
+      },
+      {
+        "date": "2009-03-29",
+        "won": true,
+        "sets_for": 3,
+        "sets_against": 0
+      }
+    ]
+  },
+  "LCA": {
+    "team": "LCA",
+    "matches_played": 17,
+    "current_streak": -7,
+    "last_match_date": "2017-09-30",
+    "recent_results": [
+      {
+        "date": "2013-05-11",
+        "won": false,
+        "sets_for": 0,
+        "sets_against": 3
+      },
+      {
+        "date": "2013-05-11",
+        "won": true,
+        "sets_for": 3,
+        "sets_against": 1
+      },
+      {
+        "date": "2013-05-12",
+        "won": true,
+        "sets_for": 3,
+        "sets_against": 0
+      },
+      {
+        "date": "2013-05-12",
+        "won": false,
+        "sets_for": 0,
+        "sets_against": 3
+      },
+      {
+        "date": "2013-09-16",
+        "won": false,
+        "sets_for": 0,
+        "sets_against": 3
+      },
+      {
+        "date": "2013-09-17",
+        "won": false,
+        "sets_for": 0,
+        "sets_against": 3
+      },
+      {
+        "date": "2013-09-19",
+        "won": false,
+        "sets_for": 0,
+        "sets_against": 3
+      },
+      {
+        "date": "2017-09-28",
+        "won": false,
+        "sets_for": 0,
+        "sets_against": 3
+      },
+      {
+        "date": "2017-09-29",
+        "won": false,
+        "sets_for": 0,
+        "sets_against": 3
+      },
+      {
+        "date": "2017-09-30",
+        "won": false,
+        "sets_for": 0,
+        "sets_against": 3
+      }
+    ]
+  },
+  "GRD": {
+    "team": "GRD",
+    "matches_played": 3,
+    "current_streak": -3,
+    "last_match_date": "2009-03-29",
+    "recent_results": [
+      {
+        "date": "2009-03-27",
+        "won": false,
+        "sets_for": 0,
+        "sets_against": 3
+      },
+      {
+        "date": "2009-03-28",
+        "won": false,
+        "sets_for": 0,
+        "sets_against": 3
+      },
+      {
+        "date": "2009-03-29",
+        "won": false,
+        "sets_for": 0,
+        "sets_against": 3
+      }
+    ]
+  },
+  "DMA": {
+    "team": "DMA",
+    "matches_played": 8,
+    "current_streak": -3,
+    "last_match_date": "2017-10-15",
+    "recent_results": [
+      {
+        "date": "2009-04-15",
+        "won": false,
+        "sets_for": 0,
+        "sets_against": 3
+      },
+      {
+        "date": "2009-04-16",
+        "won": true,
+        "sets_for": 3,
+        "sets_against": 1
+      },
+      {
+        "date": "2009-04-18",
+        "won": false,
+        "sets_for": 0,
+        "sets_against": 3
+      },
+      {
+        "date": "2009-04-19",
+        "won": true,
+        "sets_for": 3,
+        "sets_against": 0
+      },
+      {
+        "date": "2012-06-09",
+        "won": true,
+        "sets_for": 3,
+        "sets_against": 1
+      },
+      {
+        "date": "2017-10-13",
+        "won": false,
+        "sets_for": 0,
+        "sets_against": 3
+      },
+      {
+        "date": "2017-10-14",
+        "won": false,
+        "sets_for": 0,
+        "sets_against": 3
+      },
+      {
+        "date": "2017-10-15",
+        "won": false,
+        "sets_for": 0,
+        "sets_against": 3
+      }
+    ]
+  },
+  "BMU": {
+    "team": "BMU",
+    "matches_played": 10,
+    "current_streak": -5,
+    "last_match_date": "2012-07-28",
+    "recent_results": [
+      {
+        "date": "2009-04-15",
+        "won": true,
+        "sets_for": 3,
+        "sets_against": 0
+      },
+      {
+        "date": "2009-04-16",
+        "won": true,
+        "sets_for": 3,
+        "sets_against": 0
+      },
+      {
+        "date": "2009-04-17",
+        "won": true,
+        "sets_for": 3,
+        "sets_against": 0
+      },
+      {
+        "date": "2009-04-19",
+        "won": true,
+        "sets_for": 3,
+        "sets_against": 0
+      },
+      {
+        "date": "2009-06-02",
+        "won": true,
+        "sets_for": 3,
+        "sets_against": 0
+      },
+      {
+        "date": "2009-06-04",
+        "won": false,
+        "sets_for": 2,
+        "sets_against": 3
+      },
+      {
+        "date": "2009-06-05",
+        "won": false,
+        "sets_for": 0,
+        "sets_against": 3
+      },
+      {
+        "date": "2009-06-06",
+        "won": false,
+        "sets_for": 2,
+        "sets_against": 3
+      },
+      {
+        "date": "2012-07-27",
+        "won": false,
+        "sets_for": 0,
+        "sets_against": 3
+      },
+      {
+        "date": "2012-07-28",
+        "won": false,
+        "sets_for": 0,
+        "sets_against": 3
+      }
+    ]
+  },
+  "VGB": {
+    "team": "VGB",
+    "matches_played": 7,
+    "current_streak": -7,
+    "last_match_date": "2023-06-11",
+    "recent_results": [
+      {
+        "date": "2009-04-16",
+        "won": false,
+        "sets_for": 0,
+        "sets_against": 3
+      },
+      {
+        "date": "2009-04-17",
+        "won": false,
+        "sets_for": 0,
+        "sets_against": 3
+      },
+      {
+        "date": "2009-04-18",
+        "won": false,
+        "sets_for": 0,
+        "sets_against": 3
+      },
+      {
+        "date": "2009-04-19",
+        "won": false,
+        "sets_for": 0,
+        "sets_against": 3
+      },
+      {
+        "date": "2023-06-09",
+        "won": false,
+        "sets_for": 0,
+        "sets_against": 3
+      },
+      {
+        "date": "2023-06-10",
+        "won": false,
+        "sets_for": 0,
+        "sets_against": 3
+      },
+      {
+        "date": "2023-06-11",
+        "won": false,
+        "sets_for": 0,
+        "sets_against": 3
+      }
+    ]
+  },
+  "KNA": {
+    "team": "KNA",
+    "matches_played": 7,
+    "current_streak": 4,
+    "last_match_date": "2012-07-28",
+    "recent_results": [
+      {
+        "date": "2009-04-16",
+        "won": true,
+        "sets_for": 3,
+        "sets_against": 0
+      },
+      {
+        "date": "2009-04-16",
+        "won": false,
+        "sets_for": 0,
+        "sets_against": 3
+      },
+      {
+        "date": "2009-04-17",
+        "won": false,
+        "sets_for": 1,
+        "sets_against": 3
+      },
+      {
+        "date": "2009-04-18",
+        "won": true,
+        "sets_for": 3,
+        "sets_against": 0
+      },
+      {
+        "date": "2012-07-27",
+        "won": true,
+        "sets_for": 3,
+        "sets_against": 0
+      },
+      {
+        "date": "2012-07-28",
+        "won": true,
+        "sets_for": 3,
+        "sets_against": 0
+      },
+      {
+        "date": "2012-07-28",
+        "won": true,
+        "sets_for": 3,
+        "sets_against": 0
+      }
+    ]
+  },
+  "AIA": {
+    "team": "AIA",
+    "matches_played": 7,
+    "current_streak": -2,
+    "last_match_date": "2012-07-28",
+    "recent_results": [
+      {
+        "date": "2009-04-16",
+        "won": false,
+        "sets_for": 1,
+        "sets_against": 3
+      },
+      {
+        "date": "2009-04-17",
+        "won": true,
+        "sets_for": 3,
+        "sets_against": 1
+      },
+      {
+        "date": "2009-04-18",
+        "won": true,
+        "sets_for": 3,
+        "sets_against": 0
+      },
+      {
+        "date": "2009-04-19",
+        "won": false,
+        "sets_for": 0,
+        "sets_against": 3
+      },
+      {
+        "date": "2012-07-27",
+        "won": true,
+        "sets_for": 3,
+        "sets_against": 0
+      },
+      {
+        "date": "2012-07-27",
+        "won": false,
+        "sets_for": 0,
+        "sets_against": 3
+      },
+      {
+        "date": "2012-07-28",
+        "won": false,
+        "sets_for": 0,
+        "sets_against": 3
+      }
+    ]
+  },
+  "FJI": {
+    "team": "FJI",
+    "matches_played": 9,
+    "current_streak": -3,
+    "last_match_date": "2009-07-05",
+    "recent_results": [
+      {
+        "date": "2009-04-20",
+        "won": true,
+        "sets_for": 3,
+        "sets_against": 2
+      },
+      {
+        "date": "2009-04-22",
+        "won": false,
+        "sets_for": 0,
+        "sets_against": 3
+      },
+      {
+        "date": "2009-04-23",
+        "won": true,
+        "sets_for": 3,
+        "sets_against": 0
+      },
+      {
+        "date": "2009-06-12",
+        "won": false,
+        "sets_for": 0,
+        "sets_against": 3
+      },
+      {
+        "date": "2009-06-13",
+        "won": false,
+        "sets_for": 0,
+        "sets_against": 3
+      },
+      {
+        "date": "2009-06-14",
+        "won": true,
+        "sets_for": 3,
+        "sets_against": 0
+      },
+      {
+        "date": "2009-07-03",
+        "won": false,
+        "sets_for": 0,
+        "sets_against": 3
+      },
+      {
+        "date": "2009-07-04",
+        "won": false,
+        "sets_for": 0,
+        "sets_against": 3
+      },
+      {
+        "date": "2009-07-05",
+        "won": false,
+        "sets_for": 0,
+        "sets_against": 3
+      }
+    ]
+  },
+  "WSM": {
+    "team": "WSM",
+    "matches_played": 3,
+    "current_streak": 1,
+    "last_match_date": "2009-04-22",
+    "recent_results": [
+      {
+        "date": "2009-04-20",
+        "won": false,
+        "sets_for": 2,
+        "sets_against": 3
+      },
+      {
+        "date": "2009-04-21",
+        "won": false,
+        "sets_for": 1,
+        "sets_against": 3
+      },
+      {
+        "date": "2009-04-22",
+        "won": true,
+        "sets_for": 3,
+        "sets_against": 0
+      }
+    ]
+  },
+  "NZL": {
+    "team": "NZL",
+    "matches_played": 8,
+    "current_streak": -5,
+    "last_match_date": "2009-08-30",
+    "recent_results": [
+      {
+        "date": "2009-04-21",
+        "won": true,
+        "sets_for": 3,
+        "sets_against": 1
+      },
+      {
+        "date": "2009-04-22",
+        "won": true,
+        "sets_for": 3,
+        "sets_against": 0
+      },
+      {
+        "date": "2009-04-24",
+        "won": true,
+        "sets_for": 3,
+        "sets_against": 0
+      },
+      {
+        "date": "2009-06-16",
+        "won": false,
+        "sets_for": 0,
+        "sets_against": 3
+      },
+      {
+        "date": "2009-06-17",
+        "won": false,
+        "sets_for": 0,
+        "sets_against": 3
+      },
+      {
+        "date": "2009-08-28",
+        "won": false,
+        "sets_for": 0,
+        "sets_against": 3
+      },
+      {
+        "date": "2009-08-29",
+        "won": false,
+        "sets_for": 0,
+        "sets_against": 3
+      },
+      {
+        "date": "2009-08-30",
+        "won": false,
+        "sets_for": 0,
+        "sets_against": 3
+      }
+    ]
+  },
+  "TON": {
+    "team": "TON",
+    "matches_played": 3,
+    "current_streak": -3,
+    "last_match_date": "2009-04-24",
+    "recent_results": [
+      {
+        "date": "2009-04-22",
+        "won": false,
+        "sets_for": 0,
+        "sets_against": 3
+      },
+      {
+        "date": "2009-04-23",
+        "won": false,
+        "sets_for": 0,
+        "sets_against": 3
+      },
+      {
+        "date": "2009-04-24",
+        "won": false,
+        "sets_for": 0,
+        "sets_against": 3
+      }
+    ]
+  },
+  "ROU": {
+    "team": "ROU",
+    "matches_played": 31,
+    "current_streak": -3,
+    "last_match_date": "2026-08-25",
+    "recent_results": [
+      {
+        "date": "2023-08-21",
+        "won": true,
+        "sets_for": 3,
+        "sets_against": 2
+      },
+      {
+        "date": "2023-08-22",
+        "won": false,
+        "sets_for": 2,
+        "sets_against": 3
+      },
+      {
+        "date": "2023-08-26",
+        "won": false,
+        "sets_for": 1,
+        "sets_against": 3
+      },
+      {
+        "date": "2024-08-24",
+        "won": false,
+        "sets_for": 0,
+        "sets_against": 3
+      },
+      {
+        "date": "2024-08-29",
+        "won": true,
+        "sets_for": 3,
+        "sets_against": 0
+      },
+      {
+        "date": "2025-08-02",
+        "won": true,
+        "sets_for": 3,
+        "sets_against": 0
+      },
+      {
+        "date": "2025-08-06",
+        "won": true,
+        "sets_for": 3,
+        "sets_against": 1
+      },
+      {
+        "date": "2026-08-22",
+        "won": false,
+        "sets_for": 2,
+        "sets_against": 3
+      },
+      {
+        "date": "2026-08-24",
+        "won": false,
+        "sets_for": 2,
+        "sets_against": 3
+      },
+      {
+        "date": "2026-08-25",
+        "won": false,
+        "sets_for": 0,
+        "sets_against": 3
+      }
+    ]
+  },
+  "CZE": {
+    "team": "CZE",
+    "matches_played": 77,
+    "current_streak": 1,
+    "last_match_date": "2026-08-25",
+    "recent_results": [
+      {
+        "date": "2026-06-19",
+        "won": false,
+        "sets_for": 0,
+        "sets_against": 3
+      },
+      {
+        "date": "2026-06-21",
+        "won": true,
+        "sets_for": 3,
+        "sets_against": 2
+      },
+      {
+        "date": "2026-07-08",
+        "won": false,
+        "sets_for": 1,
+        "sets_against": 3
+      },
+      {
+        "date": "2026-07-09",
+        "won": false,
+        "sets_for": 0,
+        "sets_against": 3
+      },
+      {
+        "date": "2026-07-10",
+        "won": true,
+        "sets_for": 3,
+        "sets_against": 1
+      },
+      {
+        "date": "2026-07-12",
+        "won": true,
+        "sets_for": 3,
+        "sets_against": 2
+      },
+      {
+        "date": "2026-08-21",
+        "won": true,
+        "sets_for": 3,
+        "sets_against": 1
+      },
+      {
+        "date": "2026-08-22",
+        "won": true,
+        "sets_for": 3,
+        "sets_against": 0
+      },
+      {
+        "date": "2026-08-23",
+        "won": false,
+        "sets_for": 1,
+        "sets_against": 3
+      },
+      {
+        "date": "2026-08-25",
+        "won": true,
+        "sets_for": 3,
+        "sets_against": 1
+      }
+    ]
+  },
+  "BGR": {
+    "team": "BGR",
+    "matches_played": 125,
+    "current_streak": 1,
+    "last_match_date": "2026-08-26",
+    "recent_results": [
+      {
+        "date": "2026-06-19",
+        "won": false,
+        "sets_for": 1,
+        "sets_against": 3
+      },
+      {
+        "date": "2026-06-21",
+        "won": true,
+        "sets_for": 3,
+        "sets_against": 2
+      },
+      {
+        "date": "2026-07-08",
+        "won": false,
+        "sets_for": 0,
+        "sets_against": 3
+      },
+      {
+        "date": "2026-07-10",
+        "won": false,
+        "sets_for": 1,
+        "sets_against": 3
+      },
+      {
+        "date": "2026-07-11",
+        "won": false,
+        "sets_for": 1,
+        "sets_against": 3
+      },
+      {
+        "date": "2026-07-12",
+        "won": false,
+        "sets_for": 0,
+        "sets_against": 3
+      },
+      {
+        "date": "2026-08-21",
+        "won": true,
+        "sets_for": 3,
+        "sets_against": 0
+      },
+      {
+        "date": "2026-08-23",
+        "won": false,
+        "sets_for": 1,
+        "sets_against": 3
+      },
+      {
+        "date": "2026-08-24",
+        "won": false,
+        "sets_for": 0,
+        "sets_against": 3
+      },
+      {
+        "date": "2026-08-26",
+        "won": true,
+        "sets_for": 3,
+        "sets_against": 2
+      }
+    ]
+  },
+  "ESP": {
+    "team": "ESP",
+    "matches_played": 41,
+    "current_streak": -4,
+    "last_match_date": "2026-08-26",
+    "recent_results": [
+      {
+        "date": "2024-08-28",
+        "won": true,
+        "sets_for": 3,
+        "sets_against": 0
+      },
+      {
+        "date": "2025-08-02",
+        "won": true,
+        "sets_for": 3,
+        "sets_against": 0
+      },
+      {
+        "date": "2025-08-06",
+        "won": true,
+        "sets_for": 3,
+        "sets_against": 2
+      },
+      {
+        "date": "2025-08-23",
+        "won": false,
+        "sets_for": 0,
+        "sets_against": 3
+      },
+      {
+        "date": "2025-08-25",
+        "won": false,
+        "sets_for": 2,
+        "sets_against": 3
+      },
+      {
+        "date": "2025-08-27",
+        "won": true,
+        "sets_for": 3,
+        "sets_against": 1
+      },
+      {
+        "date": "2026-08-22",
+        "won": false,
+        "sets_for": 2,
+        "sets_against": 3
+      },
+      {
+        "date": "2026-08-23",
+        "won": false,
+        "sets_for": 0,
+        "sets_against": 3
+      },
+      {
+        "date": "2026-08-25",
+        "won": false,
+        "sets_for": 0,
+        "sets_against": 3
+      },
+      {
+        "date": "2026-08-26",
+        "won": false,
+        "sets_for": 1,
+        "sets_against": 3
+      }
+    ]
+  },
+  "GRC": {
+    "team": "GRC",
+    "matches_played": 38,
+    "current_streak": -1,
+    "last_match_date": "2026-08-26",
+    "recent_results": [
+      {
+        "date": "2025-08-03",
+        "won": true,
+        "sets_for": 3,
+        "sets_against": 0
+      },
+      {
+        "date": "2025-08-06",
+        "won": true,
+        "sets_for": 3,
+        "sets_against": 1
+      },
+      {
+        "date": "2025-08-22",
+        "won": false,
+        "sets_for": 0,
+        "sets_against": 3
+      },
+      {
+        "date": "2025-08-24",
+        "won": true,
+        "sets_for": 3,
+        "sets_against": 1
+      },
+      {
+        "date": "2025-08-26",
+        "won": false,
+        "sets_for": 1,
+        "sets_against": 3
+      },
+      {
+        "date": "2026-08-21",
+        "won": false,
+        "sets_for": 1,
+        "sets_against": 3
+      },
+      {
+        "date": "2026-08-22",
+        "won": true,
+        "sets_for": 3,
+        "sets_against": 2
+      },
+      {
+        "date": "2026-08-23",
+        "won": true,
+        "sets_for": 3,
+        "sets_against": 1
+      },
+      {
+        "date": "2026-08-25",
+        "won": true,
+        "sets_for": 3,
+        "sets_against": 1
+      },
+      {
+        "date": "2026-08-26",
+        "won": false,
+        "sets_for": 0,
+        "sets_against": 3
+      }
+    ]
+  },
+  "FIN": {
+    "team": "FIN",
+    "matches_played": 30,
+    "current_streak": 2,
+    "last_match_date": "2025-08-10",
+    "recent_results": [
+      {
+        "date": "2022-09-10",
+        "won": true,
+        "sets_for": 3,
+        "sets_against": 1
+      },
+      {
+        "date": "2023-08-17",
+        "won": false,
+        "sets_for": 0,
+        "sets_against": 3
+      },
+      {
+        "date": "2023-08-19",
+        "won": true,
+        "sets_for": 3,
+        "sets_against": 2
+      },
+      {
+        "date": "2023-08-20",
+        "won": false,
+        "sets_for": 0,
+        "sets_against": 3
+      },
+      {
+        "date": "2023-08-21",
+        "won": false,
+        "sets_for": 1,
+        "sets_against": 3
+      },
+      {
+        "date": "2023-08-23",
+        "won": false,
+        "sets_for": 0,
+        "sets_against": 3
+      },
+      {
+        "date": "2024-08-18",
+        "won": false,
+        "sets_for": 2,
+        "sets_against": 3
+      },
+      {
+        "date": "2024-08-29",
+        "won": false,
+        "sets_for": 0,
+        "sets_against": 3
+      },
+      {
+        "date": "2025-08-02",
+        "won": true,
+        "sets_for": 3,
+        "sets_against": 1
+      },
+      {
+        "date": "2025-08-10",
+        "won": true,
+        "sets_for": 3,
+        "sets_against": 2
+      }
+    ]
+  },
+  "ALB": {
+    "team": "ALB",
+    "matches_played": 4,
+    "current_streak": 1,
+    "last_match_date": "2009-05-17",
+    "recent_results": [
+      {
+        "date": "2009-05-14",
+        "won": false,
+        "sets_for": 0,
+        "sets_against": 3
+      },
+      {
+        "date": "2009-05-15",
+        "won": false,
+        "sets_for": 0,
+        "sets_against": 3
+      },
+      {
+        "date": "2009-05-16",
+        "won": false,
+        "sets_for": 0,
+        "sets_against": 3
+      },
+      {
+        "date": "2009-05-17",
+        "won": true,
+        "sets_for": 3,
+        "sets_against": 1
+      }
+    ]
+  },
+  "FRA": {
+    "team": "FRA",
+    "matches_played": 75,
+    "current_streak": -1,
+    "last_match_date": "2026-08-26",
+    "recent_results": [
+      {
+        "date": "2026-06-19",
+        "won": false,
+        "sets_for": 0,
+        "sets_against": 3
+      },
+      {
+        "date": "2026-06-21",
+        "won": false,
+        "sets_for": 2,
+        "sets_against": 3
+      },
+      {
+        "date": "2026-07-08",
+        "won": false,
+        "sets_for": 0,
+        "sets_against": 3
+      },
+      {
+        "date": "2026-07-09",
+        "won": true,
+        "sets_for": 3,
+        "sets_against": 2
+      },
+      {
+        "date": "2026-07-11",
+        "won": true,
+        "sets_for": 3,
+        "sets_against": 1
+      },
+      {
+        "date": "2026-07-12",
+        "won": false,
+        "sets_for": 2,
+        "sets_against": 3
+      },
+      {
+        "date": "2026-08-21",
+        "won": true,
+        "sets_for": 3,
+        "sets_against": 0
+      },
+      {
+        "date": "2026-08-23",
+        "won": true,
+        "sets_for": 3,
+        "sets_against": 0
+      },
+      {
+        "date": "2026-08-24",
+        "won": true,
+        "sets_for": 3,
+        "sets_against": 0
+      },
+      {
+        "date": "2026-08-26",
+        "won": false,
+        "sets_for": 1,
+        "sets_against": 3
+      }
+    ]
+  },
+  "UKR": {
+    "team": "UKR",
+    "matches_played": 46,
+    "current_streak": -1,
+    "last_match_date": "2026-08-25",
+    "recent_results": [
+      {
+        "date": "2026-06-19",
+        "won": false,
+        "sets_for": 0,
+        "sets_against": 3
+      },
+      {
+        "date": "2026-06-21",
+        "won": false,
+        "sets_for": 2,
+        "sets_against": 3
+      },
+      {
+        "date": "2026-07-08",
+        "won": false,
+        "sets_for": 1,
+        "sets_against": 3
+      },
+      {
+        "date": "2026-07-09",
+        "won": false,
+        "sets_for": 0,
+        "sets_against": 3
+      },
+      {
+        "date": "2026-07-10",
+        "won": false,
+        "sets_for": 2,
+        "sets_against": 3
+      },
+      {
+        "date": "2026-07-12",
+        "won": true,
+        "sets_for": 3,
+        "sets_against": 0
+      },
+      {
+        "date": "2026-08-21",
+        "won": false,
+        "sets_for": 0,
+        "sets_against": 3
+      },
+      {
+        "date": "2026-08-22",
+        "won": false,
+        "sets_for": 2,
+        "sets_against": 3
+      },
+      {
+        "date": "2026-08-24",
+        "won": true,
+        "sets_for": 3,
+        "sets_against": 0
+      },
+      {
+        "date": "2026-08-25",
+        "won": false,
+        "sets_for": 1,
+        "sets_against": 3
+      }
+    ]
+  },
+  "BLR": {
+    "team": "BLR",
+    "matches_played": 16,
+    "current_streak": -1,
+    "last_match_date": "2021-08-30",
+    "recent_results": [
+      {
+        "date": "2021-05-10",
+        "won": true,
+        "sets_for": 3,
+        "sets_against": 0
+      },
+      {
+        "date": "2021-05-12",
+        "won": true,
+        "sets_for": 3,
+        "sets_against": 1
+      },
+      {
+        "date": "2021-05-13",
+        "won": true,
+        "sets_for": 3,
+        "sets_against": 0
+      },
+      {
+        "date": "2021-05-15",
+        "won": true,
+        "sets_for": 3,
+        "sets_against": 0
+      },
+      {
+        "date": "2021-08-20",
+        "won": false,
+        "sets_for": 0,
+        "sets_against": 3
+      },
+      {
+        "date": "2021-08-21",
+        "won": false,
+        "sets_for": 0,
+        "sets_against": 3
+      },
+      {
+        "date": "2021-08-23",
+        "won": true,
+        "sets_for": 3,
+        "sets_against": 0
+      },
+      {
+        "date": "2021-08-25",
+        "won": true,
+        "sets_for": 3,
+        "sets_against": 2
+      },
+      {
+        "date": "2021-08-26",
+        "won": true,
+        "sets_for": 3,
+        "sets_against": 2
+      },
+      {
+        "date": "2021-08-30",
+        "won": false,
+        "sets_for": 1,
+        "sets_against": 3
+      }
+    ]
+  },
+  "HRV": {
+    "team": "HRV",
+    "matches_played": 62,
+    "current_streak": -1,
+    "last_match_date": "2026-08-25",
+    "recent_results": [
+      {
+        "date": "2023-08-21",
+        "won": false,
+        "sets_for": 1,
+        "sets_against": 3
+      },
+      {
+        "date": "2023-08-23",
+        "won": false,
+        "sets_for": 0,
+        "sets_against": 3
+      },
+      {
+        "date": "2024-08-17",
+        "won": true,
+        "sets_for": 3,
+        "sets_against": 0
+      },
+      {
+        "date": "2024-08-24",
+        "won": true,
+        "sets_for": 3,
+        "sets_against": 0
+      },
+      {
+        "date": "2025-08-06",
+        "won": false,
+        "sets_for": 1,
+        "sets_against": 3
+      },
+      {
+        "date": "2025-08-09",
+        "won": true,
+        "sets_for": 3,
+        "sets_against": 0
+      },
+      {
+        "date": "2026-08-21",
+        "won": false,
+        "sets_for": 0,
+        "sets_against": 3
+      },
+      {
+        "date": "2026-08-23",
+        "won": false,
+        "sets_for": 0,
+        "sets_against": 3
+      },
+      {
+        "date": "2026-08-24",
+        "won": true,
+        "sets_for": 3,
+        "sets_against": 2
+      },
+      {
+        "date": "2026-08-25",
+        "won": false,
+        "sets_for": 2,
+        "sets_against": 3
+      }
+    ]
+  },
+  "BEL": {
+    "team": "BEL",
+    "matches_played": 129,
+    "current_streak": 4,
+    "last_match_date": "2026-08-26",
+    "recent_results": [
+      {
+        "date": "2026-06-19",
+        "won": false,
+        "sets_for": 0,
+        "sets_against": 3
+      },
+      {
+        "date": "2026-06-21",
+        "won": true,
+        "sets_for": 3,
+        "sets_against": 2
+      },
+      {
+        "date": "2026-07-08",
+        "won": true,
+        "sets_for": 3,
+        "sets_against": 2
+      },
+      {
+        "date": "2026-07-09",
+        "won": false,
+        "sets_for": 1,
+        "sets_against": 3
+      },
+      {
+        "date": "2026-07-10",
+        "won": false,
+        "sets_for": 0,
+        "sets_against": 3
+      },
+      {
+        "date": "2026-07-12",
+        "won": false,
+        "sets_for": 0,
+        "sets_against": 3
+      },
+      {
+        "date": "2026-08-22",
+        "won": true,
+        "sets_for": 3,
+        "sets_against": 2
+      },
+      {
+        "date": "2026-08-23",
+        "won": true,
+        "sets_for": 3,
+        "sets_against": 0
+      },
+      {
+        "date": "2026-08-25",
+        "won": true,
+        "sets_for": 3,
+        "sets_against": 0
+      },
+      {
+        "date": "2026-08-26",
+        "won": true,
+        "sets_for": 3,
+        "sets_against": 0
+      }
+    ]
+  },
+  "SVK": {
+    "team": "SVK",
+    "matches_played": 34,
+    "current_streak": 1,
+    "last_match_date": "2026-08-26",
+    "recent_results": [
+      {
+        "date": "2023-08-22",
+        "won": true,
+        "sets_for": 3,
+        "sets_against": 1
+      },
+      {
+        "date": "2023-08-27",
+        "won": false,
+        "sets_for": 2,
+        "sets_against": 3
+      },
+      {
+        "date": "2025-08-22",
+        "won": false,
+        "sets_for": 0,
+        "sets_against": 3
+      },
+      {
+        "date": "2025-08-24",
+        "won": false,
+        "sets_for": 0,
+        "sets_against": 3
+      },
+      {
+        "date": "2025-08-26",
+        "won": false,
+        "sets_for": 1,
+        "sets_against": 3
+      },
+      {
+        "date": "2026-08-21",
+        "won": false,
+        "sets_for": 0,
+        "sets_against": 3
+      },
+      {
+        "date": "2026-08-22",
+        "won": false,
+        "sets_for": 2,
+        "sets_against": 3
+      },
+      {
+        "date": "2026-08-24",
+        "won": false,
+        "sets_for": 2,
+        "sets_against": 3
+      },
+      {
+        "date": "2026-08-25",
+        "won": false,
+        "sets_for": 0,
+        "sets_against": 3
+      },
+      {
+        "date": "2026-08-26",
+        "won": true,
+        "sets_for": 3,
+        "sets_against": 0
+      }
+    ]
+  },
+  "URY": {
+    "team": "URY",
+    "matches_played": 11,
+    "current_streak": -9,
+    "last_match_date": "2019-09-01",
+    "recent_results": [
+      {
+        "date": "2009-06-01",
+        "won": true,
+        "sets_for": 3,
+        "sets_against": 1
+      },
+      {
+        "date": "2009-06-02",
+        "won": false,
+        "sets_for": 1,
+        "sets_against": 3
+      },
+      {
+        "date": "2009-06-03",
+        "won": false,
+        "sets_for": 0,
+        "sets_against": 3
+      },
+      {
+        "date": "2009-06-04",
+        "won": false,
+        "sets_for": 2,
+        "sets_against": 3
+      },
+      {
+        "date": "2012-05-11",
+        "won": false,
+        "sets_for": 0,
+        "sets_against": 3
+      },
+      {
+        "date": "2019-08-28",
+        "won": false,
+        "sets_for": 0,
+        "sets_against": 3
+      },
+      {
+        "date": "2019-08-29",
+        "won": false,
+        "sets_for": 0,
+        "sets_against": 3
+      },
+      {
+        "date": "2019-08-30",
+        "won": false,
+        "sets_for": 1,
+        "sets_against": 3
+      },
+      {
+        "date": "2019-08-31",
+        "won": false,
+        "sets_for": 0,
+        "sets_against": 3
+      },
+      {
+        "date": "2019-09-01",
+        "won": false,
+        "sets_for": 0,
+        "sets_against": 3
+      }
+    ]
+  },
+  "CHL": {
+    "team": "CHL",
+    "matches_played": 11,
+    "current_streak": 1,
+    "last_match_date": "2023-08-23",
+    "recent_results": [
+      {
+        "date": "2009-06-01",
+        "won": false,
+        "sets_for": 0,
+        "sets_against": 3
+      },
+      {
+        "date": "2009-06-02",
+        "won": false,
+        "sets_for": 0,
+        "sets_against": 3
+      },
+      {
+        "date": "2009-06-03",
+        "won": false,
+        "sets_for": 0,
+        "sets_against": 3
+      },
+      {
+        "date": "2009-06-04",
+        "won": true,
+        "sets_for": 3,
+        "sets_against": 0
+      },
+      {
+        "date": "2012-05-10",
+        "won": false,
+        "sets_for": 0,
+        "sets_against": 3
+      },
+      {
+        "date": "2012-05-11",
+        "won": false,
+        "sets_for": 0,
+        "sets_against": 3
+      },
+      {
+        "date": "2023-08-19",
+        "won": false,
+        "sets_for": 0,
+        "sets_against": 3
+      },
+      {
+        "date": "2023-08-20",
+        "won": false,
+        "sets_for": 0,
+        "sets_against": 3
+      },
+      {
+        "date": "2023-08-21",
+        "won": false,
+        "sets_for": 0,
+        "sets_against": 3
+      },
+      {
+        "date": "2023-08-23",
+        "won": true,
+        "sets_for": 3,
+        "sets_against": 2
+      }
+    ]
+  },
+  "ARG": {
+    "team": "ARG",
+    "matches_played": 107,
+    "current_streak": -2,
+    "last_match_date": "2025-08-26",
+    "recent_results": [
+      {
+        "date": "2022-10-05",
+        "won": false,
+        "sets_for": 0,
+        "sets_against": 3
+      },
+      {
+        "date": "2022-10-07",
+        "won": false,
+        "sets_for": 0,
+        "sets_against": 3
+      },
+      {
+        "date": "2022-10-09",
+        "won": false,
+        "sets_for": 1,
+        "sets_against": 3
+      },
+      {
+        "date": "2023-08-19",
+        "won": true,
+        "sets_for": 3,
+        "sets_against": 1
+      },
+      {
+        "date": "2023-08-20",
+        "won": false,
+        "sets_for": 0,
+        "sets_against": 3
+      },
+      {
+        "date": "2023-08-21",
+        "won": true,
+        "sets_for": 3,
+        "sets_against": 0
+      },
+      {
+        "date": "2023-08-22",
+        "won": true,
+        "sets_for": 3,
+        "sets_against": 0
+      },
+      {
+        "date": "2025-08-22",
+        "won": true,
+        "sets_for": 3,
+        "sets_against": 1
+      },
+      {
+        "date": "2025-08-24",
+        "won": false,
+        "sets_for": 1,
+        "sets_against": 3
+      },
+      {
+        "date": "2025-08-26",
+        "won": false,
+        "sets_for": 0,
+        "sets_against": 3
+      }
+    ]
+  },
+  "BOL": {
+    "team": "BOL",
+    "matches_played": 10,
+    "current_streak": -1,
+    "last_match_date": "2019-09-01",
+    "recent_results": [
+      {
+        "date": "2009-05-31",
+        "won": false,
+        "sets_for": 0,
+        "sets_against": 3
+      },
+      {
+        "date": "2009-06-01",
+        "won": false,
+        "sets_for": 1,
+        "sets_against": 3
+      },
+      {
+        "date": "2009-06-02",
+        "won": false,
+        "sets_for": 0,
+        "sets_against": 3
+      },
+      {
+        "date": "2009-06-03",
+        "won": false,
+        "sets_for": 0,
+        "sets_against": 3
+      },
+      {
+        "date": "2009-06-04",
+        "won": false,
+        "sets_for": 0,
+        "sets_against": 3
+      },
+      {
+        "date": "2019-08-28",
+        "won": false,
+        "sets_for": 0,
+        "sets_against": 3
+      },
+      {
+        "date": "2019-08-29",
+        "won": false,
+        "sets_for": 0,
+        "sets_against": 3
+      },
+      {
+        "date": "2019-08-30",
+        "won": true,
+        "sets_for": 3,
+        "sets_against": 1
+      },
+      {
+        "date": "2019-08-31",
+        "won": true,
+        "sets_for": 3,
+        "sets_against": 0
+      },
+      {
+        "date": "2019-09-01",
+        "won": false,
+        "sets_for": 0,
+        "sets_against": 3
+      }
+    ]
+  },
+  "COL": {
+    "team": "COL",
+    "matches_played": 35,
+    "current_streak": -5,
+    "last_match_date": "2025-08-27",
+    "recent_results": [
+      {
+        "date": "2022-09-28",
+        "won": false,
+        "sets_for": 0,
+        "sets_against": 3
+      },
+      {
+        "date": "2022-09-30",
+        "won": false,
+        "sets_for": 2,
+        "sets_against": 3
+      },
+      {
+        "date": "2022-10-01",
+        "won": false,
+        "sets_for": 1,
+        "sets_against": 3
+      },
+      {
+        "date": "2023-08-20",
+        "won": true,
+        "sets_for": 3,
+        "sets_against": 0
+      },
+      {
+        "date": "2023-08-21",
+        "won": true,
+        "sets_for": 3,
+        "sets_against": 1
+      },
+      {
+        "date": "2023-08-22",
+        "won": false,
+        "sets_for": 0,
+        "sets_against": 3
+      },
+      {
+        "date": "2023-08-23",
+        "won": false,
+        "sets_for": 0,
+        "sets_against": 3
+      },
+      {
+        "date": "2025-08-23",
+        "won": false,
+        "sets_for": 0,
+        "sets_against": 3
+      },
+      {
+        "date": "2025-08-25",
+        "won": false,
+        "sets_for": 1,
+        "sets_against": 3
+      },
+      {
+        "date": "2025-08-27",
+        "won": false,
+        "sets_for": 2,
+        "sets_against": 3
+      }
+    ]
+  },
+  "SUR": {
+    "team": "SUR",
+    "matches_played": 7,
+    "current_streak": 3,
+    "last_match_date": "2016-11-27",
+    "recent_results": [
+      {
+        "date": "2009-06-02",
+        "won": false,
+        "sets_for": 0,
+        "sets_against": 3
+      },
+      {
+        "date": "2009-06-03",
+        "won": false,
+        "sets_for": 1,
+        "sets_against": 3
+      },
+      {
+        "date": "2009-06-06",
+        "won": true,
+        "sets_for": 3,
+        "sets_against": 0
+      },
+      {
+        "date": "2012-09-01",
+        "won": false,
+        "sets_for": 2,
+        "sets_against": 3
+      },
+      {
+        "date": "2016-11-26",
+        "won": true,
+        "sets_for": 3,
+        "sets_against": 0
+      },
+      {
+        "date": "2016-11-27",
+        "won": true,
+        "sets_for": 3,
+        "sets_against": 0
+      },
+      {
+        "date": "2016-11-27",
+        "won": true,
+        "sets_for": 3,
+        "sets_against": 1
+      }
+    ]
+  },
+  "ABW": {
+    "team": "ABW",
+    "matches_played": 7,
+    "current_streak": -7,
+    "last_match_date": "2016-11-27",
+    "recent_results": [
+      {
+        "date": "2009-06-02",
+        "won": false,
+        "sets_for": 0,
+        "sets_against": 3
+      },
+      {
+        "date": "2009-06-04",
+        "won": false,
+        "sets_for": 0,
+        "sets_against": 3
+      },
+      {
+        "date": "2009-06-06",
+        "won": false,
+        "sets_for": 0,
+        "sets_against": 3
+      },
+      {
+        "date": "2012-11-29",
+        "won": false,
+        "sets_for": 0,
+        "sets_against": 3
+      },
+      {
+        "date": "2016-11-26",
+        "won": false,
+        "sets_for": 1,
+        "sets_against": 3
+      },
+      {
+        "date": "2016-11-27",
+        "won": false,
+        "sets_for": 0,
+        "sets_against": 3
+      },
+      {
+        "date": "2016-11-27",
+        "won": false,
+        "sets_for": 1,
+        "sets_against": 3
+      }
+    ]
+  },
+  "VIR": {
+    "team": "VIR",
+    "matches_played": 13,
+    "current_streak": 2,
+    "last_match_date": "2016-08-07",
+    "recent_results": [
+      {
+        "date": "2009-06-06",
+        "won": true,
+        "sets_for": 3,
+        "sets_against": 2
+      },
+      {
+        "date": "2009-06-12",
+        "won": false,
+        "sets_for": 0,
+        "sets_against": 3
+      },
+      {
+        "date": "2009-06-13",
+        "won": false,
+        "sets_for": 0,
+        "sets_against": 3
+      },
+      {
+        "date": "2009-06-14",
+        "won": true,
+        "sets_for": 3,
+        "sets_against": 2
+      },
+      {
+        "date": "2014-05-16",
+        "won": false,
+        "sets_for": 0,
+        "sets_against": 3
+      },
+      {
+        "date": "2014-05-17",
+        "won": false,
+        "sets_for": 0,
+        "sets_against": 3
+      },
+      {
+        "date": "2014-05-18",
+        "won": false,
+        "sets_for": 0,
+        "sets_against": 3
+      },
+      {
+        "date": "2014-05-19",
+        "won": false,
+        "sets_for": 0,
+        "sets_against": 3
+      },
+      {
+        "date": "2016-08-06",
+        "won": true,
+        "sets_for": 3,
+        "sets_against": 0
+      },
+      {
+        "date": "2016-08-07",
+        "won": true,
+        "sets_for": 3,
+        "sets_against": 0
+      }
+    ]
+  },
+  "BWA": {
+    "team": "BWA",
+    "matches_played": 3,
+    "current_streak": -3,
+    "last_match_date": "2009-06-05",
+    "recent_results": [
+      {
+        "date": "2009-06-03",
+        "won": false,
+        "sets_for": 0,
+        "sets_against": 3
+      },
+      {
+        "date": "2009-06-04",
+        "won": false,
+        "sets_for": 2,
+        "sets_against": 3
+      },
+      {
+        "date": "2009-06-05",
+        "won": false,
+        "sets_for": 0,
+        "sets_against": 3
+      }
+    ]
+  },
+  "SEN": {
+    "team": "SEN",
+    "matches_played": 10,
+    "current_streak": 1,
+    "last_match_date": "2026-08-27",
+    "recent_results": [
+      {
+        "date": "2009-06-03",
+        "won": true,
+        "sets_for": 3,
+        "sets_against": 0
+      },
+      {
+        "date": "2009-06-05",
+        "won": true,
+        "sets_for": 3,
+        "sets_against": 0
+      },
+      {
+        "date": "2009-06-06",
+        "won": false,
+        "sets_for": 0,
+        "sets_against": 3
+      },
+      {
+        "date": "2021-09-12",
+        "won": false,
+        "sets_for": 0,
+        "sets_against": 3
+      },
+      {
+        "date": "2021-09-15",
+        "won": false,
+        "sets_for": 0,
+        "sets_against": 3
+      },
+      {
+        "date": "2021-09-16",
+        "won": true,
+        "sets_for": 3,
+        "sets_against": 0
+      },
+      {
+        "date": "2021-09-19",
+        "won": false,
+        "sets_for": 0,
+        "sets_against": 3
+      },
+      {
+        "date": "2026-08-25",
+        "won": false,
+        "sets_for": 0,
+        "sets_against": 3
+      },
+      {
+        "date": "2026-08-26",
+        "won": false,
+        "sets_for": 0,
+        "sets_against": 3
+      },
+      {
+        "date": "2026-08-27",
+        "won": true,
+        "sets_for": 3,
+        "sets_against": 0
+      }
+    ]
+  },
+  "ANT": {
+    "team": "ANT",
+    "matches_played": 7,
+    "current_streak": 1,
+    "last_match_date": "2009-07-08",
+    "recent_results": [
+      {
+        "date": "2009-06-03",
+        "won": true,
+        "sets_for": 3,
+        "sets_against": 1
+      },
+      {
+        "date": "2009-06-04",
+        "won": true,
+        "sets_for": 3,
+        "sets_against": 2
+      },
+      {
+        "date": "2009-06-05",
+        "won": true,
+        "sets_for": 3,
+        "sets_against": 2
+      },
+      {
+        "date": "2009-06-06",
+        "won": false,
+        "sets_for": 0,
+        "sets_against": 3
+      },
+      {
+        "date": "2009-07-06",
+        "won": false,
+        "sets_for": 0,
+        "sets_against": 3
+      },
+      {
+        "date": "2009-07-07",
+        "won": false,
+        "sets_for": 0,
+        "sets_against": 3
+      },
+      {
+        "date": "2009-07-08",
+        "won": true,
+        "sets_for": 3,
+        "sets_against": 2
+      }
+    ]
+  },
+  "TTO": {
+    "team": "TTO",
+    "matches_played": 59,
+    "current_streak": -8,
+    "last_match_date": "2026-08-26",
+    "recent_results": [
+      {
+        "date": "2023-06-10",
+        "won": false,
+        "sets_for": 0,
+        "sets_against": 3
+      },
+      {
+        "date": "2023-06-11",
+        "won": true,
+        "sets_for": 3,
+        "sets_against": 0
+      },
+      {
+        "date": "2025-07-18",
+        "won": false,
+        "sets_for": 0,
+        "sets_against": 3
+      },
+      {
+        "date": "2025-07-19",
+        "won": false,
+        "sets_for": 0,
+        "sets_against": 3
+      },
+      {
+        "date": "2025-07-20",
+        "won": false,
+        "sets_for": 0,
+        "sets_against": 3
+      },
+      {
+        "date": "2026-08-21",
+        "won": false,
+        "sets_for": 0,
+        "sets_against": 3
+      },
+      {
+        "date": "2026-08-22",
+        "won": false,
+        "sets_for": 0,
+        "sets_against": 3
+      },
+      {
+        "date": "2026-08-23",
+        "won": false,
+        "sets_for": 0,
+        "sets_against": 3
+      },
+      {
+        "date": "2026-08-25",
+        "won": false,
+        "sets_for": 0,
+        "sets_against": 3
+      },
+      {
+        "date": "2026-08-26",
+        "won": false,
+        "sets_for": 0,
+        "sets_against": 3
+      }
+    ]
+  },
+  "NGA": {
+    "team": "NGA",
+    "matches_played": 18,
+    "current_streak": -1,
+    "last_match_date": "2026-08-27",
+    "recent_results": [
+      {
+        "date": "2023-08-17",
+        "won": false,
+        "sets_for": 0,
+        "sets_against": 3
+      },
+      {
+        "date": "2023-08-18",
+        "won": true,
+        "sets_for": 3,
+        "sets_against": 0
+      },
+      {
+        "date": "2023-08-19",
+        "won": false,
+        "sets_for": 0,
+        "sets_against": 3
+      },
+      {
+        "date": "2023-08-20",
+        "won": false,
+        "sets_for": 2,
+        "sets_against": 3
+      },
+      {
+        "date": "2023-08-22",
+        "won": false,
+        "sets_for": 0,
+        "sets_against": 3
+      },
+      {
+        "date": "2023-08-23",
+        "won": true,
+        "sets_for": 3,
+        "sets_against": 0
+      },
+      {
+        "date": "2023-08-24",
+        "won": false,
+        "sets_for": 1,
+        "sets_against": 3
+      },
+      {
+        "date": "2026-08-25",
+        "won": false,
+        "sets_for": 1,
+        "sets_against": 3
+      },
+      {
+        "date": "2026-08-26",
+        "won": true,
+        "sets_for": 3,
+        "sets_against": 2
+      },
+      {
+        "date": "2026-08-27",
+        "won": false,
+        "sets_for": 0,
+        "sets_against": 3
+      }
+    ]
+  },
+  "JAM": {
+    "team": "JAM",
+    "matches_played": 15,
+    "current_streak": -3,
+    "last_match_date": "2017-10-15",
+    "recent_results": [
+      {
+        "date": "2009-07-08",
+        "won": false,
+        "sets_for": 0,
+        "sets_against": 3
+      },
+      {
+        "date": "2009-07-09",
+        "won": true,
+        "sets_for": 3,
+        "sets_against": 0
+      },
+      {
+        "date": "2012-11-29",
+        "won": true,
+        "sets_for": 3,
+        "sets_against": 0
+      },
+      {
+        "date": "2014-05-16",
+        "won": false,
+        "sets_for": 0,
+        "sets_against": 3
+      },
+      {
+        "date": "2014-05-17",
+        "won": true,
+        "sets_for": 3,
+        "sets_against": 0
+      },
+      {
+        "date": "2014-05-18",
+        "won": false,
+        "sets_for": 0,
+        "sets_against": 3
+      },
+      {
+        "date": "2014-05-19",
+        "won": true,
+        "sets_for": 3,
+        "sets_against": 0
+      },
+      {
+        "date": "2017-10-13",
+        "won": false,
+        "sets_for": 0,
+        "sets_against": 3
+      },
+      {
+        "date": "2017-10-14",
+        "won": false,
+        "sets_for": 0,
+        "sets_against": 3
+      },
+      {
+        "date": "2017-10-15",
+        "won": false,
+        "sets_for": 0,
+        "sets_against": 3
+      }
+    ]
+  },
+  "BRB": {
+    "team": "BRB",
+    "matches_played": 11,
+    "current_streak": -2,
+    "last_match_date": "2016-08-07",
+    "recent_results": [
+      {
+        "date": "2009-06-12",
+        "won": true,
+        "sets_for": 3,
+        "sets_against": 2
+      },
+      {
+        "date": "2009-06-13",
+        "won": true,
+        "sets_for": 3,
+        "sets_against": 2
+      },
+      {
+        "date": "2009-06-14",
+        "won": true,
+        "sets_for": 3,
+        "sets_against": 2
+      },
+      {
+        "date": "2009-07-06",
+        "won": false,
+        "sets_for": 0,
+        "sets_against": 3
+      },
+      {
+        "date": "2009-07-07",
+        "won": false,
+        "sets_for": 0,
+        "sets_against": 3
+      },
+      {
+        "date": "2009-07-08",
+        "won": false,
+        "sets_for": 2,
+        "sets_against": 3
+      },
+      {
+        "date": "2012-11-29",
+        "won": true,
+        "sets_for": 3,
+        "sets_against": 0
+      },
+      {
+        "date": "2012-11-29",
+        "won": true,
+        "sets_for": 3,
+        "sets_against": 0
+      },
+      {
+        "date": "2016-08-06",
+        "won": false,
+        "sets_for": 0,
+        "sets_against": 3
+      },
+      {
+        "date": "2016-08-07",
+        "won": false,
+        "sets_for": 0,
+        "sets_against": 3
+      }
+    ]
+  },
+  "HTI": {
+    "team": "HTI",
+    "matches_played": 6,
+    "current_streak": -1,
+    "last_match_date": "2016-11-27",
+    "recent_results": [
+      {
+        "date": "2009-06-10",
+        "won": false,
+        "sets_for": 0,
+        "sets_against": 3
+      },
+      {
+        "date": "2009-06-11",
+        "won": false,
+        "sets_for": 2,
+        "sets_against": 3
+      },
+      {
+        "date": "2009-06-13",
+        "won": true,
+        "sets_for": 3,
+        "sets_against": 0
+      },
+      {
+        "date": "2016-11-26",
+        "won": false,
+        "sets_for": 0,
+        "sets_against": 3
+      },
+      {
+        "date": "2016-11-27",
+        "won": true,
+        "sets_for": 3,
+        "sets_against": 0
+      },
+      {
+        "date": "2016-11-27",
+        "won": false,
+        "sets_for": 2,
+        "sets_against": 3
+      }
+    ]
+  },
+  "BHS": {
+    "team": "BHS",
+    "matches_played": 8,
+    "current_streak": -4,
+    "last_match_date": "2012-09-01",
+    "recent_results": [
+      {
+        "date": "2009-06-11",
+        "won": true,
+        "sets_for": 3,
+        "sets_against": 2
+      },
+      {
+        "date": "2009-06-12",
+        "won": false,
+        "sets_for": 2,
+        "sets_against": 3
+      },
+      {
+        "date": "2009-06-13",
+        "won": false,
+        "sets_for": 0,
+        "sets_against": 3
+      },
+      {
+        "date": "2009-06-14",
+        "won": true,
+        "sets_for": 3,
+        "sets_against": 0
+      },
+      {
+        "date": "2009-07-07",
+        "won": false,
+        "sets_for": 0,
+        "sets_against": 3
+      },
+      {
+        "date": "2009-07-08",
+        "won": false,
+        "sets_for": 0,
+        "sets_against": 3
+      },
+      {
+        "date": "2009-07-09",
+        "won": false,
+        "sets_for": 0,
+        "sets_against": 3
+      },
+      {
+        "date": "2012-09-01",
+        "won": false,
+        "sets_for": 1,
+        "sets_against": 3
+      }
+    ]
+  },
+  "CYM": {
+    "team": "CYM",
+    "matches_played": 5,
+    "current_streak": -5,
+    "last_match_date": "2012-11-29",
+    "recent_results": [
+      {
+        "date": "2009-06-11",
+        "won": false,
+        "sets_for": 0,
+        "sets_against": 3
+      },
+      {
+        "date": "2009-06-12",
+        "won": false,
+        "sets_for": 0,
+        "sets_against": 3
+      },
+      {
+        "date": "2009-06-13",
+        "won": false,
+        "sets_for": 0,
+        "sets_against": 3
+      },
+      {
+        "date": "2012-11-29",
+        "won": false,
+        "sets_for": 0,
+        "sets_against": 3
+      },
+      {
+        "date": "2012-11-29",
+        "won": false,
+        "sets_for": 0,
+        "sets_against": 3
+      }
+    ]
+  },
+  "BGD": {
+    "team": "BGD",
+    "matches_played": 3,
+    "current_streak": -3,
+    "last_match_date": "2009-06-14",
+    "recent_results": [
+      {
+        "date": "2009-06-12",
+        "won": false,
+        "sets_for": 0,
+        "sets_against": 3
+      },
+      {
+        "date": "2009-06-13",
+        "won": false,
+        "sets_for": 0,
+        "sets_against": 3
+      },
+      {
+        "date": "2009-06-14",
+        "won": false,
+        "sets_for": 0,
+        "sets_against": 3
+      }
+    ]
+  },
+  "UZB": {
+    "team": "UZB",
+    "matches_played": 17,
+    "current_streak": 1,
+    "last_match_date": "2025-11-08",
+    "recent_results": [
+      {
+        "date": "2023-09-01",
+        "won": false,
+        "sets_for": 0,
+        "sets_against": 3
+      },
+      {
+        "date": "2023-09-03",
+        "won": false,
+        "sets_for": 0,
+        "sets_against": 3
+      },
+      {
+        "date": "2023-09-05",
+        "won": false,
+        "sets_for": 0,
+        "sets_against": 3
+      },
+      {
+        "date": "2025-11-01",
+        "won": false,
+        "sets_for": 1,
+        "sets_against": 3
+      },
+      {
+        "date": "2025-11-02",
+        "won": true,
+        "sets_for": 3,
+        "sets_against": 0
+      },
+      {
+        "date": "2025-11-03",
+        "won": true,
+        "sets_for": 3,
+        "sets_against": 0
+      },
+      {
+        "date": "2025-11-05",
+        "won": false,
+        "sets_for": 0,
+        "sets_against": 3
+      },
+      {
+        "date": "2025-11-06",
+        "won": false,
+        "sets_for": 0,
+        "sets_against": 3
+      },
+      {
+        "date": "2025-11-07",
+        "won": false,
+        "sets_for": 0,
+        "sets_against": 3
+      },
+      {
+        "date": "2025-11-08",
+        "won": true,
+        "sets_for": 3,
+        "sets_against": 1
+      }
+    ]
+  },
+  "CAN": {
+    "team": "CAN",
+    "matches_played": 180,
+    "current_streak": 5,
+    "last_match_date": "2026-08-26",
+    "recent_results": [
+      {
+        "date": "2026-07-08",
+        "won": true,
+        "sets_for": 3,
+        "sets_against": 2
+      },
+      {
+        "date": "2026-07-09",
+        "won": true,
+        "sets_for": 3,
+        "sets_against": 1
+      },
+      {
+        "date": "2026-07-11",
+        "won": false,
+        "sets_for": 2,
+        "sets_against": 3
+      },
+      {
+        "date": "2026-07-12",
+        "won": true,
+        "sets_for": 3,
+        "sets_against": 1
+      },
+      {
+        "date": "2026-07-23",
+        "won": false,
+        "sets_for": 1,
+        "sets_against": 3
+      },
+      {
+        "date": "2026-08-21",
+        "won": true,
+        "sets_for": 3,
+        "sets_against": 0
+      },
+      {
+        "date": "2026-08-22",
+        "won": true,
+        "sets_for": 3,
+        "sets_against": 0
+      },
+      {
+        "date": "2026-08-23",
+        "won": true,
+        "sets_for": 3,
+        "sets_against": 2
+      },
+      {
+        "date": "2026-08-25",
+        "won": true,
+        "sets_for": 3,
+        "sets_against": 0
+      },
+      {
+        "date": "2026-08-26",
+        "won": true,
+        "sets_for": 3,
+        "sets_against": 2
+      }
+    ]
+  },
+  "MUS": {
+    "team": "MUS",
+    "matches_played": 3,
+    "current_streak": -1,
+    "last_match_date": "2009-07-24",
+    "recent_results": [
+      {
+        "date": "2009-07-22",
+        "won": false,
+        "sets_for": 0,
+        "sets_against": 3
+      },
+      {
+        "date": "2009-07-23",
+        "won": true,
+        "sets_for": 3,
+        "sets_against": 0
+      },
+      {
+        "date": "2009-07-24",
+        "won": false,
+        "sets_for": 0,
+        "sets_against": 3
+      }
+    ]
+  },
+  "ZAF": {
+    "team": "ZAF",
+    "matches_played": 3,
+    "current_streak": -3,
+    "last_match_date": "2009-07-24",
+    "recent_results": [
+      {
+        "date": "2009-07-22",
+        "won": false,
+        "sets_for": 0,
+        "sets_against": 3
+      },
+      {
+        "date": "2009-07-23",
+        "won": false,
+        "sets_for": 0,
+        "sets_against": 3
+      },
+      {
+        "date": "2009-07-24",
+        "won": false,
+        "sets_for": 1,
+        "sets_against": 3
+      }
+    ]
+  },
+  "GLP": {
+    "team": "GLP",
+    "matches_played": 3,
+    "current_streak": -2,
+    "last_match_date": "2014-05-16",
+    "recent_results": [
+      {
+        "date": "2012-09-01",
+        "won": true,
+        "sets_for": 3,
+        "sets_against": 2
+      },
+      {
+        "date": "2012-09-01",
+        "won": false,
+        "sets_for": 0,
+        "sets_against": 3
+      },
+      {
+        "date": "2014-05-16",
+        "won": false,
+        "sets_for": 1,
+        "sets_against": 3
+      }
+    ]
+  },
+  "CUW": {
+    "team": "CUW",
+    "matches_played": 5,
+    "current_streak": 5,
+    "last_match_date": "2016-08-07",
+    "recent_results": [
+      {
+        "date": "2013-05-11",
+        "won": true,
+        "sets_for": 3,
+        "sets_against": 0
+      },
+      {
+        "date": "2013-05-11",
+        "won": true,
+        "sets_for": 3,
+        "sets_against": 0
+      },
+      {
+        "date": "2013-05-12",
+        "won": true,
+        "sets_for": 3,
+        "sets_against": 0
+      },
+      {
+        "date": "2013-05-12",
+        "won": true,
+        "sets_for": 3,
+        "sets_against": 0
+      },
+      {
+        "date": "2016-08-07",
+        "won": true,
+        "sets_for": 3,
+        "sets_against": 0
+      }
+    ]
+  },
+  "TUN": {
+    "team": "TUN",
+    "matches_played": 13,
+    "current_streak": -2,
+    "last_match_date": "2026-08-27",
+    "recent_results": [
+      {
+        "date": "2014-09-27",
+        "won": false,
+        "sets_for": 1,
+        "sets_against": 3
+      },
+      {
+        "date": "2014-09-28",
+        "won": false,
+        "sets_for": 0,
+        "sets_against": 3
+      },
+      {
+        "date": "2021-09-13",
+        "won": false,
+        "sets_for": 0,
+        "sets_against": 3
+      },
+      {
+        "date": "2021-09-15",
+        "won": false,
+        "sets_for": 0,
+        "sets_against": 3
+      },
+      {
+        "date": "2021-09-16",
+        "won": true,
+        "sets_for": 3,
+        "sets_against": 0
+      },
+      {
+        "date": "2021-09-19",
+        "won": true,
+        "sets_for": 3,
+        "sets_against": 0
+      },
+      {
+        "date": "2021-09-19",
+        "won": true,
+        "sets_for": 3,
+        "sets_against": 0
+      },
+      {
+        "date": "2026-08-25",
+        "won": true,
+        "sets_for": 3,
+        "sets_against": 1
+      },
+      {
+        "date": "2026-08-26",
+        "won": false,
+        "sets_for": 0,
+        "sets_against": 3
+      },
+      {
+        "date": "2026-08-27",
+        "won": false,
+        "sets_for": 2,
+        "sets_against": 3
+      }
+    ]
+  },
+  "TCA": {
+    "team": "TCA",
+    "matches_played": 1,
+    "current_streak": -1,
+    "last_match_date": "2016-08-07",
+    "recent_results": [
+      {
+        "date": "2016-08-07",
+        "won": false,
+        "sets_for": 0,
+        "sets_against": 3
+      }
+    ]
+  },
+  "MTQ": {
+    "team": "MTQ",
+    "matches_played": 3,
+    "current_streak": 1,
+    "last_match_date": "2016-11-27",
+    "recent_results": [
+      {
+        "date": "2016-11-26",
+        "won": true,
+        "sets_for": 3,
+        "sets_against": 1
+      },
+      {
+        "date": "2016-11-27",
+        "won": false,
+        "sets_for": 0,
+        "sets_against": 3
+      },
+      {
+        "date": "2016-11-27",
+        "won": true,
+        "sets_for": 3,
+        "sets_against": 2
+      }
+    ]
+  },
+  "ECU": {
+    "team": "ECU",
+    "matches_played": 5,
+    "current_streak": 1,
+    "last_match_date": "2019-09-01",
+    "recent_results": [
+      {
+        "date": "2019-08-28",
+        "won": false,
+        "sets_for": 0,
+        "sets_against": 3
+      },
+      {
+        "date": "2019-08-29",
+        "won": false,
+        "sets_for": 0,
+        "sets_against": 3
+      },
+      {
+        "date": "2019-08-30",
+        "won": false,
+        "sets_for": 2,
+        "sets_against": 3
+      },
+      {
+        "date": "2019-08-31",
+        "won": false,
+        "sets_for": 0,
+        "sets_against": 3
+      },
+      {
+        "date": "2019-09-01",
+        "won": true,
+        "sets_for": 3,
+        "sets_against": 0
+      }
+    ]
+  },
+  "LVA": {
+    "team": "LVA",
+    "matches_played": 20,
+    "current_streak": -6,
+    "last_match_date": "2026-08-26",
+    "recent_results": [
+      {
+        "date": "2022-09-07",
+        "won": false,
+        "sets_for": 0,
+        "sets_against": 3
+      },
+      {
+        "date": "2022-09-11",
+        "won": false,
+        "sets_for": 0,
+        "sets_against": 3
+      },
+      {
+        "date": "2024-08-17",
+        "won": true,
+        "sets_for": 3,
+        "sets_against": 2
+      },
+      {
+        "date": "2024-08-28",
+        "won": true,
+        "sets_for": 3,
+        "sets_against": 0
+      },
+      {
+        "date": "2025-08-02",
+        "won": false,
+        "sets_for": 2,
+        "sets_against": 3
+      },
+      {
+        "date": "2025-08-10",
+        "won": false,
+        "sets_for": 1,
+        "sets_against": 3
+      },
+      {
+        "date": "2026-08-21",
+        "won": false,
+        "sets_for": 0,
+        "sets_against": 3
+      },
+      {
+        "date": "2026-08-23",
+        "won": false,
+        "sets_for": 1,
+        "sets_against": 3
+      },
+      {
+        "date": "2026-08-24",
+        "won": false,
+        "sets_for": 1,
+        "sets_against": 3
+      },
+      {
+        "date": "2026-08-26",
+        "won": false,
+        "sets_for": 2,
+        "sets_against": 3
+      }
+    ]
+  },
+  "SWE": {
+    "team": "SWE",
+    "matches_played": 26,
+    "current_streak": 1,
+    "last_match_date": "2026-08-25",
+    "recent_results": [
+      {
+        "date": "2023-08-23",
+        "won": true,
+        "sets_for": 3,
+        "sets_against": 1
+      },
+      {
+        "date": "2023-08-24",
+        "won": false,
+        "sets_for": 0,
+        "sets_against": 3
+      },
+      {
+        "date": "2023-08-28",
+        "won": false,
+        "sets_for": 0,
+        "sets_against": 3
+      },
+      {
+        "date": "2025-08-22",
+        "won": false,
+        "sets_for": 2,
+        "sets_against": 3
+      },
+      {
+        "date": "2025-08-24",
+        "won": false,
+        "sets_for": 0,
+        "sets_against": 3
+      },
+      {
+        "date": "2025-08-26",
+        "won": true,
+        "sets_for": 3,
+        "sets_against": 1
+      },
+      {
+        "date": "2026-08-21",
+        "won": true,
+        "sets_for": 3,
+        "sets_against": 0
+      },
+      {
+        "date": "2026-08-22",
+        "won": true,
+        "sets_for": 3,
+        "sets_against": 2
+      },
+      {
+        "date": "2026-08-23",
+        "won": false,
+        "sets_for": 0,
+        "sets_against": 3
+      },
+      {
+        "date": "2026-08-25",
+        "won": true,
+        "sets_for": 3,
+        "sets_against": 2
+      }
+    ]
+  },
+  "XKX": {
+    "team": "XKX",
+    "matches_played": 10,
+    "current_streak": -10,
+    "last_match_date": "2025-08-09",
+    "recent_results": [
+      {
+        "date": "2021-05-07",
+        "won": false,
+        "sets_for": 0,
+        "sets_against": 3
+      },
+      {
+        "date": "2021-05-08",
+        "won": false,
+        "sets_for": 0,
+        "sets_against": 3
+      },
+      {
+        "date": "2021-05-09",
+        "won": false,
+        "sets_for": 0,
+        "sets_against": 3
+      },
+      {
+        "date": "2021-05-13",
+        "won": false,
+        "sets_for": 0,
+        "sets_against": 3
+      },
+      {
+        "date": "2021-05-14",
+        "won": false,
+        "sets_for": 0,
+        "sets_against": 3
+      },
+      {
+        "date": "2021-05-15",
+        "won": false,
+        "sets_for": 1,
+        "sets_against": 3
+      },
+      {
+        "date": "2024-08-17",
+        "won": false,
+        "sets_for": 0,
+        "sets_against": 3
+      },
+      {
+        "date": "2024-08-29",
+        "won": false,
+        "sets_for": 0,
+        "sets_against": 3
+      },
+      {
+        "date": "2025-08-02",
+        "won": false,
+        "sets_for": 0,
+        "sets_against": 3
+      },
+      {
+        "date": "2025-08-09",
+        "won": false,
+        "sets_for": 0,
+        "sets_against": 3
+      }
+    ]
+  },
+  "NOR": {
+    "team": "NOR",
+    "matches_played": 12,
+    "current_streak": -12,
+    "last_match_date": "2022-09-10",
+    "recent_results": [
+      {
+        "date": "2021-05-09",
+        "won": false,
+        "sets_for": 0,
+        "sets_against": 3
+      },
+      {
+        "date": "2021-05-13",
+        "won": false,
+        "sets_for": 0,
+        "sets_against": 3
+      },
+      {
+        "date": "2021-05-14",
+        "won": false,
+        "sets_for": 0,
+        "sets_against": 3
+      },
+      {
+        "date": "2021-05-15",
+        "won": false,
+        "sets_for": 0,
+        "sets_against": 3
+      },
+      {
+        "date": "2022-08-24",
+        "won": false,
+        "sets_for": 0,
+        "sets_against": 3
+      },
+      {
+        "date": "2022-08-27",
+        "won": false,
+        "sets_for": 0,
+        "sets_against": 3
+      },
+      {
+        "date": "2022-09-03",
+        "won": false,
+        "sets_for": 0,
+        "sets_against": 3
+      },
+      {
+        "date": "2022-09-07",
+        "won": false,
+        "sets_for": 0,
+        "sets_against": 3
+      },
+      {
+        "date": "2022-09-09",
+        "won": false,
+        "sets_for": 0,
+        "sets_against": 3
+      },
+      {
+        "date": "2022-09-10",
+        "won": false,
+        "sets_for": 0,
+        "sets_against": 3
+      }
+    ]
+  },
+  "CHE": {
+    "team": "CHE",
+    "matches_played": 25,
+    "current_streak": -3,
+    "last_match_date": "2025-08-10",
+    "recent_results": [
+      {
+        "date": "2023-08-16",
+        "won": false,
+        "sets_for": 2,
+        "sets_against": 3
+      },
+      {
+        "date": "2023-08-18",
+        "won": false,
+        "sets_for": 0,
+        "sets_against": 3
+      },
+      {
+        "date": "2023-08-19",
+        "won": true,
+        "sets_for": 3,
+        "sets_against": 2
+      },
+      {
+        "date": "2023-08-21",
+        "won": true,
+        "sets_for": 3,
+        "sets_against": 1
+      },
+      {
+        "date": "2023-08-23",
+        "won": false,
+        "sets_for": 1,
+        "sets_against": 3
+      },
+      {
+        "date": "2023-08-27",
+        "won": false,
+        "sets_for": 0,
+        "sets_against": 3
+      },
+      {
+        "date": "2024-08-18",
+        "won": true,
+        "sets_for": 3,
+        "sets_against": 2
+      },
+      {
+        "date": "2024-08-24",
+        "won": false,
+        "sets_for": 0,
+        "sets_against": 3
+      },
+      {
+        "date": "2025-08-06",
+        "won": false,
+        "sets_for": 0,
+        "sets_against": 3
+      },
+      {
+        "date": "2025-08-10",
+        "won": false,
+        "sets_for": 2,
+        "sets_against": 3
+      }
+    ]
+  },
+  "MAR": {
+    "team": "MAR",
+    "matches_played": 18,
+    "current_streak": 1,
+    "last_match_date": "2023-08-24",
+    "recent_results": [
+      {
+        "date": "2021-09-19",
+        "won": false,
+        "sets_for": 0,
+        "sets_against": 3
+      },
+      {
+        "date": "2021-09-19",
+        "won": true,
+        "sets_for": 3,
+        "sets_against": 0
+      },
+      {
+        "date": "2023-08-16",
+        "won": true,
+        "sets_for": 3,
+        "sets_against": 0
+      },
+      {
+        "date": "2023-08-17",
+        "won": false,
+        "sets_for": 2,
+        "sets_against": 3
+      },
+      {
+        "date": "2023-08-18",
+        "won": true,
+        "sets_for": 3,
+        "sets_against": 0
+      },
+      {
+        "date": "2023-08-19",
+        "won": false,
+        "sets_for": 1,
+        "sets_against": 3
+      },
+      {
+        "date": "2023-08-20",
+        "won": true,
+        "sets_for": 3,
+        "sets_against": 2
+      },
+      {
+        "date": "2023-08-22",
+        "won": false,
+        "sets_for": 0,
+        "sets_against": 3
+      },
+      {
+        "date": "2023-08-23",
+        "won": false,
+        "sets_for": 0,
+        "sets_against": 3
+      },
+      {
+        "date": "2023-08-24",
+        "won": true,
+        "sets_for": 3,
+        "sets_against": 1
+      }
+    ]
+  },
+  "BDI": {
+    "team": "BDI",
+    "matches_played": 13,
+    "current_streak": -3,
+    "last_match_date": "2026-08-27",
+    "recent_results": [
+      {
+        "date": "2023-08-16",
+        "won": false,
+        "sets_for": 0,
+        "sets_against": 3
+      },
+      {
+        "date": "2023-08-17",
+        "won": false,
+        "sets_for": 0,
+        "sets_against": 3
+      },
+      {
+        "date": "2023-08-18",
+        "won": false,
+        "sets_for": 0,
+        "sets_against": 3
+      },
+      {
+        "date": "2023-08-19",
+        "won": false,
+        "sets_for": 0,
+        "sets_against": 3
+      },
+      {
+        "date": "2023-08-20",
+        "won": false,
+        "sets_for": 0,
+        "sets_against": 3
+      },
+      {
+        "date": "2023-08-22",
+        "won": false,
+        "sets_for": 0,
+        "sets_against": 3
+      },
+      {
+        "date": "2023-08-23",
+        "won": true,
+        "sets_for": 3,
+        "sets_against": 1
+      },
+      {
+        "date": "2026-08-25",
+        "won": false,
+        "sets_for": 0,
+        "sets_against": 3
+      },
+      {
+        "date": "2026-08-26",
+        "won": false,
+        "sets_for": 0,
+        "sets_against": 3
+      },
+      {
+        "date": "2026-08-27",
+        "won": false,
+        "sets_for": 0,
+        "sets_against": 3
+      }
+    ]
+  },
+  "COD": {
+    "team": "COD",
+    "matches_played": 8,
+    "current_streak": -2,
+    "last_match_date": "2026-08-27",
+    "recent_results": [
+      {
+        "date": "2021-09-12",
+        "won": true,
+        "sets_for": 3,
+        "sets_against": 0
+      },
+      {
+        "date": "2021-09-13",
+        "won": false,
+        "sets_for": 0,
+        "sets_against": 3
+      },
+      {
+        "date": "2021-09-16",
+        "won": false,
+        "sets_for": 0,
+        "sets_against": 3
+      },
+      {
+        "date": "2021-09-19",
+        "won": true,
+        "sets_for": 3,
+        "sets_against": 0
+      },
+      {
+        "date": "2021-09-19",
+        "won": false,
+        "sets_for": 0,
+        "sets_against": 3
+      },
+      {
+        "date": "2026-08-25",
+        "won": true,
+        "sets_for": 3,
+        "sets_against": 0
+      },
+      {
+        "date": "2026-08-26",
+        "won": false,
+        "sets_for": 0,
+        "sets_against": 3
+      },
+      {
+        "date": "2026-08-27",
+        "won": false,
+        "sets_for": 0,
+        "sets_against": 3
+      }
+    ]
+  },
+  "RWA": {
+    "team": "RWA",
+    "matches_played": 15,
+    "current_streak": 3,
+    "last_match_date": "2026-08-27",
+    "recent_results": [
+      {
+        "date": "2023-08-17",
+        "won": true,
+        "sets_for": 3,
+        "sets_against": 0
+      },
+      {
+        "date": "2023-08-18",
+        "won": true,
+        "sets_for": 3,
+        "sets_against": 0
+      },
+      {
+        "date": "2023-08-19",
+        "won": true,
+        "sets_for": 3,
+        "sets_against": 0
+      },
+      {
+        "date": "2023-08-20",
+        "won": false,
+        "sets_for": 2,
+        "sets_against": 3
+      },
+      {
+        "date": "2023-08-22",
+        "won": true,
+        "sets_for": 3,
+        "sets_against": 2
+      },
+      {
+        "date": "2023-08-23",
+        "won": false,
+        "sets_for": 0,
+        "sets_against": 3
+      },
+      {
+        "date": "2023-08-24",
+        "won": false,
+        "sets_for": 1,
+        "sets_against": 3
+      },
+      {
+        "date": "2026-08-25",
+        "won": true,
+        "sets_for": 3,
+        "sets_against": 0
+      },
+      {
+        "date": "2026-08-26",
+        "won": true,
+        "sets_for": 3,
+        "sets_against": 0
+      },
+      {
+        "date": "2026-08-27",
+        "won": true,
+        "sets_for": 3,
+        "sets_against": 0
+      }
+    ]
+  },
+  "ISL": {
+    "team": "ISL",
+    "matches_played": 6,
+    "current_streak": -6,
+    "last_match_date": "2022-09-11",
+    "recent_results": [
+      {
+        "date": "2022-08-20",
+        "won": false,
+        "sets_for": 0,
+        "sets_against": 3
+      },
+      {
+        "date": "2022-08-24",
+        "won": false,
+        "sets_for": 0,
+        "sets_against": 3
+      },
+      {
+        "date": "2022-08-27",
+        "won": false,
+        "sets_for": 0,
+        "sets_against": 3
+      },
+      {
+        "date": "2022-09-03",
+        "won": false,
+        "sets_for": 0,
+        "sets_against": 3
+      },
+      {
+        "date": "2022-09-07",
+        "won": false,
+        "sets_for": 0,
+        "sets_against": 3
+      },
+      {
+        "date": "2022-09-11",
+        "won": false,
+        "sets_for": 0,
+        "sets_against": 3
+      }
+    ]
+  },
+  "CYP": {
+    "team": "CYP",
+    "matches_played": 6,
+    "current_streak": -6,
+    "last_match_date": "2022-09-10",
+    "recent_results": [
+      {
+        "date": "2022-08-20",
+        "won": false,
+        "sets_for": 0,
+        "sets_against": 3
+      },
+      {
+        "date": "2022-08-24",
+        "won": false,
+        "sets_for": 0,
+        "sets_against": 3
+      },
+      {
+        "date": "2022-08-27",
+        "won": false,
+        "sets_for": 0,
+        "sets_against": 3
+      },
+      {
+        "date": "2022-09-03",
+        "won": false,
+        "sets_for": 0,
+        "sets_against": 3
+      },
+      {
+        "date": "2022-09-07",
+        "won": false,
+        "sets_for": 0,
+        "sets_against": 3
+      },
+      {
+        "date": "2022-09-10",
+        "won": false,
+        "sets_for": 0,
+        "sets_against": 3
+      }
+    ]
+  },
+  "FRO": {
+    "team": "FRO",
+    "matches_played": 6,
+    "current_streak": -6,
+    "last_match_date": "2022-09-11",
+    "recent_results": [
+      {
+        "date": "2022-08-21",
+        "won": false,
+        "sets_for": 0,
+        "sets_against": 3
+      },
+      {
+        "date": "2022-08-24",
+        "won": false,
+        "sets_for": 0,
+        "sets_against": 3
+      },
+      {
+        "date": "2022-08-27",
+        "won": false,
+        "sets_for": 0,
+        "sets_against": 3
+      },
+      {
+        "date": "2022-09-04",
+        "won": false,
+        "sets_for": 0,
+        "sets_against": 3
+      },
+      {
+        "date": "2022-09-07",
+        "won": false,
+        "sets_for": 0,
+        "sets_against": 3
+      },
+      {
+        "date": "2022-09-11",
+        "won": false,
+        "sets_for": 0,
+        "sets_against": 3
+      }
+    ]
+  },
+  "BFA": {
+    "team": "BFA",
+    "matches_played": 10,
+    "current_streak": -4,
+    "last_match_date": "2026-08-27",
+    "recent_results": [
+      {
+        "date": "2023-08-16",
+        "won": false,
+        "sets_for": 0,
+        "sets_against": 3
+      },
+      {
+        "date": "2023-08-17",
+        "won": false,
+        "sets_for": 0,
+        "sets_against": 3
+      },
+      {
+        "date": "2023-08-18",
+        "won": false,
+        "sets_for": 0,
+        "sets_against": 3
+      },
+      {
+        "date": "2023-08-19",
+        "won": true,
+        "sets_for": 3,
+        "sets_against": 0
+      },
+      {
+        "date": "2023-08-20",
+        "won": false,
+        "sets_for": 0,
+        "sets_against": 3
+      },
+      {
+        "date": "2023-08-22",
+        "won": true,
+        "sets_for": 3,
+        "sets_against": 0
+      },
+      {
+        "date": "2023-08-23",
+        "won": false,
+        "sets_for": 0,
+        "sets_against": 3
+      },
+      {
+        "date": "2026-08-25",
+        "won": false,
+        "sets_for": 0,
+        "sets_against": 3
+      },
+      {
+        "date": "2026-08-26",
+        "won": false,
+        "sets_for": 0,
+        "sets_against": 3
+      },
+      {
+        "date": "2026-08-27",
+        "won": false,
+        "sets_for": 0,
+        "sets_against": 3
+      }
+    ]
+  },
+  "MLI": {
+    "team": "MLI",
+    "matches_played": 9,
+    "current_streak": -2,
+    "last_match_date": "2026-08-27",
+    "recent_results": [
+      {
+        "date": "2023-08-16",
+        "won": false,
+        "sets_for": 0,
+        "sets_against": 3
+      },
+      {
+        "date": "2023-08-17",
+        "won": false,
+        "sets_for": 0,
+        "sets_against": 3
+      },
+      {
+        "date": "2023-08-18",
+        "won": false,
+        "sets_for": 0,
+        "sets_against": 3
+      },
+      {
+        "date": "2023-08-19",
+        "won": true,
+        "sets_for": 3,
+        "sets_against": 0
+      },
+      {
+        "date": "2023-08-20",
+        "won": false,
+        "sets_for": 0,
+        "sets_against": 3
+      },
+      {
+        "date": "2023-08-22",
+        "won": true,
+        "sets_for": 3,
+        "sets_against": 0
+      },
+      {
+        "date": "2023-08-23",
+        "won": true,
+        "sets_for": 3,
+        "sets_against": 0
+      },
+      {
+        "date": "2026-08-26",
+        "won": false,
+        "sets_for": 1,
+        "sets_against": 3
+      },
+      {
+        "date": "2026-08-27",
+        "won": false,
+        "sets_for": 0,
+        "sets_against": 3
+      }
+    ]
+  },
+  "UGA": {
+    "team": "UGA",
+    "matches_played": 11,
+    "current_streak": -1,
+    "last_match_date": "2026-08-27",
+    "recent_results": [
+      {
+        "date": "2023-08-17",
+        "won": true,
+        "sets_for": 3,
+        "sets_against": 2
+      },
+      {
+        "date": "2023-08-18",
+        "won": false,
+        "sets_for": 0,
+        "sets_against": 3
+      },
+      {
+        "date": "2023-08-19",
+        "won": false,
+        "sets_for": 0,
+        "sets_against": 3
+      },
+      {
+        "date": "2023-08-20",
+        "won": true,
+        "sets_for": 3,
+        "sets_against": 0
+      },
+      {
+        "date": "2023-08-22",
+        "won": false,
+        "sets_for": 0,
+        "sets_against": 3
+      },
+      {
+        "date": "2023-08-23",
+        "won": false,
+        "sets_for": 0,
+        "sets_against": 3
+      },
+      {
+        "date": "2023-08-24",
+        "won": false,
+        "sets_for": 1,
+        "sets_against": 3
+      },
+      {
+        "date": "2026-08-25",
+        "won": true,
+        "sets_for": 3,
+        "sets_against": 0
+      },
+      {
+        "date": "2026-08-26",
+        "won": true,
+        "sets_for": 3,
+        "sets_against": 0
+      },
+      {
+        "date": "2026-08-27",
+        "won": false,
+        "sets_for": 0,
+        "sets_against": 3
+      }
+    ]
+  },
+  "LSO": {
+    "team": "LSO",
+    "matches_played": 7,
+    "current_streak": -7,
+    "last_match_date": "2023-08-23",
+    "recent_results": [
+      {
+        "date": "2023-08-16",
+        "won": false,
+        "sets_for": 0,
+        "sets_against": 3
+      },
+      {
+        "date": "2023-08-17",
+        "won": false,
+        "sets_for": 0,
+        "sets_against": 3
+      },
+      {
+        "date": "2023-08-18",
+        "won": false,
+        "sets_for": 0,
+        "sets_against": 3
+      },
+      {
+        "date": "2023-08-19",
+        "won": false,
+        "sets_for": 0,
+        "sets_against": 3
+      },
+      {
+        "date": "2023-08-20",
+        "won": false,
+        "sets_for": 0,
+        "sets_against": 3
+      },
+      {
+        "date": "2023-08-22",
+        "won": false,
+        "sets_for": 0,
+        "sets_against": 3
+      },
+      {
+        "date": "2023-08-23",
+        "won": false,
+        "sets_for": 1,
+        "sets_against": 3
+      }
+    ]
+  },
+  "IRN": {
+    "team": "IRN",
+    "matches_played": 16,
+    "current_streak": 1,
+    "last_match_date": "2026-08-25",
+    "recent_results": [
+      {
+        "date": "2025-11-01",
+        "won": true,
+        "sets_for": 3,
+        "sets_against": 0
+      },
+      {
+        "date": "2025-11-02",
+        "won": false,
+        "sets_for": 0,
+        "sets_against": 3
+      },
+      {
+        "date": "2025-11-03",
+        "won": false,
+        "sets_for": 0,
+        "sets_against": 3
+      },
+      {
+        "date": "2025-11-05",
+        "won": true,
+        "sets_for": 3,
+        "sets_against": 0
+      },
+      {
+        "date": "2025-11-06",
+        "won": true,
+        "sets_for": 3,
+        "sets_against": 2
+      },
+      {
+        "date": "2025-11-07",
+        "won": true,
+        "sets_for": 3,
+        "sets_against": 0
+      },
+      {
+        "date": "2025-11-08",
+        "won": false,
+        "sets_for": 0,
+        "sets_against": 3
+      },
+      {
+        "date": "2026-08-21",
+        "won": true,
+        "sets_for": 3,
+        "sets_against": 1
+      },
+      {
+        "date": "2026-08-24",
+        "won": false,
+        "sets_for": 0,
+        "sets_against": 3
+      },
+      {
+        "date": "2026-08-25",
+        "won": true,
+        "sets_for": 3,
+        "sets_against": 0
+      }
+    ]
+  },
+  "HKG": {
+    "team": "HKG",
+    "matches_played": 20,
+    "current_streak": -5,
+    "last_match_date": "2026-08-26",
+    "recent_results": [
+      {
+        "date": "2025-11-06",
+        "won": false,
+        "sets_for": 0,
+        "sets_against": 3
+      },
+      {
+        "date": "2025-11-07",
+        "won": false,
+        "sets_for": 0,
+        "sets_against": 3
+      },
+      {
+        "date": "2025-11-08",
+        "won": false,
+        "sets_for": 1,
+        "sets_against": 3
+      },
+      {
+        "date": "2026-08-12",
+        "won": false,
+        "sets_for": 0,
+        "sets_against": 3
+      },
+      {
+        "date": "2026-08-13",
+        "won": true,
+        "sets_for": 3,
+        "sets_against": 1
+      },
+      {
+        "date": "2026-08-15",
+        "won": false,
+        "sets_for": 0,
+        "sets_against": 3
+      },
+      {
+        "date": "2026-08-16",
+        "won": false,
+        "sets_for": 0,
+        "sets_against": 3
+      },
+      {
+        "date": "2026-08-21",
+        "won": false,
+        "sets_for": 0,
+        "sets_against": 3
+      },
+      {
+        "date": "2026-08-24",
+        "won": false,
+        "sets_for": 0,
+        "sets_against": 3
+      },
+      {
+        "date": "2026-08-26",
+        "won": false,
+        "sets_for": 1,
+        "sets_against": 3
+      }
+    ]
+  },
+  "VNM": {
+    "team": "VNM",
+    "matches_played": 13,
+    "current_streak": -1,
+    "last_match_date": "2026-08-25",
+    "recent_results": [
+      {
+        "date": "2023-09-03",
+        "won": true,
+        "sets_for": 3,
+        "sets_against": 0
+      },
+      {
+        "date": "2023-09-04",
+        "won": false,
+        "sets_for": 1,
+        "sets_against": 3
+      },
+      {
+        "date": "2023-09-05",
+        "won": false,
+        "sets_for": 0,
+        "sets_against": 3
+      },
+      {
+        "date": "2023-09-06",
+        "won": false,
+        "sets_for": 2,
+        "sets_against": 3
+      },
+      {
+        "date": "2025-08-23",
+        "won": false,
+        "sets_for": 1,
+        "sets_against": 3
+      },
+      {
+        "date": "2025-08-25",
+        "won": false,
+        "sets_for": 0,
+        "sets_against": 3
+      },
+      {
+        "date": "2025-08-27",
+        "won": false,
+        "sets_for": 0,
+        "sets_against": 3
+      },
+      {
+        "date": "2026-08-22",
+        "won": false,
+        "sets_for": 1,
+        "sets_against": 3
+      },
+      {
+        "date": "2026-08-24",
+        "won": true,
+        "sets_for": 3,
+        "sets_against": 0
+      },
+      {
+        "date": "2026-08-25",
+        "won": false,
+        "sets_for": 0,
+        "sets_against": 3
+      }
+    ]
+  },
+  "PHL": {
+    "team": "PHL",
+    "matches_played": 12,
+    "current_streak": 2,
+    "last_match_date": "2025-11-08",
+    "recent_results": [
+      {
+        "date": "2023-09-01",
+        "won": false,
+        "sets_for": 0,
+        "sets_against": 3
+      },
+      {
+        "date": "2023-09-03",
+        "won": false,
+        "sets_for": 2,
+        "sets_against": 3
+      },
+      {
+        "date": "2023-09-05",
+        "won": true,
+        "sets_for": 3,
+        "sets_against": 0
+      },
+      {
+        "date": "2025-11-01",
+        "won": false,
+        "sets_for": 1,
+        "sets_against": 3
+      },
+      {
+        "date": "2025-11-02",
+        "won": true,
+        "sets_for": 3,
+        "sets_against": 0
+      },
+      {
+        "date": "2025-11-03",
+        "won": true,
+        "sets_for": 3,
+        "sets_against": 0
+      },
+      {
+        "date": "2025-11-05",
+        "won": false,
+        "sets_for": 0,
+        "sets_against": 3
+      },
+      {
+        "date": "2025-11-06",
+        "won": false,
+        "sets_for": 2,
+        "sets_against": 3
+      },
+      {
+        "date": "2025-11-07",
+        "won": true,
+        "sets_for": 3,
+        "sets_against": 0
+      },
+      {
+        "date": "2025-11-08",
+        "won": true,
+        "sets_for": 3,
+        "sets_against": 1
+      }
+    ]
+  },
+  "AUS": {
+    "team": "AUS",
+    "matches_played": 16,
+    "current_streak": -3,
+    "last_match_date": "2026-08-26",
+    "recent_results": [
+      {
+        "date": "2025-11-01",
+        "won": false,
+        "sets_for": 0,
+        "sets_against": 3
+      },
+      {
+        "date": "2025-11-02",
+        "won": false,
+        "sets_for": 0,
+        "sets_against": 3
+      },
+      {
+        "date": "2025-11-03",
+        "won": true,
+        "sets_for": 3,
+        "sets_against": 0
+      },
+      {
+        "date": "2025-11-05",
+        "won": true,
+        "sets_for": 3,
+        "sets_against": 0
+      },
+      {
+        "date": "2025-11-06",
+        "won": false,
+        "sets_for": 2,
+        "sets_against": 3
+      },
+      {
+        "date": "2025-11-07",
+        "won": false,
+        "sets_for": 0,
+        "sets_against": 3
+      },
+      {
+        "date": "2025-11-08",
+        "won": true,
+        "sets_for": 3,
+        "sets_against": 0
+      },
+      {
+        "date": "2026-08-21",
+        "won": false,
+        "sets_for": 0,
+        "sets_against": 3
+      },
+      {
+        "date": "2026-08-23",
+        "won": false,
+        "sets_for": 0,
+        "sets_against": 3
+      },
+      {
+        "date": "2026-08-26",
+        "won": false,
+        "sets_for": 0,
+        "sets_against": 3
+      }
+    ]
+  },
+  "MNG": {
+    "team": "MNG",
+    "matches_played": 10,
+    "current_streak": -1,
+    "last_match_date": "2026-08-16",
+    "recent_results": [
+      {
+        "date": "2023-08-31",
+        "won": false,
+        "sets_for": 0,
+        "sets_against": 3
+      },
+      {
+        "date": "2023-09-01",
+        "won": false,
+        "sets_for": 0,
+        "sets_against": 3
+      },
+      {
+        "date": "2023-09-03",
+        "won": true,
+        "sets_for": 3,
+        "sets_against": 0
+      },
+      {
+        "date": "2023-09-04",
+        "won": false,
+        "sets_for": 0,
+        "sets_against": 3
+      },
+      {
+        "date": "2023-09-05",
+        "won": false,
+        "sets_for": 0,
+        "sets_against": 3
+      },
+      {
+        "date": "2023-09-06",
+        "won": false,
+        "sets_for": 2,
+        "sets_against": 3
+      },
+      {
+        "date": "2026-08-11",
+        "won": false,
+        "sets_for": 0,
+        "sets_against": 3
+      },
+      {
+        "date": "2026-08-13",
+        "won": false,
+        "sets_for": 1,
+        "sets_against": 3
+      },
+      {
+        "date": "2026-08-15",
+        "won": true,
+        "sets_for": 3,
+        "sets_against": 0
+      },
+      {
+        "date": "2026-08-16",
+        "won": false,
+        "sets_for": 0,
+        "sets_against": 3
+      }
+    ]
+  },
+  "IND": {
+    "team": "IND",
+    "matches_played": 13,
+    "current_streak": 3,
+    "last_match_date": "2025-11-08",
+    "recent_results": [
+      {
+        "date": "2023-09-04",
+        "won": false,
+        "sets_for": 0,
+        "sets_against": 3
+      },
+      {
+        "date": "2023-09-05",
+        "won": false,
+        "sets_for": 0,
+        "sets_against": 3
+      },
+      {
+        "date": "2023-09-06",
+        "won": true,
+        "sets_for": 3,
+        "sets_against": 2
+      },
+      {
+        "date": "2025-11-01",
+        "won": false,
+        "sets_for": 0,
+        "sets_against": 3
+      },
+      {
+        "date": "2025-11-02",
+        "won": false,
+        "sets_for": 0,
+        "sets_against": 3
+      },
+      {
+        "date": "2025-11-03",
+        "won": false,
+        "sets_for": 0,
+        "sets_against": 3
+      },
+      {
+        "date": "2025-11-05",
+        "won": false,
+        "sets_for": 0,
+        "sets_against": 3
+      },
+      {
+        "date": "2025-11-06",
+        "won": true,
+        "sets_for": 3,
+        "sets_against": 0
+      },
+      {
+        "date": "2025-11-07",
+        "won": true,
+        "sets_for": 3,
+        "sets_against": 0
+      },
+      {
+        "date": "2025-11-08",
+        "won": true,
+        "sets_for": 3,
+        "sets_against": 0
+      }
+    ]
+  },
+  "MKD": {
+    "team": "MKD",
+    "matches_played": 4,
+    "current_streak": -4,
+    "last_match_date": "2025-08-09",
+    "recent_results": [
+      {
+        "date": "2024-08-17",
+        "won": false,
+        "sets_for": 0,
+        "sets_against": 3
+      },
+      {
+        "date": "2024-08-28",
+        "won": false,
+        "sets_for": 0,
+        "sets_against": 3
+      },
+      {
+        "date": "2025-08-03",
+        "won": false,
+        "sets_for": 0,
+        "sets_against": 3
+      },
+      {
+        "date": "2025-08-09",
+        "won": false,
+        "sets_for": 0,
+        "sets_against": 3
+      }
+    ]
+  },
+  "JOR": {
+    "team": "JOR",
+    "matches_played": 7,
+    "current_streak": -3,
+    "last_match_date": "2025-11-08",
+    "recent_results": [
+      {
+        "date": "2025-11-01",
+        "won": true,
+        "sets_for": 3,
+        "sets_against": 0
+      },
+      {
+        "date": "2025-11-02",
+        "won": false,
+        "sets_for": 0,
+        "sets_against": 3
+      },
+      {
+        "date": "2025-11-03",
+        "won": false,
+        "sets_for": 0,
+        "sets_against": 3
+      },
+      {
+        "date": "2025-11-05",
+        "won": true,
+        "sets_for": 3,
+        "sets_against": 0
+      },
+      {
+        "date": "2025-11-06",
+        "won": false,
+        "sets_for": 0,
+        "sets_against": 3
+      },
+      {
+        "date": "2025-11-07",
+        "won": false,
+        "sets_for": 0,
+        "sets_against": 3
+      },
+      {
+        "date": "2025-11-08",
+        "won": false,
+        "sets_for": 0,
+        "sets_against": 3
+      }
+    ]
+  },
+  "LBN": {
+    "team": "LBN",
+    "matches_played": 6,
+    "current_streak": -6,
+    "last_match_date": "2025-11-07",
+    "recent_results": [
+      {
+        "date": "2025-11-01",
+        "won": false,
+        "sets_for": 0,
+        "sets_against": 3
+      },
+      {
+        "date": "2025-11-02",
+        "won": false,
+        "sets_for": 0,
+        "sets_against": 3
+      },
+      {
+        "date": "2025-11-03",
+        "won": false,
+        "sets_for": 0,
+        "sets_against": 3
+      },
+      {
+        "date": "2025-11-05",
+        "won": false,
+        "sets_for": 0,
+        "sets_against": 3
+      },
+      {
+        "date": "2025-11-06",
+        "won": false,
+        "sets_for": 0,
+        "sets_against": 3
+      },
+      {
+        "date": "2025-11-07",
+        "won": false,
+        "sets_for": 0,
+        "sets_against": 3
+      }
+    ]
+  },
+  "QAT": {
+    "team": "QAT",
+    "matches_played": 7,
+    "current_streak": -1,
+    "last_match_date": "2025-11-08",
+    "recent_results": [
+      {
+        "date": "2025-11-01",
+        "won": false,
+        "sets_for": 0,
+        "sets_against": 3
+      },
+      {
+        "date": "2025-11-02",
+        "won": false,
+        "sets_for": 0,
+        "sets_against": 3
+      },
+      {
+        "date": "2025-11-03",
+        "won": false,
+        "sets_for": 0,
+        "sets_against": 3
+      },
+      {
+        "date": "2025-11-05",
+        "won": false,
+        "sets_for": 0,
+        "sets_against": 3
+      },
+      {
+        "date": "2025-11-06",
+        "won": true,
+        "sets_for": 3,
+        "sets_against": 0
+      },
+      {
+        "date": "2025-11-07",
+        "won": true,
+        "sets_for": 3,
+        "sets_against": 0
+      },
+      {
+        "date": "2025-11-08",
+        "won": false,
+        "sets_for": 0,
+        "sets_against": 3
+      }
+    ]
+  },
+  "SAU": {
+    "team": "SAU",
+    "matches_played": 6,
+    "current_streak": -6,
+    "last_match_date": "2025-11-07",
+    "recent_results": [
+      {
+        "date": "2025-11-01",
+        "won": false,
+        "sets_for": 0,
+        "sets_against": 3
+      },
+      {
+        "date": "2025-11-02",
+        "won": false,
+        "sets_for": 0,
+        "sets_against": 3
+      },
+      {
+        "date": "2025-11-03",
+        "won": false,
+        "sets_for": 0,
+        "sets_against": 3
+      },
+      {
+        "date": "2025-11-05",
+        "won": false,
+        "sets_for": 0,
+        "sets_against": 3
+      },
+      {
+        "date": "2025-11-06",
+        "won": false,
+        "sets_for": 0,
+        "sets_against": 3
+      },
+      {
+        "date": "2025-11-07",
+        "won": false,
+        "sets_for": 0,
+        "sets_against": 3
+      }
+    ]
+  },
+  "MAC": {
+    "team": "MAC",
+    "matches_played": 4,
+    "current_streak": -4,
+    "last_match_date": "2026-08-15",
+    "recent_results": [
+      {
+        "date": "2026-08-11",
+        "won": false,
+        "sets_for": 0,
+        "sets_against": 3
+      },
+      {
+        "date": "2026-08-12",
+        "won": false,
+        "sets_for": 0,
+        "sets_against": 3
+      },
+      {
+        "date": "2026-08-13",
+        "won": false,
+        "sets_for": 0,
+        "sets_against": 3
+      },
+      {
+        "date": "2026-08-15",
+        "won": false,
+        "sets_for": 0,
+        "sets_against": 3
+      }
+    ]
+  },
+  "IDN": {
+    "team": "IDN",
+    "matches_played": 3,
+    "current_streak": 1,
+    "last_match_date": "2026-08-26",
+    "recent_results": [
+      {
+        "date": "2026-08-22",
+        "won": true,
+        "sets_for": 3,
+        "sets_against": 0
+      },
+      {
+        "date": "2026-08-24",
+        "won": false,
+        "sets_for": 0,
+        "sets_against": 3
+      },
+      {
+        "date": "2026-08-26",
+        "won": true,
+        "sets_for": 3,
+        "sets_against": 0
+      }
+    ]
+  },
+  "IRQ": {
+    "team": "IRQ",
+    "matches_played": 3,
+    "current_streak": -3,
+    "last_match_date": "2026-08-25",
+    "recent_results": [
+      {
+        "date": "2026-08-22",
+        "won": false,
+        "sets_for": 0,
+        "sets_against": 3
+      },
+      {
+        "date": "2026-08-23",
+        "won": false,
+        "sets_for": 0,
+        "sets_against": 3
+      },
+      {
+        "date": "2026-08-25",
+        "won": false,
+        "sets_for": 0,
+        "sets_against": 3
+      }
+    ]
+  },
+  "GHA": {
+    "team": "GHA",
+    "matches_played": 3,
+    "current_streak": 1,
+    "last_match_date": "2026-08-27",
+    "recent_results": [
+      {
+        "date": "2026-08-25",
+        "won": false,
+        "sets_for": 0,
+        "sets_against": 3
+      },
+      {
+        "date": "2026-08-26",
+        "won": false,
+        "sets_for": 2,
+        "sets_against": 3
+      },
+      {
+        "date": "2026-08-27",
+        "won": true,
+        "sets_for": 3,
+        "sets_against": 2
+      }
+    ]
+  },
+  "ZMB": {
+    "team": "ZMB",
+    "matches_played": 2,
+    "current_streak": 1,
+    "last_match_date": "2026-08-26",
+    "recent_results": [
+      {
+        "date": "2026-08-25",
+        "won": false,
+        "sets_for": 0,
+        "sets_against": 3
+      },
+      {
+        "date": "2026-08-26",
+        "won": true,
+        "sets_for": 3,
+        "sets_against": 1
+      }
+    ]
+  }
+}

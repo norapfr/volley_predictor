@@ -1,0 +1,19 @@
+competition_id,name,gender,level
+VNL_MEN,Volleyball Nations League,men,nations_league
+VNL_WOMEN,Volleyball Nations League,women,nations_league
+WCH_MEN,World Championship,men,world_championship
+WCH_WOMEN,World Championship,women,world_championship
+OG_MEN,Olympic Games,men,olympic_games
+OG_WOMEN,Olympic Games,women,olympic_games
+WC_MEN,World Cup,men,world_cup
+WC_WOMEN,World Cup,women,world_cup
+EURO_MEN,EuroVolley,men,continental
+EURO_WOMEN,EuroVolley,women,continental
+NORCECA_MEN,NORCECA Championship,men,continental
+NORCECA_WOMEN,NORCECA Championship,women,continental
+SAMER_MEN,South American Championship,men,continental
+SAMER_WOMEN,South American Championship,women,continental
+ASIA_MEN,Asian Championship,men,continental
+ASIA_WOMEN,Asian Championship,women,continental
+AFRICA_MEN,African Championship,men,continental
+AFRICA_WOMEN,African Championship,women,continental

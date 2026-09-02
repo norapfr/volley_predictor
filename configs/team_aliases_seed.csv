@@ -1,0 +1,25 @@
+canonical_team_id,source,source_name
+USA,fivb_vis,USA
+USA,kaggle_vnl,United States
+USA,kaggle_vnl,Estados Unidos
+USA,kaggle_vnl,USA (US)
+BRA,fivb_vis,BRA
+BRA,kaggle_vnl,Brazil
+BRA,kaggle_vnl,Brasil
+ITA,fivb_vis,ITA
+ITA,kaggle_vnl,Italy
+ITA,kaggle_vnl,Italia
+POL,fivb_vis,POL
+POL,kaggle_vnl,Poland
+POL,kaggle_vnl,Polonia
+FRA,fivb_vis,FRA
+FRA,kaggle_vnl,France
+FRA,kaggle_vnl,Francia
+JPN,fivb_vis,JPN
+JPN,kaggle_vnl,Japan
+JPN,kaggle_vnl,Japon
+SRB,fivb_vis,SRB
+SRB,kaggle_vnl,Serbia
+TUR,fivb_vis,TUR
+TUR,kaggle_vnl,Turkey
+TUR,kaggle_vnl,Turkiye
