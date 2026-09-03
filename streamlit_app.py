@@ -1303,7 +1303,8 @@ def main() -> None:
     st.bar_chart(
         _score_chart_df(
             result["set_score_probabilities"]
-        )
+        ),
+        color="#c25932",
     )
 
 

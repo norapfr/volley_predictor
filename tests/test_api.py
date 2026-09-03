@@ -55,7 +55,7 @@ def test_predict_match_end_to_end(trained_models_dir, competition_catalog):
     assert result["p_team_a_wins"] + result["p_team_b_wins"] == pytest.approx(1.0)
     assert result["most_likely_score"] in {"3-0", "3-1", "3-2", "2-3", "1-3", "0-3"}
     assert sum(result["set_score_probabilities"].values()) == pytest.approx(1.0, abs=1e-3)
-    assert result["confidence"] in {"alta", "media", "baja"}
+    assert result["confidence"] in {"high", "medium", "low"}
     assert isinstance(result["explanatory_factors"], list)
     # STRONG es objetivamente más fuerte en el fixture -> debería ser favorito.
     assert result["p_team_a_wins"] > 0.5
@@ -74,7 +74,7 @@ def test_predict_match_unknown_team_does_not_crash(trained_models_dir, competiti
         competition_catalog=competition_catalog,
     )
     assert 0.0 <= result["p_team_a_wins"] <= 1.0
-    assert result["confidence"].startswith("baja")
+    assert result["confidence"].startswith("low")
 
 # ---------------------------------------------------------------------------
 # Endpoints HTTP (TestClient — no necesita levantar un servidor real)
