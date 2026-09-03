@@ -272,6 +272,10 @@ TEAM_CONTINENT = {
     "PSE": "ASIA", "QAT": "ASIA", "SAU": "ASIA", "TPE": "ASIA", "TKM": "ASIA",
     "THA": "ASIA", "UZB": "ASIA", "VNM": "ASIA",
 
+    # Oceanía — sin competición continental en el CSV, se quedan sin match
+    "AUS": "ASIA", "FJI": "ASIA", "NZL": "ASIA", "TON": "ASIA",
+    "WSM": "ASIA",
+
     # AFRICA (CAVB)
     "BDI": "AFRICA", "BFA": "AFRICA", "BWA": "AFRICA", "CMR": "AFRICA",
     "COD": "AFRICA", "DZA": "AFRICA", "EGY": "AFRICA", "ETH": "AFRICA",
@@ -282,9 +286,7 @@ TEAM_CONTINENT = {
     "TZA": "AFRICA", "UGA": "AFRICA", "ZAF": "AFRICA", "ZMB": "AFRICA",
     "ZWE": "AFRICA",
 
-    # Oceanía — sin competición continental en el CSV, se quedan sin match
-    "AUS": "OCEANIA", "FJI": "OCEANIA", "NZL": "OCEANIA", "TON": "OCEANIA",
-    "WSM": "OCEANIA",
+   
 }
 
 CONTINENTAL_PREFIXES = {"EURO", "NORCECA", "SAMER", "ASIA", "AFRICA"}
