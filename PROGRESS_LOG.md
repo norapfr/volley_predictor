@@ -1,6 +1,6 @@
 # Volley Predictor — Registro de progreso
 
-> Documento vivo. Se actualiza cada vez que hay un resultado nuevo (crawl, fix, dataset). Última actualización: **ajuste anti-sesgo de marcador exacto + explicación de confianza en UI/API**.
+> Documento vivo. Se actualiza cada vez que hay un resultado nuevo (crawl, fix, dataset). Última actualización: **UI sin fecha editable + explicación de diferencia total de puntos**.
 
 ## Estado actual
 
@@ -17,6 +17,10 @@
 **Fase 6 (modelo de marcador de sets): ✅ COMPLETADA** — 39.7% (hombres) / 47.8% (mujeres) de acierto en el marcador EXACTO de 6 posibles (azar = 16.7%). Modelos finales ya se guardan en disco (`models/<gender>/`), confirmado con datos reales (154 equipos hombres, 134 mujeres).
 
 **Fase 7 (diferencia de puntos): ✅ COMPLETADA** — CatBoost MAE 10.98 (hombres) / 12.57 (mujeres), bate claramente al baseline de media y a la regresión lineal sobre Elo.
+
+**Actualización UI (2026-09-03): ✅ APLICADA** — se quitó el selector manual de fecha de `streamlit_app.py`, porque inducía a interpretar la app como una simulación histórica aunque el predictor usa el estado actual guardado del modelo. La interfaz ahora calcula internamente una fecha de referencia estable a partir del último partido conocido del bundle (`prediction_reference_date`) y la usa solo para construir features como H2H, evitando que el usuario cambie artificialmente la predicción poniendo fechas pasadas o futuras.
+
+También se renombró la métrica de puntos a **Expected total points diff** y se movió su explicación a **Why this prediction?**. Ahora la UI aclara que ese valor es la diferencia esperada de puntos totales del partido completo (`team_a_score - team_b_score`), no Elo y no puntos por set. La explicación adicional se muestra junto a los factores legibles del matchup (Elo, rachas, H2H, forma reciente e importancia de competición), dejando la métrica más limpia.
 
 ## Qué se ha construido
 

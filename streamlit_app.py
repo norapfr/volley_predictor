@@ -10,7 +10,7 @@ Run locally:
 from __future__ import annotations
 import re
 import sys
-from datetime import date
+from datetime import date, timedelta
 from pathlib import Path
 
 import pandas as pd
@@ -751,6 +751,11 @@ div[data-testid="stProgressBar"] {
     margin-bottom: 20px;
 }
 
+div[data-testid="stProgress"] {
+    margin-top: 15px;
+    margin-bottom: 20px;
+}
+
 div[data-testid="stProgressBar"] > div {
     background-color: #252e38;
 
@@ -768,6 +773,25 @@ div[data-testid="stProgressBar"] > div > div {
         );
 
     border-radius: 10px;
+}
+
+div[data-testid="stProgress"] div[role="progressbar"] {
+    background-color: #252e38 !important;
+
+    border-radius: 10px !important;
+
+    height: 10px !important;
+}
+
+div[data-testid="stProgress"] div[role="progressbar"] > div {
+    background:
+        linear-gradient(
+            90deg,
+            #ff6b35,
+            #ff8a5b
+        ) !important;
+
+    border-radius: 10px !important;
 }
 
 
@@ -893,6 +917,27 @@ def load_bundle(
 
     except FileNotFoundError:
         return None
+
+
+def prediction_reference_date(
+    bundle: GenderModelBundle,
+) -> str:
+
+    latest = None
+
+    for state in bundle.team_states.values():
+        last_match_date = state.get("last_match_date")
+
+        if not last_match_date:
+            continue
+
+        parsed = date.fromisoformat(last_match_date)
+        latest = parsed if latest is None else max(latest, parsed)
+
+    if latest is None:
+        return date.today().isoformat()
+
+    return (latest + timedelta(days=1)).isoformat()
 
 
 # ============================================================
@@ -1116,34 +1161,21 @@ def main() -> None:
 
 
     # ========================================================
-    # DATE + COMPETITION
+    # COMPETITION
     # ========================================================
 
-    col1, col2 = st.columns(2)
+    filtered_competitions = {
+        cid: name
+        for cid, name in competition_options.items()
+        if is_competition_allowed(cid, team_a, team_b)
+    }
 
-
-    with col1:
-
-        match_date = st.date_input(
-            "Match date",
-            value=date.today(),
-        )
-
-
-    with col2:
-
-        filtered_competitions = {
-            cid: name
-            for cid, name in competition_options.items()
-            if is_competition_allowed(cid, team_a, team_b)
-        }
-
-        competition_id = st.selectbox(
-            "Competition",
-            list(filtered_competitions.keys()),
-            format_func=lambda cid:
-                filtered_competitions[cid],
-        )
+    competition_id = st.selectbox(
+        "Competition",
+        list(filtered_competitions.keys()),
+        format_func=lambda cid:
+            filtered_competitions[cid],
+    )
 
 
     # ========================================================
@@ -1175,9 +1207,7 @@ def main() -> None:
             bundle=bundle,
             team_a=team_a,
             team_b=team_b,
-            match_date=match_date.strftime(
-                "%Y-%m-%d"
-            ),
+            match_date=prediction_reference_date(bundle),
             competition_id=competition_id,
             competition_catalog=catalog,
         )
@@ -1316,7 +1346,7 @@ def main() -> None:
         _score_chart_df(
             result["set_score_probabilities"]
         ),
-        color="#c25932",
+        color="#ff6b35",
     )
 
 
@@ -1349,9 +1379,29 @@ def main() -> None:
 
     with d3:
 
+        expected_diff = result["expected_point_diff"]
+
         st.metric(
-            "Expected point difference",
-            f"{result['expected_point_diff']:+.1f}",
+            "Expected total points diff",
+            f"{expected_diff:+.1f}",
+        )
+
+    if expected_diff > 0:
+        point_diff_explanation = (
+            f"{country_name(team_a)} is projected about "
+            f"{abs(expected_diff):.1f} total points ahead "
+            "across the full match; this is not Elo and not points per set."
+        )
+    elif expected_diff < 0:
+        point_diff_explanation = (
+            f"{country_name(team_b)} is projected about "
+            f"{abs(expected_diff):.1f} total points ahead "
+            "across the full match; this is not Elo and not points per set."
+        )
+    else:
+        point_diff_explanation = (
+            "Projected total points are even across the full match; "
+            "this is not Elo and not points per set."
         )
 
 
@@ -1390,11 +1440,14 @@ def main() -> None:
                 f"• {localize_country_codes(factor)}"
             )
 
+        st.markdown(
+            f"• {point_diff_explanation}"
+        )
+
     else:
 
-        st.caption(
-            "No significant factors detected "
-            "for this matchup."
+        st.markdown(
+            f"• {point_diff_explanation}"
         )
 
 
