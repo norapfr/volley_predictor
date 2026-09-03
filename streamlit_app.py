@@ -8,7 +8,7 @@ Run locally:
 """
 
 from __future__ import annotations
-
+import re
 import sys
 from datetime import date
 from pathlib import Path
@@ -213,6 +213,15 @@ COUNTRY_NAMES = {
 }
 def country_name(team: str) -> str:
     return COUNTRY_NAMES.get(team, team)
+
+_COUNTRY_CODE_PATTERN = re.compile(
+    r"\b(" + "|".join(sorted(COUNTRY_NAMES.keys(), key=len, reverse=True)) + r")\b"
+)
+
+
+def localize_country_codes(text: str) -> str:
+    """Reemplaza cualquier código ISO de país dentro del texto por su nombre."""
+    return _COUNTRY_CODE_PATTERN.sub(lambda m: COUNTRY_NAMES[m.group(0)], text)
 
 
 # ============================================================
@@ -815,6 +824,7 @@ div[data-testid="stVegaLiteChart"] {
 
     border-radius: 18px;
 
+    overflow: hidden;   
     padding: 10px;
 
     box-shadow:
@@ -937,7 +947,7 @@ def _score_chart_df(
 
     return pd.DataFrame(
         {
-            "Score": order,
+            "Score": pd.Categorical(order, categories=order, ordered=True),
             "Probability": [
                 set_score_probabilities[k]
                 for k in order
@@ -1377,7 +1387,7 @@ def main() -> None:
         for factor in factors:
 
             st.markdown(
-                f"• {factor}"
+                f"• {localize_country_codes(factor)}"
             )
 
     else:
